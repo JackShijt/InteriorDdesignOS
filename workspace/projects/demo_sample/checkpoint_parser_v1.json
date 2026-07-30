@@ -1,0 +1,45 @@
+{
+  "version": "v1",
+  "agent": "parser",
+  "project_id": "demo_sample",
+  "task_id": "parser-demo_sample",
+  "stage": "ORIGINAL_MODEL",
+  "original_model": {
+    "metadata": {
+      "project_id": "demo_sample",
+      "agent": "parser",
+      "task_id": "parser-demo_sample",
+      "timestamp": "2026-07-23T10:29:30.829198+08:00",
+      "schema_version": "1.0",
+      "status": "COMPLETED",
+      "quality": {
+        "confidence": 0.3,
+        "quality_score": 30,
+        "validation_passed": true
+      }
+    },
+    "units": {
+      "length": "mm",
+      "area": "m2",
+      "angle": "degree"
+    },
+    "coordinates": {
+      "origin": [
+        0,
+        0
+      ],
+      "system": "world"
+    },
+    "walls": [],
+    "doors": [],
+    "windows": [],
+    "rooms": []
+  },
+  "task_status": {
+    "parser": "COMPLETED"
+  },
+  "project_status": {
+    "stage": "ORIGINAL_MODEL",
+    "state": "COMPLETED"
+  }
+}

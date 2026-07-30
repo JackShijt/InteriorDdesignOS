@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "project_id": "Project_001",
+    "agent": "drawing",
+    "task_id": "task-9f2d",
+    "timestamp": "2026-07-22T15:00:00+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": { "confidence": 0.91, "quality_score": 88, "validation_passed": true }
+  },
+  "source_dwg": "output/Project_001/Project_001.dwg",
+  "coordinates": { "origin": [0, 0], "system": "world" },
+  "rooms": [
+    {
+      "room_id": "R001",
+      "name": "客厅",
+      "type": "LIVING",
+      "boundary": [[0, 0], [5000, 0], [5000, 4000], [0, 4000]],
+      "area": 20.0,
+      "floor_level": 0
+    }
+  ],
+  "walls": [
+    { "id": "W01", "start": [0, 0], "end": [5000, 0] },
+    { "id": "W02", "start": [5000, 0], "end": [5000, 4000] },
+    { "id": "W03", "start": [5000, 4000], "end": [0, 4000] },
+    { "id": "W04", "start": [0, 4000], "end": [0, 0] }
+  ],
+  "doors": [
+    { "id": "D01", "position": [2500, 0] }
+  ],
+  "windows": [
+    { "id": "WIN01", "position": [1000, 4000] }
+  ],
+  "dimensions": [
+    { "id": "DIM01", "value": 5000, "unit": "mm" }
+  ]
+}

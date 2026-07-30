@@ -1,0 +1,40 @@
+{
+  "requirement": "小两口自住，预算中等，喜欢北欧风，原木色和白色，需要强收纳，采光要好，有一只猫。",
+  "original_model": {
+    "metadata": {
+      "project_id": "small_apartment",
+      "agent": "parser",
+      "task_id": "parser-small_apartment",
+      "timestamp": "2026-07-23T10:00:00+08:00",
+      "schema_version": "1.0",
+      "status": "COMPLETED",
+      "quality": { "confidence": 0.6, "quality_score": 60, "validation_passed": true }
+    },
+    "version": "v1",
+    "source_type": "json",
+    "units": { "length": "mm", "area": "m2", "angle": "degree" },
+    "coordinates": { "origin": [0, 0], "system": "world" },
+    "walls": [
+      { "id": "W01", "start": [0, 0], "end": [4000, 0], "thickness": 200 },
+      { "id": "W02", "start": [4000, 0], "end": [4000, 3500], "thickness": 200 },
+      { "id": "W03", "start": [4000, 3500], "end": [0, 3500], "thickness": 200 },
+      { "id": "W04", "start": [0, 3500], "end": [0, 0], "thickness": 200 }
+    ],
+    "doors": [
+      { "id": "D01", "position": [2000, 0], "width": 900, "rotation": 0 }
+    ],
+    "windows": [
+      { "id": "WIN01", "position": [2000, 3500], "width": 1800 }
+    ],
+    "rooms": [
+      {
+        "room_id": "R001",
+        "name": "起居室",
+        "type": "LIVING",
+        "boundary": [[0, 0], [4000, 0], [4000, 3500], [0, 3500]],
+        "area": 14.0,
+        "floor_level": 0
+      }
+    ]
+  }
+}

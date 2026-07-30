@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "project_id": "DesignSpec_Example",
+    "agent": "design",
+    "task_id": "design-DesignSpec_Example",
+    "timestamp": "2026-07-23T09:30:00+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": { "confidence": 0.85, "quality_score": 85, "validation_passed": true }
+  },
+  "version": "v1",
+  "design_goal": "为三口之家打造北欧风格温馨住宅，满足居家办公与儿童活动需求，强调收纳与采光。",
+  "style": {
+    "labels": ["Nordic"],
+    "description": "浅色木饰面 + 中性灰，强调自然采光与极简收纳"
+  },
+  "budget": {
+    "level": "MEDIUM",
+    "currency": "CNY",
+    "total_estimate": 250000,
+    "allocation": [
+      { "category": "硬装基础", "ratio": 0.40, "note": "墙顶地与水电" },
+      { "category": "定制柜体", "ratio": 0.20, "note": "收纳系统" },
+      { "category": "软装家具", "ratio": 0.20 },
+      { "category": "电器设备", "ratio": 0.15 },
+      { "category": "备用机动", "ratio": 0.05, "note": "不可预见费" }
+    ]
+  },
+  "family": {
+    "adults": 2,
+    "children": 1,
+    "elders": 0,
+    "pets": [],
+    "work_from_home": true,
+    "accessibility": false,
+    "notes": "有儿童，需注意安全与圆角处理；居家办公，需独立工作区"
+  },
+  "rooms": [
+    { "room_id": "R001", "name": "客厅", "function": "LIVING", "priority": "high", "notes": "" },
+    { "room_id": "R002", "name": "主卧", "function": "BEDROOM", "priority": "high", "notes": "" },
+    { "room_id": "R003", "name": "次卧", "function": "BEDROOM", "priority": "medium", "notes": "" }
+  ],
+  "constraints": {
+    "non_removable_walls": ["W01", "W02", "W03", "W04"],
+    "load_bearing_walls": ["W01", "W02", "W03", "W04"],
+    "pipe_shafts": [],
+    "windows": ["WIN01", "WIN02"],
+    "beams": [],
+    "columns": [],
+    "balconies": [],
+    "equipment_platforms": [],
+    "ceiling_height_mm": 2800,
+    "area_m2": 40.0,
+    "orientation": "北",
+    "notes": "DWG 未含字段（pipe_shafts/beams/columns/balconies/equipment_platforms）需结构图 / 现场补充；层高按常规 2800mm 假设。"
+  },
+  "preferences": {
+    "colors": ["原木色", "浅灰", "白色"],
+    "lighting_preference": "natural",
+    "accessibility": false,
+    "notes": "偏好明亮柔和的自然光"
+  },
+  "materials": [
+    { "category": "地面", "spec": "木地板", "brand_recommended": false },
+    { "category": "墙面", "spec": "乳胶漆", "brand_recommended": false },
+    { "category": "厨房墙面", "spec": "岩板", "brand_recommended": false }
+  ],
+  "lighting": {
+    "natural_light": "客厅南向大窗引入自然光",
+    "artificial_light": "无主灯设计，重点照明 + 氛围灯带",
+    "notes": "照明为策略描述，不含灯具几何 / 点位"
+  },
+  "storage": {
+    "strategy": "全屋系统收纳，玄关 / 客厅 / 卧室定制柜体",
+    "capacity_notes": "具体容量由 Layout Agent 计算"
+  },
+  "special_requirements": ["居家办公", "儿童活动"]
+}

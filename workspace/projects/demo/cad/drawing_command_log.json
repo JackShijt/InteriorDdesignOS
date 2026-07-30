@@ -1,0 +1,595 @@
+{
+  "backend": "mock",
+  "command_count": 51,
+  "log": [
+    {
+      "op": "create_layer",
+      "layer": "WALL",
+      "color": 7,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "DOOR",
+      "color": 3,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "WIN",
+      "color": 4,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "FURN",
+      "color": 2,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "AXIS",
+      "color": 1,
+      "line_type": "Center"
+    },
+    {
+      "op": "create_layer",
+      "layer": "DIM",
+      "color": 1,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "TITLEBLOCK",
+      "color": 7,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 10000.0,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 10000.0,
+          "y": 0.0
+        },
+        {
+          "x": 10000.0,
+          "y": 10000.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 10000.0,
+          "y": 10000.0
+        },
+        {
+          "x": 0.0,
+          "y": 10000.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 10000.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 6000.0
+        },
+        {
+          "x": 6000.0,
+          "y": 6000.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 120,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 4000.0,
+          "y": 6000.0
+        },
+        {
+          "x": 4000.0,
+          "y": 10000.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 120,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6000.0,
+          "y": 0.0
+        },
+        {
+          "x": 6000.0,
+          "y": 10000.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 120,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6000.0,
+          "y": 5000.0
+        },
+        {
+          "x": 10000.0,
+          "y": 5000.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 120,
+      "closed": false
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        2000.0,
+        0.0
+      ],
+      "end": [
+        2600.0,
+        0.0
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        2000.0,
+        0.0
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        6000.0,
+        2000.0
+      ],
+      "end": [
+        6000.0,
+        2600.0
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        6000.0,
+        2000.0
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        6000.0,
+        7000.0
+      ],
+      "end": [
+        6000.0,
+        7600.0
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        6000.0,
+        7000.0
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        2000.0,
+        6000.0
+      ],
+      "end": [
+        2600.0,
+        6000.0
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        2000.0,
+        6000.0
+      ],
+      "radius": 800,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        4000.0,
+        8000.0
+      ],
+      "end": [
+        4000.0,
+        8600.0
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        4000.0,
+        8000.0
+      ],
+      "radius": 700,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        4000.0,
+        0.0
+      ],
+      "end": [
+        5200.0,
+        0.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        4000.0,
+        60.0
+      ],
+      "end": [
+        5200.0,
+        60.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        10000.0,
+        2000.0
+      ],
+      "end": [
+        10000.0,
+        3500.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        10000.0,
+        2060.0
+      ],
+      "end": [
+        10000.0,
+        3560.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        1000.0,
+        10000.0
+      ],
+      "end": [
+        2500.0,
+        10000.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        1000.0,
+        10060.0
+      ],
+      "end": [
+        2500.0,
+        10060.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        10000.0,
+        7000.0
+      ],
+      "end": [
+        10000.0,
+        8500.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        10000.0,
+        7060.0
+      ],
+      "end": [
+        10000.0,
+        8560.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "SOFA",
+      "position": {
+        "x": 3000.0,
+        "y": 3000.0
+      },
+      "scale": 1.0,
+      "rotation": 0,
+      "layer": "FURN"
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "TABLE",
+      "position": {
+        "x": 3000.0,
+        "y": 4200.0
+      },
+      "scale": 1.0,
+      "rotation": 0,
+      "layer": "FURN"
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "DINING",
+      "position": {
+        "x": 4800.0,
+        "y": 2000.0
+      },
+      "scale": 1.0,
+      "rotation": 0,
+      "layer": "FURN"
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "BED",
+      "position": {
+        "x": 8000.0,
+        "y": 2500.0
+      },
+      "scale": 1.0,
+      "rotation": 0,
+      "layer": "FURN"
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "BED",
+      "position": {
+        "x": 8000.0,
+        "y": 7500.0
+      },
+      "scale": 1.0,
+      "rotation": 0,
+      "layer": "FURN"
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "CABINET",
+      "position": {
+        "x": 2000.0,
+        "y": 8000.0
+      },
+      "scale": 1.0,
+      "rotation": 0,
+      "layer": "FURN"
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "FIXTURE",
+      "position": {
+        "x": 5000.0,
+        "y": 8000.0
+      },
+      "scale": 1.0,
+      "rotation": 0,
+      "layer": "FURN"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "end": [
+        6000.0,
+        0.0
+      ],
+      "value": 6000.0,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        6000.0,
+        0.0
+      ],
+      "end": [
+        10000.0,
+        0.0
+      ],
+      "value": 4000.0,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        6000.0,
+        5000.0
+      ],
+      "end": [
+        10000.0,
+        5000.0
+      ],
+      "value": 4000.0,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        0.0,
+        6000.0
+      ],
+      "end": [
+        4000.0,
+        6000.0
+      ],
+      "value": 4000.0,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        4000.0,
+        6000.0
+      ],
+      "end": [
+        6000.0,
+        6000.0
+      ],
+      "value": 2000.0,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_text",
+      "text": "客厅 36.0㎡",
+      "position": [
+        3000,
+        3000
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "主卧 20.0㎡",
+      "position": [
+        8000,
+        2500
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "次卧 20.0㎡",
+      "position": [
+        8000,
+        7500
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "厨房 16.0㎡",
+      "position": [
+        2000,
+        8000
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "卫生间 8.0㎡",
+      "position": [
+        5000,
+        8000
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "A3",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1.0,
+      "rotation": 0.0,
+      "layer": "TITLEBLOCK"
+    }
+  ]
+}

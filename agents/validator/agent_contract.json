@@ -1,0 +1,10 @@
+{
+  "name": "validator",
+  "role": "专业合规校验（validator / cad_validator / constraint 裁决），产出校验报告与质量评分",
+  "input_schema": ["LayoutModel", "GeneratedModel", "DrawingModel", "ProfessionalModels"],
+  "output_schema": ["ValidationReport", "Quality"],
+  "capabilities": ["validate", "judge", "spec_check"],
+  "dependencies": ["layout", "drawing"],
+  "forbidden": ["modify_design", "modify_DWG", "modify_layout", "modify_drawing"],
+  "impl": "agents.validator.validator_agent:ProfessionalValidator"
+}

@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "project_id": "demo",
+    "agent": "layout",
+    "task_id": "layout-demo",
+    "timestamp": "2026-07-23T09:30:36.333456+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "stage": "LAYOUT",
+  "note": "virtual agent placeholder (Phase 2)"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "drawing",
+  "role": "基于 GeometryModel 生成 DrawingModel 与最终 DWG（CAD 表达）",
+  "input_schema": ["GeometryModel", "LayoutModel"],
+  "output_schema": ["DrawingModel", "DWG"],
+  "capabilities": ["drawing_generate", "layer_map", "dwg_export"],
+  "dependencies": ["geometry"],
+  "forbidden": ["modify_design", "modify_layout"],
+  "impl": "agents.drawing.agent:DrawingAgent"
+}

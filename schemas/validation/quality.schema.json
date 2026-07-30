@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/validation/quality.schema.json",
+  "title": "Quality",
+  "description": "质量评分（PROJECT_RULES §18.1）。所有 Agent 输出须附带，validation_passed 为 true 方可进入下游。",
+  "type": "object",
+  "required": ["confidence", "quality_score", "validation_passed"],
+  "properties": {
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1, "description": "置信度 0-1" },
+    "quality_score": { "type": "number", "minimum": 0, "maximum": 100, "description": "质量分 0-100" },
+    "validation_passed": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

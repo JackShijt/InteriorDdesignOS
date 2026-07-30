@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "project_id": "P-2026-0001",
+    "agent": "electrical",
+    "task_id": "professional-electrical-P-2026-0001",
+    "timestamp": "2026-07-23T10:00:00+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 0.9,
+      "quality_score": 90,
+      "validation_passed": true
+    }
+  },
+  "layout_model_version": "v1",
+  "discipline": "ELECTRICAL",
+  "objects": [
+    {
+      "id": "SW-R001",
+      "category": "switches",
+      "room_id": "R001",
+      "name": "客厅主开关",
+      "spec": { "type": "single_pole", "gang": 1 }
+    },
+    {
+      "id": "SK-R001-1",
+      "category": "sockets",
+      "room_id": "R001",
+      "name": "客厅插座1",
+      "spec": { "type": "5_hole", "rating": "10A" }
+    },
+    {
+      "id": "LT-R001",
+      "category": "lights",
+      "room_id": "R001",
+      "name": "客厅照明回路点位",
+      "spec": { "type": "ceiling", "power_w": 24 }
+    },
+    {
+      "id": "C-R001",
+      "category": "circuits",
+      "room_id": "R001",
+      "name": "客厅回路",
+      "spec": { "breaker": "16A", "loads": ["LT-R001", "SK-R001-1"] }
+    },
+    {
+      "id": "PANEL-1",
+      "category": "panel",
+      "name": "户内配电箱",
+      "spec": { "main_breaker": "63A", "circuit_count": 1 }
+    }
+  ],
+  "constraints": [
+    {
+      "type": "code",
+      "room_id": "R001",
+      "description": "插座回路须配剩余电流保护（Mock 规范约束）"
+    }
+  ],
+  "quality": {
+    "confidence": 0.9,
+    "quality_score": 90,
+    "validation_passed": true
+  }
+}

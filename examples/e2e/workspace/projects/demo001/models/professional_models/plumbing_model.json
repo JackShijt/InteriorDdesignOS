@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "project_id": "demo001",
+    "agent": "plumbing",
+    "task_id": "plumbing_task",
+    "timestamp": "2026-07-27T16:25:43.820620+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {}
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "none",
+    "producer_agent": "plumbing",
+    "timestamp": "2026-07-27T16:25:43.820625+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "PLUMBING",
+  "summary": {
+    "fixture_count": 5,
+    "supply_count": 5,
+    "drain_count": 3
+  },
+  "supply_pipes": [
+    {
+      "pipe_id": "P-SUP-R04-C",
+      "kind": "COLD",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 0,
+        "y": 0
+      },
+      "diameter_mm": 25,
+      "room_id": "R04",
+      "layer": "PLUMB-COLD"
+    },
+    {
+      "pipe_id": "P-SUP-R04-H",
+      "kind": "HOT",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 0,
+        "y": 0
+      },
+      "diameter_mm": 20,
+      "room_id": "R04",
+      "layer": "PLUMB-HOT"
+    },
+    {
+      "pipe_id": "P-SUP-R05-C",
+      "kind": "COLD",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 0,
+        "y": 0
+      },
+      "diameter_mm": 25,
+      "room_id": "R05",
+      "layer": "PLUMB-COLD"
+    },
+    {
+      "pipe_id": "P-SUP-R05-H",
+      "kind": "HOT",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 0,
+        "y": 0
+      },
+      "diameter_mm": 20,
+      "room_id": "R05",
+      "layer": "PLUMB-HOT"
+    },
+    {
+      "pipe_id": "P-SUP-R06-C",
+      "kind": "COLD",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 0,
+        "y": 0
+      },
+      "diameter_mm": 25,
+      "room_id": "R06",
+      "layer": "PLUMB-COLD"
+    }
+  ],
+  "drain_pipes": [
+    {
+      "pipe_id": "P-DRN-R04",
+      "kind": "DRAIN",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 0,
+        "y": 0
+      },
+      "diameter_mm": 50,
+      "room_id": "R04",
+      "layer": "PLUMB-DRAIN"
+    },
+    {
+      "pipe_id": "P-DRN-R05",
+      "kind": "DRAIN",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 0,
+        "y": 0
+      },
+      "diameter_mm": 50,
+      "room_id": "R05",
+      "layer": "PLUMB-DRAIN"
+    },
+    {
+      "pipe_id": "P-DRN-R06",
+      "kind": "DRAIN",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 0,
+        "y": 0
+      },
+      "diameter_mm": 50,
+      "room_id": "R06",
+      "layer": "PLUMB-DRAIN"
+    }
+  ],
+  "fixtures": [
+    {
+      "fixture_id": "PL-SINK-R04",
+      "type": "SINK",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "PLUMB-FIXTURE"
+    },
+    {
+      "fixture_id": "PL-WC-R05",
+      "type": "TOILET",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "PLUMB-FIXTURE"
+    },
+    {
+      "fixture_id": "PL-WB-R05",
+      "type": "WASHBASIN",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "PLUMB-FIXTURE"
+    },
+    {
+      "fixture_id": "PL-SH-R05",
+      "type": "SHOWER",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "PLUMB-FIXTURE"
+    },
+    {
+      "fixture_id": "PL-DRAIN-R06",
+      "type": "FLOOR_DRAIN",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "PLUMB-FIXTURE"
+    }
+  ],
+  "water_heaters": [
+    {
+      "heater_id": "WH-R05",
+      "type": "STORAGE",
+      "capacity_l": 60,
+      "room_id": "R05",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "PLUMB-HEATER"
+    }
+  ]
+}

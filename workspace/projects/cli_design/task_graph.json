@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "task_id": "design-cli_design",
+      "agent": "design",
+      "stage": "DESIGN_SPEC",
+      "status": "COMPLETED",
+      "dependencies": [],
+      "created_at": "2026-07-23T14:29:31.406456+08:00",
+      "updated_at": "2026-07-23T14:29:31.411778+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "requirement": "小两口，北欧风，预算中等，养猫"
+      }
+    }
+  ]
+}

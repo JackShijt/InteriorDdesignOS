@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "task_id": "original_model-e2e_design",
+      "agent": "parser",
+      "stage": "ORIGINAL_MODEL",
+      "status": "PENDING",
+      "dependencies": [],
+      "created_at": "2026-07-23T14:25:42.583000+08:00",
+      "updated_at": "2026-07-23T14:25:42.583023+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/examples/input/sample_json/sample.json"
+      ],
+      "parameters": {}
+    }
+  ]
+}

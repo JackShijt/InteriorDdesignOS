@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "project_id": "cli_run",
+  "state": "RUNNING",
+  "current_stage": "DESIGN_SPEC",
+  "task_status": {
+    "original_model-cli_run": "COMPLETED",
+    "design-cli_run": "COMPLETED"
+  },
+  "updated_at": "2026-07-23T14:29:31.038718"
+}

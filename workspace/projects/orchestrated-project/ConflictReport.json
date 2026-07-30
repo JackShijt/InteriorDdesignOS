@@ -1,0 +1,473 @@
+{
+  "report_id": "conf-d8d5d7d2",
+  "project_id": "orchestrated-project",
+  "status": "CONFLICTS_FOUND",
+  "requires_approval": true,
+  "conflicts": [
+    {
+      "conflict_id": "CFL-CEI-ELE-bath",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "bath",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 bath）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-bath-win1",
+          "CL-OP-bath-win2",
+          "CL-OP-bath-win3",
+          "CL-OP-bath-win4"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-bath-1",
+          "E-SOCK-bath-2",
+          "E-SW-bath-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-kitchen",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "kitchen",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 kitchen）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-kitchen-win1",
+          "CL-OP-kitchen-win2",
+          "CL-OP-kitchen-win3",
+          "CL-OP-kitchen-win4"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-kitchen-1",
+          "E-SOCK-kitchen-2",
+          "E-SW-kitchen-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-living",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "living",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 living）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-living-win1",
+          "CL-OP-living-win2",
+          "CL-OP-living-win3",
+          "CL-OP-living-win4"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-living-1",
+          "E-SOCK-living-2",
+          "E-SOCK-living-3",
+          "E-SOCK-living-4",
+          "E-SW-living-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-master",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "master",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 master）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-master-win1",
+          "CL-OP-master-win2",
+          "CL-OP-master-win3",
+          "CL-OP-master-win4"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-master-1",
+          "E-SOCK-master-2",
+          "E-SW-master-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-second",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "second",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 second）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-second-win1",
+          "CL-OP-second-win2",
+          "CL-OP-second-win3",
+          "CL-OP-second-win4"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-second-1",
+          "E-SOCK-second-2",
+          "E-SW-second-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-bath",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "bath",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 bath）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-bath-win1",
+          "CL-OP-bath-win2",
+          "CL-OP-bath-win3",
+          "CL-OP-bath-win4"
+        ],
+        "LIGHTING": [
+          "L-FIX-bath-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-kitchen",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "kitchen",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 kitchen）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-kitchen-win1",
+          "CL-OP-kitchen-win2",
+          "CL-OP-kitchen-win3",
+          "CL-OP-kitchen-win4"
+        ],
+        "LIGHTING": [
+          "L-FIX-kitchen-1",
+          "L-FIX-kitchen-2"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-living",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "living",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 living）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-living-win1",
+          "CL-OP-living-win2",
+          "CL-OP-living-win3",
+          "CL-OP-living-win4"
+        ],
+        "LIGHTING": [
+          "L-FIX-living-1",
+          "L-FIX-living-2",
+          "L-FIX-living-3"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-master",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "master",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 master）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-master-win1",
+          "CL-OP-master-win2",
+          "CL-OP-master-win3",
+          "CL-OP-master-win4"
+        ],
+        "LIGHTING": [
+          "L-FIX-master-1",
+          "L-FIX-master-2"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-second",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "second",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 second）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-second-win1",
+          "CL-OP-second-win2",
+          "CL-OP-second-win3",
+          "CL-OP-second-win4"
+        ],
+        "LIGHTING": [
+          "L-FIX-second-1",
+          "L-FIX-second-2"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-PLU-bath",
+      "type": "CEILING_x_PLUMBING",
+      "disciplines": [
+        "CEILING",
+        "PLUMBING"
+      ],
+      "room_id": "bath",
+      "description": "吊顶开洞与给排水管线可能穿越冲突，需人工确认（房间 bath）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-bath-win1",
+          "CL-OP-bath-win2",
+          "CL-OP-bath-win3",
+          "CL-OP-bath-win4"
+        ],
+        "PLUMBING": [
+          "PL-WC-bath",
+          "PL-WB-bath",
+          "PL-SH-bath",
+          "P-SUP-bath-C",
+          "P-SUP-bath-H",
+          "P-DRN-bath"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-PLU-kitchen",
+      "type": "CEILING_x_PLUMBING",
+      "disciplines": [
+        "CEILING",
+        "PLUMBING"
+      ],
+      "room_id": "kitchen",
+      "description": "吊顶开洞与给排水管线可能穿越冲突，需人工确认（房间 kitchen）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-kitchen-win1",
+          "CL-OP-kitchen-win2",
+          "CL-OP-kitchen-win3",
+          "CL-OP-kitchen-win4"
+        ],
+        "PLUMBING": [
+          "PL-SINK-kitchen",
+          "P-SUP-kitchen-C",
+          "P-SUP-kitchen-H",
+          "P-DRN-kitchen"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-bath",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "bath",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 bath）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-bath-1",
+          "E-SOCK-bath-2",
+          "E-SW-bath-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-bath-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-kitchen",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "kitchen",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 kitchen）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-kitchen-1",
+          "E-SOCK-kitchen-2",
+          "E-SW-kitchen-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-kitchen-1",
+          "L-FIX-kitchen-2"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-living",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "living",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 living）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-living-1",
+          "E-SOCK-living-2",
+          "E-SOCK-living-3",
+          "E-SOCK-living-4",
+          "E-SW-living-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-living-1",
+          "L-FIX-living-2",
+          "L-FIX-living-3"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-master",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "master",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 master）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-master-1",
+          "E-SOCK-master-2",
+          "E-SW-master-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-master-1",
+          "L-FIX-master-2"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-second",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "second",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 second）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-second-1",
+          "E-SOCK-second-2",
+          "E-SW-second-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-second-1",
+          "L-FIX-second-2"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-PLU-bath",
+      "type": "ELECTRICAL_x_PLUMBING",
+      "disciplines": [
+        "ELECTRICAL",
+        "PLUMBING"
+      ],
+      "room_id": "bath",
+      "description": "电气点位与给排水管线位于同一空间，需人工确认间距与交叉（房间 bath）",
+      "severity": "WARNING",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-bath-1",
+          "E-SOCK-bath-2",
+          "E-SW-bath-1"
+        ],
+        "PLUMBING": [
+          "PL-WC-bath",
+          "PL-WB-bath",
+          "PL-SH-bath",
+          "P-SUP-bath-C",
+          "P-SUP-bath-H",
+          "P-DRN-bath"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-PLU-kitchen",
+      "type": "ELECTRICAL_x_PLUMBING",
+      "disciplines": [
+        "ELECTRICAL",
+        "PLUMBING"
+      ],
+      "room_id": "kitchen",
+      "description": "电气点位与给排水管线位于同一空间，需人工确认间距与交叉（房间 kitchen）",
+      "severity": "WARNING",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-kitchen-1",
+          "E-SOCK-kitchen-2",
+          "E-SW-kitchen-1"
+        ],
+        "PLUMBING": [
+          "PL-SINK-kitchen",
+          "P-SUP-kitchen-C",
+          "P-SUP-kitchen-H",
+          "P-DRN-kitchen"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "conflict_count": 19,
+    "blocking_count": 14,
+    "disciplines": [
+      "CEILING",
+      "ELECTRICAL",
+      "LIGHTING",
+      "PLUMBING"
+    ],
+    "by_severity": {
+      "WARNING": 14,
+      "INFO": 5
+    }
+  }
+}

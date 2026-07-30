@@ -1,0 +1,293 @@
+{
+  "metadata": {},
+  "version": {},
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "status": "WARN",
+  "checked_count": 112,
+  "issues": [
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/L-FIX-R02-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R02 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/L-FIX-R03-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R03 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/L-FIX-R04-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R04 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/L-FIX-R05-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R05 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/L-FIX-R06-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R06 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/L-FIX-R07-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R07 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/L-FIX-R08-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R08 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/L-FIX-R09-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R09 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/?",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R02 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/?",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R03 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/?",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R04 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/?",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R05 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/?",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R06 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/?",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R07 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/?",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R08 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "lighting/?",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R09 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "plumbing/PL-SINK-R04",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R04 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "plumbing/PL-WC-R05",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R05 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "plumbing/PL-WB-R05",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R05 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "plumbing/PL-SH-R05",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R05 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "plumbing/PL-DRAIN-R06",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R06 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R02-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R02 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R02-2",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R02 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SW-R02-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R02 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R03-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R03 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R03-2",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R03 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SW-R03-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R03 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R04-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R04 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R04-2",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R04 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SW-R04-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R04 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R05-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R05 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R05-2",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R05 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SW-R05-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R05 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R06-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R06 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R06-2",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R06 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SW-R06-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R06 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R07-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R07 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R07-2",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R07 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SW-R07-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R07 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R08-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R08 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R08-2",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R08 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SW-R08-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R08 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R09-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R09 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SOCK-R09-2",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R09 边界外"
+    },
+    {
+      "severity": "WARN",
+      "category": "DIMENSION_CONFLICT",
+      "subject": "electrical/E-SW-R09-1",
+      "message": "坐标 {'x': 0, 'y': 0} 落在房间 R09 边界外"
+    }
+  ],
+  "rule_results": [
+    {
+      "rule": "circuit_load_limit",
+      "violations": 0
+    }
+  ],
+  "summary": {
+    "error_count": 0,
+    "warn_count": 45,
+    "room_count": 9,
+    "professional_model_count": 6
+  }
+}

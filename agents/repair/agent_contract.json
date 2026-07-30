@@ -1,0 +1,8 @@
+{
+  "name": "repair",
+  "role": "依据校验失败报告自动修复并重新生成，直至通过 Round-trip 验证",
+  "input_schema": ["ValidationReport", "FailedModel"],
+  "output_schema": ["RepairedModel"],
+  "capabilities": ["repair", "regenerate", "revalidate"],
+  "forbidden": ["modify_design_decision", "modify_layout_decision"]
+}

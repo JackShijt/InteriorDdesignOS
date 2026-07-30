@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "project_id": "dbg",
+  "state": "RUNNING",
+  "current_stage": "DESIGN_SPEC",
+  "task_status": {
+    "original_model-dbg": "COMPLETED",
+    "design-dbg": "COMPLETED"
+  },
+  "updated_at": "2026-07-23T14:22:44.541155"
+}

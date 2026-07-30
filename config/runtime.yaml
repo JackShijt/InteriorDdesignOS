@@ -1,0 +1,19 @@
+# Phase 3.5 §12 运行时统一配置（禁止硬编码）
+workspace_path: workspace
+log_level: INFO
+checkpoint_interval: 1
+schema_validation: true
+auto_save: true
+max_retry: 2
+
+# Phase 7 §四：CAD 后端选择（禁止代码内写死）
+# backend: mock | autocad
+cad:
+  backend: mock
+
+# Phase 7 §四：AutoCAD MCP 连接参数（仅配置，不写死到代码）
+# 接入真实 AutoCAD 时由 Phase 7 AutoCAD MCP 服务暴露 host/port
+autocad:
+  host:
+  port:
+  timeout: 30

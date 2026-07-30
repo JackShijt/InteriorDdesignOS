@@ -1,0 +1,437 @@
+{
+  "metadata": {
+    "project_id": "demo001",
+    "agent": "electrical",
+    "task_id": "electrical_task",
+    "timestamp": "2026-07-27T16:25:43.820328+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {}
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "none",
+    "producer_agent": "electrical",
+    "timestamp": "2026-07-27T16:25:43.820332+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "ELECTRICAL",
+  "summary": {
+    "device_count": 27,
+    "circuit_count": 9,
+    "panel_count": 1
+  },
+  "circuits": [
+    {
+      "circuit_id": "C-R01",
+      "purpose": "客厅 插座/照明",
+      "rooms": [
+        "R01"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-R02",
+      "purpose": "主卧 插座/照明",
+      "rooms": [
+        "R02"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-R03",
+      "purpose": "次卧 插座/照明",
+      "rooms": [
+        "R03"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-R04",
+      "purpose": "厨房 插座/照明",
+      "rooms": [
+        "R04"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-R05",
+      "purpose": "卫生间 插座/照明",
+      "rooms": [
+        "R05"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-R06",
+      "purpose": "阳台 插座/照明",
+      "rooms": [
+        "R06"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-R07",
+      "purpose": "餐厅 插座/照明",
+      "rooms": [
+        "R07"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-R08",
+      "purpose": "书房 插座/照明",
+      "rooms": [
+        "R08"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-R09",
+      "purpose": "玄关 插座/照明",
+      "rooms": [
+        "R09"
+      ],
+      "estimated_load_w": 500
+    }
+  ],
+  "devices": [
+    {
+      "device_id": "E-SOCK-R01-1",
+      "type": "SOCKET",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-R01-2",
+      "type": "SOCKET",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-R01-1",
+      "type": "SWITCH",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-R02-1",
+      "type": "SOCKET",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-R02-2",
+      "type": "SOCKET",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-R02-1",
+      "type": "SWITCH",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-R03-1",
+      "type": "SOCKET",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-R03-2",
+      "type": "SOCKET",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-R03-1",
+      "type": "SWITCH",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-R04-1",
+      "type": "SOCKET",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-R04-2",
+      "type": "SOCKET",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-R04-1",
+      "type": "SWITCH",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-R05-1",
+      "type": "SOCKET",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-R05-2",
+      "type": "SOCKET",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-R05-1",
+      "type": "SWITCH",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-R06-1",
+      "type": "SOCKET",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-R06-2",
+      "type": "SOCKET",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-R06-1",
+      "type": "SWITCH",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-R07-1",
+      "type": "SOCKET",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-R07-2",
+      "type": "SOCKET",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-R07-1",
+      "type": "SWITCH",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-R08-1",
+      "type": "SOCKET",
+      "room_id": "R08",
+      "room_name": "书房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-R08-2",
+      "type": "SOCKET",
+      "room_id": "R08",
+      "room_name": "书房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-R08-1",
+      "type": "SWITCH",
+      "room_id": "R08",
+      "room_name": "书房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-R09-1",
+      "type": "SOCKET",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-R09-2",
+      "type": "SOCKET",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-R09-1",
+      "type": "SWITCH",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    }
+  ],
+  "panels": [
+    {
+      "panel_id": "PANEL-MAIN",
+      "type": "distribution",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "circuits": 9
+    }
+  ]
+}

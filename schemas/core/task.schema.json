@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/core/task.schema.json",
+  "title": "Task",
+  "description": "Orchestrator 维护的任务节点，用于动态 Task Graph 与断点恢复（PROJECT_RULES §13、§16、§11）。",
+  "type": "object",
+  "required": ["task_id", "agent", "stage", "status"],
+  "properties": {
+    "task_id": { "type": "string", "minLength": 1 },
+    "agent": { "type": "string", "minLength": 1 },
+    "stage": {
+      "type": "string",
+      "enum": [
+        "INITIALIZATION", "INPUT_ANALYSIS", "ORIGINAL_MODEL", "DESIGN_SPEC",
+        "LAYOUT", "PROFESSIONAL_DEEPENING", "GEOMETRY", "DRAWING",
+        "DWG_GENERATION", "VALIDATION", "REPAIR", "EXPORT"
+      ],
+      "description": "所属流程阶段（与 project.current_stage 一致）"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PENDING", "READY", "RUNNING", "WAITING_USER", "WAITING_AGENT",
+        "RETRYING", "VALIDATING", "REPAIRING", "COMPLETED", "FAILED",
+        "CANCELLED", "DELIVERED"
+      ]
+    },
+    "dependencies": { "type": "array", "items": { "type": "string" }, "description": "依赖的 task_id 列表" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": true
+}

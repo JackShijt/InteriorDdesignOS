@@ -1,0 +1,9 @@
+{
+  "project_id": "Project_001",
+  "agent": "layout",
+  "task_id": "task-7f3a",
+  "timestamp": "2026-07-22T10:00:00+08:00",
+  "schema_version": "1.0",
+  "status": "COMPLETED",
+  "quality": { "confidence": 0.95, "quality_score": 92, "validation_passed": true }
+}

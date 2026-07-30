@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/cad/cad_tool.schema.json",
+  "title": "CAD Tool Command Contract",
+  "description": "InteriorDesignOS → AutoCAD MCP 的 CAD 命令契约（Phase 13）。命令由 CAD Adapter 生成，经 AutoCAD MCP 转发至 AutoCAD 2026 执行。本契约为 Model 与外部执行端之间的唯一通信协议，DWG 不作为内部通信格式（PROJECT_RULES §4、Phase 13 最高约束）。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["command_id", "command_type", "source_model", "source_version", "payload", "status"],
+  "properties": {
+    "command_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "命令唯一 ID，由 CAD Adapter 生成，用于回读/修改/验证追踪。"
+    },
+    "command_type": {
+      "type": "string",
+      "description": "CAD 命令类型（Phase 13 初始支持集合）。",
+      "enum": [
+        "CREATE_LINE",
+        "CREATE_POLYLINE",
+        "CREATE_RECTANGLE",
+        "CREATE_TEXT",
+        "CREATE_DIMENSION",
+        "CREATE_BLOCK",
+        "CREATE_LAYER",
+        "SAVE_DWG",
+        "OPEN_DWG",
+        "READ_ENTITY"
+      ]
+    },
+    "source_model": {
+      "type": "string",
+      "minLength": 1,
+      "description": "来源模型名，如 DrawingModel / GeometryModel（不可变追溯，architecture.md §13）。"
+    },
+    "source_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "来源模型版本（schema_version 或 model_version）。"
+    },
+    "payload": {
+      "type": "object",
+      "description": "命令参数，结构随 command_type 变化（payload 内部允许厂商扩展字段）。",
+      "additionalProperties": true,
+      "properties": {
+        "start": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3, "description": "起点坐标 [x, y] 或 [x, y, z]，单位 mm。" },
+        "end": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3, "description": "终点坐标 [x, y] 或 [x, y, z]，单位 mm。" },
+        "points": { "type": "array", "items": { "type": "array", "items": { "type": "number" } }, "description": "多边形/多段线顶点列表。" },
+        "closed": { "type": "boolean", "description": "多段线/矩形是否闭合。" },
+        "layer": { "type": "string", "description": "目标图层名。" },
+        "geometry_ref": { "type": "string", "description": "引用的几何对象 ID（GeometryModel lines/polygons/dimensions 的 id）。" },
+        "entity_id": { "type": "string", "description": "DrawingModel 中的实体 ID（用于 entity_mapper 追踪 autocad_handle）。" },
+        "text": { "type": "string", "description": "文字内容（CREATE_TEXT）。" },
+        "position": { "type": "array", "items": { "type": "number" }, "description": "插入/标注位置坐标。" },
+        "value": { "type": "number", "description": "尺寸/数值（CREATE_DIMENSION）。" },
+        "unit": { "type": "string", "description": "单位，如 mm。" },
+        "block_ref": { "type": "string", "description": "块定义引用（CREATE_BLOCK）。" },
+        "scale": { "type": "number", "description": "块缩放比例。" },
+        "rotation": { "type": "number", "description": "旋转角（度）。" },
+        "color": { "type": "integer", "minimum": 1, "maximum": 256, "description": "图层颜色索引（CREATE_LAYER）。" },
+        "line_type": { "type": "string", "description": "线型（CREATE_LAYER）。" },
+        "path": { "type": "string", "description": "DWG 文件路径（SAVE_DWG / OPEN_DWG）。" },
+        "handle": { "type": "string", "description": "AutoCAD 实体句柄（READ_ENTITY / 回读）。" }
+      }
+    },
+    "status": {
+      "type": "string",
+      "description": "命令状态，复用系统状态机（ARCHITECTURE §13 / task.schema.json）。",
+      "enum": ["PENDING", "RUNNING", "COMPLETED", "FAILED"]
+    },
+    "target": {
+      "type": "string",
+      "description": "可选：目标文档 / 布局名。"
+    }
+  }
+}

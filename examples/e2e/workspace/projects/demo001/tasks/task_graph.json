@@ -1,0 +1,269 @@
+{
+  "tasks": [
+    {
+      "task_id": "parser_task",
+      "agent": "parser",
+      "stage": "ORIGINAL_MODEL",
+      "status": "COMPLETED",
+      "dependencies": [],
+      "created_at": "2026-07-27T16:25:43.812875+08:00",
+      "updated_at": "2026-07-27T16:25:43.813646+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "OriginalModel"
+        ]
+      }
+    },
+    {
+      "task_id": "design_task",
+      "agent": "design",
+      "stage": "DESIGN_SPEC",
+      "status": "COMPLETED",
+      "dependencies": [
+        "parser_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812889+08:00",
+      "updated_at": "2026-07-27T16:25:43.814852+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "DesignSpec"
+        ]
+      }
+    },
+    {
+      "task_id": "layout_task",
+      "agent": "layout",
+      "stage": "LAYOUT",
+      "status": "COMPLETED",
+      "dependencies": [
+        "design_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812899+08:00",
+      "updated_at": "2026-07-27T16:25:43.815983+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "LayoutModel"
+        ]
+      }
+    },
+    {
+      "task_id": "ceiling_task",
+      "agent": "ceiling",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812915+08:00",
+      "updated_at": "2026-07-27T16:25:43.825162+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "CeilingModel"
+        ],
+        "discipline": "CEILING",
+        "impl": "agents.ceiling.ceiling_agent:CeilingAgent"
+      }
+    },
+    {
+      "task_id": "construction_task",
+      "agent": "construction",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812925+08:00",
+      "updated_at": "2026-07-27T16:25:43.824443+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "ConstructionModel"
+        ],
+        "discipline": "CONSTRUCTION",
+        "impl": "agents.construction.construction_agent:ConstructionAgent"
+      }
+    },
+    {
+      "task_id": "electrical_task",
+      "agent": "electrical",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812934+08:00",
+      "updated_at": "2026-07-27T16:25:43.823479+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "ElectricalModel"
+        ],
+        "discipline": "ELECTRICAL",
+        "impl": "agents.electrical.electrical_agent:ElectricalAgent"
+      }
+    },
+    {
+      "task_id": "elevation_task",
+      "agent": "elevation",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812944+08:00",
+      "updated_at": "2026-07-27T16:25:43.821678+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "ElevationModel"
+        ],
+        "discipline": "ELEVATION",
+        "impl": "agents.elevation.elevation_agent:ElevationAgent"
+      }
+    },
+    {
+      "task_id": "lighting_task",
+      "agent": "lighting",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812953+08:00",
+      "updated_at": "2026-07-27T16:25:43.820901+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "LightingModel"
+        ],
+        "discipline": "LIGHTING",
+        "impl": "agents.lighting.lighting_agent:LightingAgent"
+      }
+    },
+    {
+      "task_id": "plumbing_task",
+      "agent": "plumbing",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812963+08:00",
+      "updated_at": "2026-07-27T16:25:43.822458+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "PlumbingModel"
+        ],
+        "discipline": "PLUMBING",
+        "impl": "agents.plumbing.plumbing_agent:PlumbingAgent"
+      }
+    },
+    {
+      "task_id": "geometry_task",
+      "agent": "geometry",
+      "stage": "GEOMETRY",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812973+08:00",
+      "updated_at": "2026-07-27T16:25:43.818459+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "GeometryModel"
+        ]
+      }
+    },
+    {
+      "task_id": "drawing_task",
+      "agent": "drawing",
+      "stage": "DRAWING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "geometry_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812983+08:00",
+      "updated_at": "2026-07-27T16:25:43.837105+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "DrawingModel",
+          "DWG"
+        ]
+      }
+    },
+    {
+      "task_id": "validator_task",
+      "agent": "validator",
+      "stage": "VALIDATION",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task",
+        "drawing_task",
+        "ceiling_task",
+        "construction_task",
+        "electrical_task",
+        "elevation_task",
+        "lighting_task",
+        "plumbing_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.812994+08:00",
+      "updated_at": "2026-07-27T16:25:43.841105+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "ValidationReport"
+        ]
+      }
+    },
+    {
+      "task_id": "deliverable_task",
+      "agent": "deliverable",
+      "stage": "EXPORT",
+      "status": "COMPLETED",
+      "dependencies": [
+        "validator_task"
+      ],
+      "created_at": "2026-07-27T16:25:43.813005+08:00",
+      "updated_at": "2026-07-27T16:25:43.843454+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "output_schema": [
+          "Deliverable"
+        ]
+      }
+    }
+  ]
+}

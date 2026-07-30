@@ -1,0 +1,53 @@
+{
+  "report_type": "dwg_round_trip",
+  "passed": true,
+  "checks": [
+    {
+      "check": "room_count",
+      "expected": 9,
+      "actual": 9,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wall_count",
+      "expected": 36,
+      "actual": 36,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "door_count",
+      "expected": 9,
+      "actual": 9,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "window_count",
+      "expected": 9,
+      "actual": 9,
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "coordinate_error",
+      "expected": "<= 1.0mm",
+      "actual": 0.005,
+      "passed": true,
+      "detail": "compared 54 elements"
+    },
+    {
+      "check": "dimension_error",
+      "expected": "<= 1.0mm",
+      "actual": 0.04,
+      "passed": true,
+      "detail": "compared 9 dimensions"
+    }
+  ],
+  "max_coordinate_error_mm": 0.005,
+  "max_dimension_error_mm": 0.04,
+  "compared_against": "LayoutModel",
+  "cad_backend": "mock",
+  "dwg_path": "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/examples/e2e/workspace/projects/demo001/cad/demo001.dwg"
+}

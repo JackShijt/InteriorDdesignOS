@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "project_id": "p51check",
+    "agent": "lighting",
+    "task_id": "professional-lighting-p51check",
+    "timestamp": "2026-07-24T13:24:37.293035+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 0.95,
+      "quality_score": 95,
+      "validation_passed": true
+    }
+  },
+  "layout_model_version": "v1",
+  "discipline": "LIGHTING",
+  "objects": [
+    {
+      "category": "fixtures",
+      "id": "FX-R001",
+      "room_id": "R001",
+      "name": "客厅基础照明灯具",
+      "spec": {
+        "type": "downlight",
+        "cct": "4000K",
+        "strategy": "常规照明"
+      }
+    },
+    {
+      "category": "fixtures",
+      "id": "FX-R002",
+      "room_id": "R002",
+      "name": "主卧基础照明灯具",
+      "spec": {
+        "type": "downlight",
+        "cct": "4000K",
+        "strategy": "常规照明"
+      }
+    },
+    {
+      "category": "fixtures",
+      "id": "FX-R003",
+      "room_id": "R003",
+      "name": "次卧基础照明灯具",
+      "spec": {
+        "type": "downlight",
+        "cct": "4000K",
+        "strategy": "常规照明"
+      }
+    },
+    {
+      "category": "fixtures",
+      "id": "FX-R004",
+      "room_id": "R004",
+      "name": "厨房基础照明灯具",
+      "spec": {
+        "type": "downlight",
+        "cct": "4000K",
+        "strategy": "常规照明"
+      }
+    },
+    {
+      "category": "fixtures",
+      "id": "FX-R005",
+      "room_id": "R005",
+      "name": "卫生间基础照明灯具",
+      "spec": {
+        "type": "downlight",
+        "cct": "4000K",
+        "strategy": "常规照明"
+      }
+    },
+    {
+      "category": "groups",
+      "id": "G-R001",
+      "room_id": "R001",
+      "name": "客厅照明分组",
+      "spec": {
+        "members": [
+          "FX-R001"
+        ]
+      }
+    },
+    {
+      "category": "groups",
+      "id": "G-R002",
+      "room_id": "R002",
+      "name": "主卧照明分组",
+      "spec": {
+        "members": [
+          "FX-R002"
+        ]
+      }
+    },
+    {
+      "category": "groups",
+      "id": "G-R003",
+      "room_id": "R003",
+      "name": "次卧照明分组",
+      "spec": {
+        "members": [
+          "FX-R003"
+        ]
+      }
+    },
+    {
+      "category": "groups",
+      "id": "G-R004",
+      "room_id": "R004",
+      "name": "厨房照明分组",
+      "spec": {
+        "members": [
+          "FX-R004"
+        ]
+      }
+    },
+    {
+      "category": "groups",
+      "id": "G-R005",
+      "room_id": "R005",
+      "name": "卫生间照明分组",
+      "spec": {
+        "members": [
+          "FX-R005"
+        ]
+      }
+    },
+    {
+      "category": "controls",
+      "id": "CT-R001",
+      "room_id": "R001",
+      "name": "客厅控制面板",
+      "spec": {
+        "type": "wall_switch",
+        "scenes": [
+          "on",
+          "off"
+        ]
+      }
+    },
+    {
+      "category": "controls",
+      "id": "CT-R002",
+      "room_id": "R002",
+      "name": "主卧控制面板",
+      "spec": {
+        "type": "wall_switch",
+        "scenes": [
+          "on",
+          "off"
+        ]
+      }
+    },
+    {
+      "category": "controls",
+      "id": "CT-R003",
+      "room_id": "R003",
+      "name": "次卧控制面板",
+      "spec": {
+        "type": "wall_switch",
+        "scenes": [
+          "on",
+          "off"
+        ]
+      }
+    },
+    {
+      "category": "controls",
+      "id": "CT-R004",
+      "room_id": "R004",
+      "name": "厨房控制面板",
+      "spec": {
+        "type": "wall_switch",
+        "scenes": [
+          "on",
+          "off"
+        ]
+      }
+    },
+    {
+      "category": "controls",
+      "id": "CT-R005",
+      "room_id": "R005",
+      "name": "卫生间控制面板",
+      "spec": {
+        "type": "wall_switch",
+        "scenes": [
+          "on",
+          "off"
+        ]
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "type": "comfort",
+      "room_id": "R001",
+      "description": "客厅照度满足居住舒适要求（Mock 约束）"
+    },
+    {
+      "type": "comfort",
+      "room_id": "R002",
+      "description": "主卧照度满足居住舒适要求（Mock 约束）"
+    },
+    {
+      "type": "comfort",
+      "room_id": "R003",
+      "description": "次卧照度满足居住舒适要求（Mock 约束）"
+    },
+    {
+      "type": "comfort",
+      "room_id": "R004",
+      "description": "厨房照度满足居住舒适要求（Mock 约束）"
+    },
+    {
+      "type": "comfort",
+      "room_id": "R005",
+      "description": "卫生间照度满足居住舒适要求（Mock 约束）"
+    }
+  ],
+  "quality": {
+    "confidence": 0.95,
+    "quality_score": 95,
+    "validation_passed": true
+  }
+}

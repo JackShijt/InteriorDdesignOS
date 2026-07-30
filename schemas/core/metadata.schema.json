@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/core/metadata.schema.json",
+  "title": "Metadata",
+  "description": "所有 Agent 输出的统一元数据契约（PROJECT_RULES §4.3）。单文件可靠来源（SSOT），禁止在各模型内重复定义元数据字段。metadata 必须附带 quality（PROJECT_RULES §18.1）。",
+  "type": "object",
+  "required": [
+    "project_id",
+    "agent",
+    "task_id",
+    "timestamp",
+    "schema_version",
+    "status",
+    "quality"
+  ],
+  "properties": {
+    "project_id": { "type": "string", "minLength": 1, "description": "所属工程 ID" },
+    "agent": { "type": "string", "minLength": 1, "description": "产出该对象的 Agent 名称" },
+    "task_id": { "type": "string", "minLength": 1, "description": "关联的任务节点 ID（Task Graph）" },
+    "timestamp": { "type": "string", "format": "date-time", "description": "产出时间（ISO 8601）" },
+    "schema_version": { "type": "string", "minLength": 1, "description": "Schema 版本，如 1.0" },
+    "status": {
+      "type": "string",
+      "description": "任务/对象状态（与 task.schema.json / project.schema.json 枚举一致）",
+      "enum": [
+        "PENDING", "READY", "RUNNING", "WAITING_USER", "WAITING_AGENT",
+        "RETRYING", "VALIDATING", "REPAIRING", "COMPLETED", "FAILED",
+        "CANCELLED", "DELIVERED"
+      ]
+    },
+    "quality": {
+      "$ref": "../validation/quality.schema.json",
+      "description": "质量评分（canonical: validation/quality.schema.json，PROJECT_RULES §18.1）"
+    }
+  },
+  "additionalProperties": false
+}

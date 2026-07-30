@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "project_id": "orchestrated-project",
+    "agent": "lighting",
+    "task_id": "lighting_task",
+    "timestamp": "2026-07-27T10:07:52.353725+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "lighting",
+    "timestamp": "2026-07-27T10:07:52.353725+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "LIGHTING",
+  "summary": {
+    "fixture_count": 10,
+    "switch_count": 5,
+    "circuit_count": 5
+  },
+  "fixtures": [
+    {
+      "fixture_id": "L-FIX-living-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "living",
+      "room_name": "客厅",
+      "position": {
+        "x": 3000,
+        "y": 3000
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-living-2",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "living",
+      "room_name": "客厅",
+      "position": {
+        "x": 3000,
+        "y": 3000
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-living-3",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "living",
+      "room_name": "客厅",
+      "position": {
+        "x": 3000,
+        "y": 3000
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-master-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "master",
+      "room_name": "主卧",
+      "position": {
+        "x": 8000,
+        "y": 2500
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-master-2",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "master",
+      "room_name": "主卧",
+      "position": {
+        "x": 8000,
+        "y": 2500
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-second-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "second",
+      "room_name": "次卧",
+      "position": {
+        "x": 8000,
+        "y": 7500
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-second-2",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "second",
+      "room_name": "次卧",
+      "position": {
+        "x": 8000,
+        "y": 7500
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-kitchen-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "position": {
+        "x": 2000,
+        "y": 8000
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-kitchen-2",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "position": {
+        "x": 2000,
+        "y": 8000
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-bath-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "position": {
+        "x": 5000,
+        "y": 8000
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    }
+  ],
+  "switches": [
+    {
+      "switch_id": "L-SW-living-1",
+      "type": "DIMMER",
+      "room_id": "living",
+      "room_name": "客厅",
+      "position": {
+        "x": 3000,
+        "y": 3000
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-master-1",
+      "type": "DIMMER",
+      "room_id": "master",
+      "room_name": "主卧",
+      "position": {
+        "x": 8000,
+        "y": 2500
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-second-1",
+      "type": "DIMMER",
+      "room_id": "second",
+      "room_name": "次卧",
+      "position": {
+        "x": 8000,
+        "y": 7500
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-kitchen-1",
+      "type": "DIMMER",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "position": {
+        "x": 2000,
+        "y": 8000
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-bath-1",
+      "type": "DIMMER",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "position": {
+        "x": 5000,
+        "y": 8000
+      },
+      "layer": "LIGHT-SWITCH"
+    }
+  ],
+  "circuits": [
+    {
+      "circuit_id": "LC-living",
+      "purpose": "客厅 照明",
+      "rooms": [
+        "living"
+      ],
+      "estimated_load_w": 108
+    },
+    {
+      "circuit_id": "LC-master",
+      "purpose": "主卧 照明",
+      "rooms": [
+        "master"
+      ],
+      "estimated_load_w": 72
+    },
+    {
+      "circuit_id": "LC-second",
+      "purpose": "次卧 照明",
+      "rooms": [
+        "second"
+      ],
+      "estimated_load_w": 72
+    },
+    {
+      "circuit_id": "LC-kitchen",
+      "purpose": "厨房 照明",
+      "rooms": [
+        "kitchen"
+      ],
+      "estimated_load_w": 72
+    },
+    {
+      "circuit_id": "LC-bath",
+      "purpose": "卫生间 照明",
+      "rooms": [
+        "bath"
+      ],
+      "estimated_load_w": 36
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "validation_id": "VAL-2026-07-22-001",
+  "project_id": "Project_001",
+  "passed": true,
+  "checks": [
+    { "name": "room_count_match", "passed": true, "message": "GeneratedModel 房间数=5 与 LayoutModel 一致", "severity": "ERROR", "category": "MODEL" },
+    { "name": "room_boundary_match", "passed": true, "message": "5/5 房间边界一致", "severity": "ERROR", "category": "MODEL" },
+    { "name": "wall_position_match", "passed": true, "message": "墙体位置偏差 < 5mm", "severity": "ERROR", "category": "MODEL" },
+    { "name": "layer_naming_spec", "passed": true, "message": "图层命名符合 standards/cad", "severity": "WARNING", "category": "SPEC" }
+  ],
+  "errors": [],
+  "warnings": [
+    { "path": "layers[3]", "message": "DIM 图层线型建议 Continuous" }
+  ],
+  "quality": { "confidence": 0.96, "quality_score": 94, "validation_passed": true },
+  "checked_by": "validator",
+  "timestamp": "2026-07-22T11:30:00+08:00"
+}

@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "project_id": "demo-prof-002",
+    "agent": "construction",
+    "task_id": "professional-construction-demo-prof-002",
+    "timestamp": "2026-07-23T16:35:04.142121+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 0.81,
+      "quality_score": 81,
+      "validation_passed": true
+    }
+  },
+  "layout_model_version": "v1",
+  "discipline": "CONSTRUCTION",
+  "objects": [
+    {
+      "category": "notes",
+      "id": "N-1",
+      "name": "承重墙保护说明",
+      "spec": {
+        "text": "共 4 面承重墙，严禁拆改（Mock 说明）"
+      }
+    },
+    {
+      "category": "details",
+      "id": "DT-R001",
+      "room_id": "R001",
+      "name": "客厅施工节点（Mock）",
+      "spec": {
+        "topic": "finish_junction"
+      }
+    },
+    {
+      "category": "details",
+      "id": "DT-R002",
+      "room_id": "R002",
+      "name": "主卧施工节点（Mock）",
+      "spec": {
+        "topic": "finish_junction"
+      }
+    },
+    {
+      "category": "details",
+      "id": "DT-R003",
+      "room_id": "R003",
+      "name": "次卧施工节点（Mock）",
+      "spec": {
+        "topic": "finish_junction"
+      }
+    },
+    {
+      "category": "details",
+      "id": "DT-R004",
+      "room_id": "R004",
+      "name": "厨房施工节点（Mock）",
+      "spec": {
+        "topic": "finish_junction"
+      }
+    },
+    {
+      "category": "details",
+      "id": "DT-R005",
+      "room_id": "R005",
+      "name": "卫生间施工节点（Mock）",
+      "spec": {
+        "topic": "finish_junction"
+      }
+    },
+    {
+      "category": "specifications",
+      "id": "SP-1",
+      "name": "通用施工规范引用",
+      "spec": {
+        "standard": "住宅装饰装修工程施工规范（Mock 引用）"
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "type": "safety",
+      "description": "施工全程不得破坏承重结构与既有管井（Mock 约束）"
+    }
+  ],
+  "quality": {
+    "confidence": 0.81,
+    "quality_score": 81,
+    "validation_passed": true
+  }
+}

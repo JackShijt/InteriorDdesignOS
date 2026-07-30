@@ -1,0 +1,6 @@
+DWG exists: True
+command_count: 14
+entity_mapping_size: 9
+counts: {'line': 5, 'polyline': 0, 'text': 1, 'dimension': 2, 'block': 1, 'layer': 4, 'total': 13}
+E001 handle: D732
+manifest exists: True

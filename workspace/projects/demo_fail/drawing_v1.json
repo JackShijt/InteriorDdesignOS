@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "project_id": "demo_fail",
+    "agent": "drawing",
+    "task_id": "drawing-demo_fail",
+    "timestamp": "2026-07-23T09:30:36.369703+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "stage": "DRAWING",
+  "note": "virtual agent placeholder (Phase 2)"
+}

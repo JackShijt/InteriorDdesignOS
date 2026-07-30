@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checked": 8,
+  "disciplines": [
+    "CEILING",
+    "CONSTRUCTION",
+    "ELECTRICAL",
+    "FLOORING",
+    "FURNITURE",
+    "HVAC",
+    "LIGHTING",
+    "PLUMBING"
+  ],
+  "errors": {},
+  "version_errors": [],
+  "layout_model_versions": {
+    "CEILING": "v1",
+    "CONSTRUCTION": "v1",
+    "ELECTRICAL": "v1",
+    "FLOORING": "v1",
+    "FURNITURE": "v1",
+    "HVAC": "v1",
+    "LIGHTING": "v1",
+    "PLUMBING": "v1"
+  },
+  "timestamp": "2026-07-23T16:35:04.180888+08:00"
+}

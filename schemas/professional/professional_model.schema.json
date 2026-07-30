@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/professional/professional_model.schema.json",
+  "title": "ProfessionalModel",
+  "description": "所有专业深化模型的公共契约（Phase 5 §4）。ElectricalModel / PlumbingModel / LightingModel / CeilingModel / FlooringModel / HVACModel / ConstructionModel / FurnitureModel 均遵循本结构：metadata 统一、LayoutModel 版本可追溯、objects 承载专业对象、quality 校验闭环。禁止包含 CAD / DWG / Entity / Layer 字段。",
+  "type": "object",
+  "required": ["metadata", "layout_model_version", "discipline", "objects", "constraints", "quality"],
+  "properties": {
+    "metadata": {
+      "$ref": "../core/metadata.schema.json",
+      "description": "统一元数据（canonical: core/metadata.schema.json，PROJECT_RULES §4.3）"
+    },
+    "layout_model_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "所基于的 LayoutModel 版本（专业深化不得偏离 SSOT，PROJECT_RULES §22）"
+    },
+    "discipline": {
+      "type": "string",
+      "description": "专业类型（Phase 5 八大专业）",
+      "enum": ["ELECTRICAL", "PLUMBING", "LIGHTING", "CEILING", "FLOORING", "HVAC", "CONSTRUCTION", "FURNITURE"]
+    },
+    "objects": {
+      "type": "array",
+      "description": "专业对象列表（各专业以 category 区分对象类别，Mock 阶段为示例数据）",
+      "items": {
+        "type": "object",
+        "required": ["id", "category"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1, "description": "对象唯一 ID" },
+          "category": { "type": "string", "minLength": 1, "description": "对象类别（如 switches / sockets / fixtures）" },
+          "room_id": { "type": "string", "description": "所属房间 ID（引用 LayoutModel.rooms，只读引用）" },
+          "name": { "type": "string", "description": "对象名称" },
+          "spec": { "type": "object", "description": "对象规格（自由键值，禁止几何 / CAD 数据）" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "description": "本专业约束列表（规范性约束描述，非几何约束）",
+      "items": {
+        "type": "object",
+        "required": ["type", "description"],
+        "properties": {
+          "type": { "type": "string", "minLength": 1 },
+          "description": { "type": "string" },
+          "room_id": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "quality": {
+      "$ref": "../validation/quality.schema.json",
+      "description": "质量评分（canonical: validation/quality.schema.json，PROJECT_RULES §18.1）"
+    }
+  },
+  "additionalProperties": false
+}

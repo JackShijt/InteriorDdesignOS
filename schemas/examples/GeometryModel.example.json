@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "project_id": "Project_001",
+    "agent": "geometry",
+    "task_id": "task-9c1b",
+    "timestamp": "2026-07-22T10:30:00+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": { "confidence": 0.9, "quality_score": 88, "validation_passed": true }
+  },
+  "layout_model_version": "v1",
+  "geometry_model_version": "v1",
+  "coordinate_system": { "origin": [0, 0], "axis": "x-y" },
+  "units": { "length": "mm", "area": "m2", "angle": "degree" },
+  "points": [
+    { "id": "P001", "coord": [0, 0] },
+    { "id": "P002", "coord": [6000, 0] },
+    { "id": "P003", "coord": [10000, 0] },
+    { "id": "P004", "coord": [0, 4000] },
+    { "id": "P005", "coord": [6000, 4000] },
+    { "id": "P006", "coord": [10000, 4000] },
+    { "id": "P007", "coord": [0, 7000] },
+    { "id": "P008", "coord": [4000, 4000] },
+    { "id": "P009", "coord": [4000, 7000] },
+    { "id": "P010", "coord": [10000, 7000] }
+  ],
+  "lines": [
+    { "id": "L001", "start": [0, 0], "end": [6000, 0], "layer_ref": "WALL" },
+    { "id": "L002", "start": [6000, 0], "end": [10000, 0], "layer_ref": "WALL" },
+    { "id": "L003", "start": [0, 4000], "end": [4000, 4000], "layer_ref": "WALL" },
+    { "id": "L004", "start": [6000, 4000], "end": [10000, 4000], "layer_ref": "WALL" },
+    { "id": "L005", "start": [0, 7000], "end": [10000, 7000], "layer_ref": "WALL" },
+    { "id": "L006", "start": [0, 0], "end": [0, 7000], "layer_ref": "WALL" },
+    { "id": "L007", "start": [10000, 0], "end": [10000, 7000], "layer_ref": "WALL" },
+    { "id": "L008", "start": [6000, 0], "end": [6000, 4000], "layer_ref": "WALL" }
+  ],
+  "polygons": [
+    { "id": "PG001", "vertices": [[0, 0], [6000, 0], [6000, 4000], [0, 4000]] },
+    { "id": "PG002", "vertices": [[6000, 0], [10000, 0], [10000, 4000], [6000, 4000]] },
+    { "id": "PG003", "vertices": [[0, 4000], [4000, 4000], [4000, 7000], [0, 7000]] },
+    { "id": "PG004", "vertices": [[4000, 4000], [6000, 4000], [6000, 7000], [4000, 7000]] },
+    { "id": "PG005", "vertices": [[6000, 4000], [10000, 4000], [10000, 7000], [6000, 7000]] }
+  ],
+  "dimensions": [
+    { "id": "D001", "value": 6000, "unit": "mm", "start": [0, 0], "end": [6000, 0] },
+    { "id": "D002", "value": 4000, "unit": "mm", "start": [0, 0], "end": [0, 4000] },
+    { "id": "D003", "value": 10000, "unit": "mm", "start": [0, 0], "end": [0, 7000] }
+  ]
+}

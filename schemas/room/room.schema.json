@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/room/room.schema.json",
+  "title": "Room",
+  "description": "单个房间空间定义（仅描述空间，不含任何 CAD 表达）。被 OriginalModel / LayoutModel 复用。",
+  "type": "object",
+  "required": ["room_id", "name", "type", "boundary"],
+  "properties": {
+    "room_id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "description": "房间名称，如 客厅 / 主卧" },
+    "type": {
+      "type": "string",
+      "enum": [
+        "LIVING", "MASTER_BEDROOM", "SECOND_BEDROOM", "BEDROOM", "KITCHEN",
+        "BATHROOM", "BALCONY", "CORRIDOR", "STUDY", "OTHER"
+      ]
+    },
+    "boundary": {
+      "type": "array",
+      "description": "多边形边界点序列（mm），至少 3 个点构成闭合环",
+      "minItems": 3,
+      "items": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 }
+    },
+    "area": { "type": "number", "minimum": 0, "description": "面积（m²）" },
+    "floor_level": { "type": "number", "description": "相对标高（mm）" }
+  },
+  "additionalProperties": true
+}

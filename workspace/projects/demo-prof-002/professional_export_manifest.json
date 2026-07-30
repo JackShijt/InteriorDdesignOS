@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "project_id": "demo-prof-002",
+  "stage": "PROFESSIONAL_DEEPENING",
+  "generated_at": "2026-07-23T16:35:04.181219",
+  "models": [
+    "ceiling_model.json",
+    "construction_model.json",
+    "electrical_model.json",
+    "flooring_model.json",
+    "furniture_model.json",
+    "hvac_model.json",
+    "lighting_model.json",
+    "plumbing_model.json"
+  ],
+  "validation_report": "professional_validation_report.json"
+}

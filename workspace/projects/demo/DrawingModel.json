@@ -1,0 +1,605 @@
+{
+  "metadata": {
+    "project_id": "demo",
+    "agent": "drawing",
+    "task_id": "drawing-demo",
+    "timestamp": "2026-07-24T16:07:56.356793+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "drawing",
+    "timestamp": "2026-07-24T16:07:56.356793+08:00"
+  },
+  "layout_model_version": "v1",
+  "geometry_model_version": "v1",
+  "drawing_model_version": "v1",
+  "rooms": [
+    {
+      "room_id": "living",
+      "name": "客厅",
+      "type": "living",
+      "area": 36.0
+    },
+    {
+      "room_id": "master",
+      "name": "主卧",
+      "type": "bedroom",
+      "area": 20.0
+    },
+    {
+      "room_id": "second",
+      "name": "次卧",
+      "type": "bedroom",
+      "area": 20.0
+    },
+    {
+      "room_id": "kitchen",
+      "name": "厨房",
+      "type": "kitchen",
+      "area": 16.0
+    },
+    {
+      "room_id": "bath",
+      "name": "卫生间",
+      "type": "bathroom",
+      "area": 8.0
+    }
+  ],
+  "layers": [
+    {
+      "name": "WALL",
+      "color": 7,
+      "line_type": "Continuous",
+      "description": "墙体"
+    },
+    {
+      "name": "DOOR",
+      "color": 3,
+      "line_type": "Continuous",
+      "description": "门"
+    },
+    {
+      "name": "WIN",
+      "color": 4,
+      "line_type": "Continuous",
+      "description": "窗"
+    },
+    {
+      "name": "FURN",
+      "color": 2,
+      "line_type": "Continuous",
+      "description": "家具"
+    },
+    {
+      "name": "AXIS",
+      "color": 1,
+      "line_type": "Center",
+      "description": "轴线"
+    },
+    {
+      "name": "DIM",
+      "color": 1,
+      "line_type": "Continuous",
+      "description": "尺寸标注"
+    },
+    {
+      "name": "TITLEBLOCK",
+      "color": 7,
+      "line_type": "Continuous",
+      "description": "图框"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "w1",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 10000.0,
+          "y": 0.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "exterior"
+      }
+    },
+    {
+      "entity_id": "w2",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 10000.0,
+          "y": 0.0
+        },
+        {
+          "x": 10000.0,
+          "y": 10000.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "exterior"
+      }
+    },
+    {
+      "entity_id": "w3",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 10000.0,
+          "y": 10000.0
+        },
+        {
+          "x": 0.0,
+          "y": 10000.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "exterior"
+      }
+    },
+    {
+      "entity_id": "w4",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 10000.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "exterior"
+      }
+    },
+    {
+      "entity_id": "w5",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 6000.0
+        },
+        {
+          "x": 6000.0,
+          "y": 6000.0
+        }
+      ],
+      "thickness": 120,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "w6",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 4000.0,
+          "y": 6000.0
+        },
+        {
+          "x": 4000.0,
+          "y": 10000.0
+        }
+      ],
+      "thickness": 120,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "w7",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6000.0,
+          "y": 0.0
+        },
+        {
+          "x": 6000.0,
+          "y": 10000.0
+        }
+      ],
+      "thickness": 120,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "w8",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6000.0,
+          "y": 5000.0
+        },
+        {
+          "x": 10000.0,
+          "y": 5000.0
+        }
+      ],
+      "thickness": 120,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "d1",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        2000.0,
+        0.0
+      ],
+      "end": [
+        2600.0,
+        0.0
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "d2",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        6000.0,
+        2000.0
+      ],
+      "end": [
+        6000.0,
+        2600.0
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "d3",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        6000.0,
+        7000.0
+      ],
+      "end": [
+        6000.0,
+        7600.0
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "d4",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        2000.0,
+        6000.0
+      ],
+      "end": [
+        2600.0,
+        6000.0
+      ],
+      "width": 800,
+      "swing": 90
+    },
+    {
+      "entity_id": "d5",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        4000.0,
+        8000.0
+      ],
+      "end": [
+        4000.0,
+        8600.0
+      ],
+      "width": 700,
+      "swing": 90
+    },
+    {
+      "entity_id": "win1",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        4000.0,
+        0.0
+      ],
+      "end": [
+        5200.0,
+        0.0
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "win2",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        10000.0,
+        2000.0
+      ],
+      "end": [
+        10000.0,
+        3500.0
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "win3",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        1000.0,
+        10000.0
+      ],
+      "end": [
+        2500.0,
+        10000.0
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "win4",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        10000.0,
+        7000.0
+      ],
+      "end": [
+        10000.0,
+        8500.0
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "s1",
+      "type": "FURNITURE",
+      "layer": "FURN",
+      "geometry_ref": "SOFA",
+      "position": {
+        "x": 3000.0,
+        "y": 3000.0
+      },
+      "scale": 1.0,
+      "rotation": 0
+    },
+    {
+      "entity_id": "s2",
+      "type": "FURNITURE",
+      "layer": "FURN",
+      "geometry_ref": "TABLE",
+      "position": {
+        "x": 3000.0,
+        "y": 4200.0
+      },
+      "scale": 1.0,
+      "rotation": 0
+    },
+    {
+      "entity_id": "s3",
+      "type": "FURNITURE",
+      "layer": "FURN",
+      "geometry_ref": "DINING",
+      "position": {
+        "x": 4800.0,
+        "y": 2000.0
+      },
+      "scale": 1.0,
+      "rotation": 0
+    },
+    {
+      "entity_id": "s4",
+      "type": "FURNITURE",
+      "layer": "FURN",
+      "geometry_ref": "BED",
+      "position": {
+        "x": 8000.0,
+        "y": 2500.0
+      },
+      "scale": 1.0,
+      "rotation": 0
+    },
+    {
+      "entity_id": "s5",
+      "type": "FURNITURE",
+      "layer": "FURN",
+      "geometry_ref": "BED",
+      "position": {
+        "x": 8000.0,
+        "y": 7500.0
+      },
+      "scale": 1.0,
+      "rotation": 0
+    },
+    {
+      "entity_id": "s6",
+      "type": "FURNITURE",
+      "layer": "FURN",
+      "geometry_ref": "CABINET",
+      "position": {
+        "x": 2000.0,
+        "y": 8000.0
+      },
+      "scale": 1.0,
+      "rotation": 0
+    },
+    {
+      "entity_id": "s7",
+      "type": "FURNITURE",
+      "layer": "FURN",
+      "geometry_ref": "FIXTURE",
+      "position": {
+        "x": 5000.0,
+        "y": 8000.0
+      },
+      "scale": 1.0,
+      "rotation": 0
+    }
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "DIM-living",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "end": [
+        6000.0,
+        0.0
+      ],
+      "value": 6000.0,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-master",
+      "start": [
+        6000.0,
+        0.0
+      ],
+      "end": [
+        10000.0,
+        0.0
+      ],
+      "value": 4000.0,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-second",
+      "start": [
+        6000.0,
+        5000.0
+      ],
+      "end": [
+        10000.0,
+        5000.0
+      ],
+      "value": 4000.0,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-kitchen",
+      "start": [
+        0.0,
+        6000.0
+      ],
+      "end": [
+        4000.0,
+        6000.0
+      ],
+      "value": 4000.0,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-bath",
+      "start": [
+        4000.0,
+        6000.0
+      ],
+      "end": [
+        6000.0,
+        6000.0
+      ],
+      "value": 2000.0,
+      "unit": "mm",
+      "layer": "DIM"
+    }
+  ],
+  "annotations": [
+    {
+      "text": "客厅 36.0㎡",
+      "position": [
+        3000,
+        3000
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "主卧 20.0㎡",
+      "position": [
+        8000,
+        2500
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "次卧 20.0㎡",
+      "position": [
+        8000,
+        7500
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "厨房 16.0㎡",
+      "position": [
+        2000,
+        8000
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "卫生间 8.0㎡",
+      "position": [
+        5000,
+        8000
+      ],
+      "layer": "AXIS",
+      "height": 300
+    }
+  ],
+  "sheets": [
+    {
+      "sheet_id": "S1",
+      "name": "平面布置图",
+      "scale": "1:50",
+      "paper_size": "A3"
+    }
+  ],
+  "blocks": [],
+  "titleblock": {
+    "template_ref": "A3",
+    "size": "A3",
+    "author": "InteriorDesignOS",
+    "drawing_no": "v1"
+  },
+  "coordinate_system": "mm",
+  "units": "mm"
+}

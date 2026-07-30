@@ -1,0 +1,49 @@
+{
+  "project_id": "demo",
+  "name": "100㎡三居室",
+  "current_stage": "INITIALIZATION",
+  "state": "RUNNING",
+  "created_at": "2026-07-24T16:07:56.353499+08:00",
+  "updated_at": "2026-07-24T16:07:56.353499+08:00",
+  "pipeline": {
+    "status": "COMPLETED",
+    "backend": "mock",
+    "model_chain": {
+      "project_id": "demo",
+      "chain": [
+        {
+          "model_type": "layout",
+          "version": "v1",
+          "parent_version": "none",
+          "producer_agent": "layout",
+          "task_id": "layout-demo",
+          "timestamp": "2026-07-24T09:00:00+08:00"
+        },
+        {
+          "model_type": "geometry",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "geometry",
+          "task_id": "geometry-demo",
+          "timestamp": "2026-07-24T16:07:56.355867+08:00"
+        },
+        {
+          "model_type": "drawing",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "drawing",
+          "task_id": "drawing-demo",
+          "timestamp": "2026-07-24T16:07:56.356793+08:00"
+        },
+        {
+          "model_type": "generated",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "pipeline",
+          "task_id": "generated-demo",
+          "timestamp": "2026-07-24T16:07:56.360128+08:00"
+        }
+      ]
+    }
+  }
+}

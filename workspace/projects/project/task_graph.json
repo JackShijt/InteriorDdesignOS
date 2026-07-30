@@ -1,0 +1,79 @@
+{
+  "tasks": [
+    {
+      "task_id": "layout",
+      "agent": "layout",
+      "stage": "LAYOUT",
+      "status": "READY",
+      "dependencies": [],
+      "created_at": "2026-07-27T08:46:09.809797+08:00",
+      "updated_at": "2026-07-27T08:46:09.809876+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {}
+    },
+    {
+      "task_id": "professional",
+      "agent": "professional",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout"
+      ],
+      "created_at": "2026-07-27T08:46:09.809945+08:00",
+      "updated_at": "2026-07-27T08:46:09.816198+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {}
+    },
+    {
+      "task_id": "geometry",
+      "agent": "geometry",
+      "stage": "GEOMETRY",
+      "status": "COMPLETED",
+      "dependencies": [
+        "professional"
+      ],
+      "created_at": "2026-07-27T08:46:09.809979+08:00",
+      "updated_at": "2026-07-27T08:46:09.817335+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {}
+    },
+    {
+      "task_id": "drawing",
+      "agent": "drawing",
+      "stage": "DRAWING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "geometry"
+      ],
+      "created_at": "2026-07-27T08:46:09.810006+08:00",
+      "updated_at": "2026-07-27T08:46:09.819633+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {}
+    },
+    {
+      "task_id": "validation",
+      "agent": "validator",
+      "stage": "VALIDATION",
+      "status": "COMPLETED",
+      "dependencies": [
+        "professional",
+        "geometry",
+        "drawing"
+      ],
+      "created_at": "2026-07-27T08:46:09.810094+08:00",
+      "updated_at": "2026-07-27T08:46:09.819864+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {}
+    }
+  ]
+}

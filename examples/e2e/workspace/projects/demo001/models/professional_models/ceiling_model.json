@@ -1,0 +1,868 @@
+{
+  "metadata": {
+    "project_id": "demo001",
+    "agent": "ceiling",
+    "task_id": "ceiling_task",
+    "timestamp": "2026-07-27T16:25:43.819976+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {}
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "none",
+    "producer_agent": "ceiling",
+    "timestamp": "2026-07-27T16:25:43.819987+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "CEILING",
+  "summary": {
+    "plane_count": 9,
+    "opening_count": 81
+  },
+  "planes": [
+    {
+      "plane_id": "CL-R01",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 3166.666666666667,
+            "y": 0.0
+          },
+          {
+            "x": 3166.666666666667,
+            "y": 3166.666666666667
+          },
+          {
+            "x": 0.0,
+            "y": 3166.666666666667
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-R02",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 3333.3333333333335,
+            "y": 0.0
+          },
+          {
+            "x": 6500.0,
+            "y": 0.0
+          },
+          {
+            "x": 6500.0,
+            "y": 3166.666666666667
+          },
+          {
+            "x": 3333.3333333333335,
+            "y": 3166.666666666667
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-R03",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 6666.666666666667,
+            "y": 0.0
+          },
+          {
+            "x": 9833.333333333334,
+            "y": 0.0
+          },
+          {
+            "x": 9833.333333333334,
+            "y": 3166.666666666667
+          },
+          {
+            "x": 6666.666666666667,
+            "y": 3166.666666666667
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-R04",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 0.0,
+            "y": 3333.3333333333335
+          },
+          {
+            "x": 3166.666666666667,
+            "y": 3333.3333333333335
+          },
+          {
+            "x": 3166.666666666667,
+            "y": 6500.0
+          },
+          {
+            "x": 0.0,
+            "y": 6500.0
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-R05",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 3333.3333333333335,
+            "y": 3333.3333333333335
+          },
+          {
+            "x": 6500.0,
+            "y": 3333.3333333333335
+          },
+          {
+            "x": 6500.0,
+            "y": 6500.0
+          },
+          {
+            "x": 3333.3333333333335,
+            "y": 6500.0
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-R06",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 6666.666666666667,
+            "y": 3333.3333333333335
+          },
+          {
+            "x": 9833.333333333334,
+            "y": 3333.3333333333335
+          },
+          {
+            "x": 9833.333333333334,
+            "y": 6500.0
+          },
+          {
+            "x": 6666.666666666667,
+            "y": 6500.0
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-R07",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 0.0,
+            "y": 6666.666666666667
+          },
+          {
+            "x": 3166.666666666667,
+            "y": 6666.666666666667
+          },
+          {
+            "x": 3166.666666666667,
+            "y": 9833.333333333334
+          },
+          {
+            "x": 0.0,
+            "y": 9833.333333333334
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-R08",
+      "room_id": "R08",
+      "room_name": "书房",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 3333.3333333333335,
+            "y": 6666.666666666667
+          },
+          {
+            "x": 6500.0,
+            "y": 6666.666666666667
+          },
+          {
+            "x": 6500.0,
+            "y": 9833.333333333334
+          },
+          {
+            "x": 3333.3333333333335,
+            "y": 9833.333333333334
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-R09",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 6666.666666666667,
+            "y": 6666.666666666667
+          },
+          {
+            "x": 9833.333333333334,
+            "y": 6666.666666666667
+          },
+          {
+            "x": 9833.333333333334,
+            "y": 9833.333333333334
+          },
+          {
+            "x": 6666.666666666667,
+            "y": 9833.333333333334
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    }
+  ],
+  "beams": [
+    {
+      "beam_id": "BM-MAIN",
+      "type": "STRUCTURAL",
+      "size_mm": [
+        300,
+        500
+      ],
+      "layer": "CEIL-BEAM"
+    }
+  ],
+  "openings": [
+    {
+      "opening_id": "CL-OP-R01-w",
+      "room_id": "R01",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R01-w",
+      "room_id": "R01",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R01-w",
+      "room_id": "R01",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R01-w",
+      "room_id": "R01",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R01-w",
+      "room_id": "R01",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R01-w",
+      "room_id": "R01",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R01-w",
+      "room_id": "R01",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R01-w",
+      "room_id": "R01",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R01-w",
+      "room_id": "R01",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R02-w",
+      "room_id": "R02",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R02-w",
+      "room_id": "R02",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R02-w",
+      "room_id": "R02",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R02-w",
+      "room_id": "R02",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R02-w",
+      "room_id": "R02",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R02-w",
+      "room_id": "R02",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R02-w",
+      "room_id": "R02",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R02-w",
+      "room_id": "R02",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R02-w",
+      "room_id": "R02",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R03-w",
+      "room_id": "R03",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R03-w",
+      "room_id": "R03",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R03-w",
+      "room_id": "R03",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R03-w",
+      "room_id": "R03",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R03-w",
+      "room_id": "R03",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R03-w",
+      "room_id": "R03",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R03-w",
+      "room_id": "R03",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R03-w",
+      "room_id": "R03",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R03-w",
+      "room_id": "R03",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R04-w",
+      "room_id": "R04",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R04-w",
+      "room_id": "R04",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R04-w",
+      "room_id": "R04",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R04-w",
+      "room_id": "R04",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R04-w",
+      "room_id": "R04",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R04-w",
+      "room_id": "R04",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R04-w",
+      "room_id": "R04",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R04-w",
+      "room_id": "R04",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R04-w",
+      "room_id": "R04",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R05-w",
+      "room_id": "R05",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R05-w",
+      "room_id": "R05",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R05-w",
+      "room_id": "R05",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R05-w",
+      "room_id": "R05",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R05-w",
+      "room_id": "R05",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R05-w",
+      "room_id": "R05",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R05-w",
+      "room_id": "R05",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R05-w",
+      "room_id": "R05",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R05-w",
+      "room_id": "R05",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R06-w",
+      "room_id": "R06",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R06-w",
+      "room_id": "R06",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R06-w",
+      "room_id": "R06",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R06-w",
+      "room_id": "R06",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R06-w",
+      "room_id": "R06",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R06-w",
+      "room_id": "R06",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R06-w",
+      "room_id": "R06",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R06-w",
+      "room_id": "R06",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R06-w",
+      "room_id": "R06",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R07-w",
+      "room_id": "R07",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R07-w",
+      "room_id": "R07",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R07-w",
+      "room_id": "R07",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R07-w",
+      "room_id": "R07",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R07-w",
+      "room_id": "R07",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R07-w",
+      "room_id": "R07",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R07-w",
+      "room_id": "R07",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R07-w",
+      "room_id": "R07",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R07-w",
+      "room_id": "R07",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R08-w",
+      "room_id": "R08",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R08-w",
+      "room_id": "R08",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R08-w",
+      "room_id": "R08",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R08-w",
+      "room_id": "R08",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R08-w",
+      "room_id": "R08",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R08-w",
+      "room_id": "R08",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R08-w",
+      "room_id": "R08",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R08-w",
+      "room_id": "R08",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R08-w",
+      "room_id": "R08",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R09-w",
+      "room_id": "R09",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R09-w",
+      "room_id": "R09",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R09-w",
+      "room_id": "R09",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R09-w",
+      "room_id": "R09",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R09-w",
+      "room_id": "R09",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R09-w",
+      "room_id": "R09",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R09-w",
+      "room_id": "R09",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R09-w",
+      "room_id": "R09",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-R09-w",
+      "room_id": "R09",
+      "source": "window",
+      "ref_id": null,
+      "layer": "CEIL-OPENING"
+    }
+  ]
+}

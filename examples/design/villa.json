@@ -1,0 +1,39 @@
+{
+  "requirement": "多代同堂，夫妻+老人+孩子，预算充足偏高端，轻奢风，需要健身区和影音室，强收纳，适老化考虑，采光要好。",
+  "original_model": {
+    "metadata": {
+      "project_id": "villa",
+      "agent": "parser",
+      "task_id": "parser-villa",
+      "timestamp": "2026-07-23T10:00:00+08:00",
+      "schema_version": "1.0",
+      "status": "COMPLETED",
+      "quality": { "confidence": 0.6, "quality_score": 60, "validation_passed": true }
+    },
+    "version": "v1",
+    "source_type": "json",
+    "units": { "length": "mm", "area": "m2", "angle": "degree" },
+    "coordinates": { "origin": [0, 0], "system": "world" },
+    "walls": [
+      { "id": "W01", "start": [0, 0], "end": [8000, 0], "thickness": 240 },
+      { "id": "W02", "start": [8000, 0], "end": [8000, 6000], "thickness": 240 },
+      { "id": "W03", "start": [8000, 6000], "end": [0, 6000], "thickness": 240 },
+      { "id": "W04", "start": [0, 6000], "end": [0, 0], "thickness": 240 }
+    ],
+    "doors": [
+      { "id": "D01", "position": [4000, 0], "width": 1200, "rotation": 0 }
+    ],
+    "windows": [
+      { "id": "WIN01", "position": [2000, 6000], "width": 2400 },
+      { "id": "WIN02", "position": [5000, 6000], "width": 2400 },
+      { "id": "WIN03", "position": [0, 3000], "width": 2000 }
+    ],
+    "rooms": [
+      { "room_id": "R001", "name": "客厅", "type": "LIVING", "boundary": [[0, 0], [8000, 0], [8000, 3000], [0, 3000]], "area": 24.0, "floor_level": 0 },
+      { "room_id": "R002", "name": "主卧", "type": "BEDROOM", "boundary": [[0, 3000], [4000, 3000], [4000, 6000], [0, 6000]], "area": 12.0, "floor_level": 0 },
+      { "room_id": "R003", "name": "老人房", "type": "BEDROOM", "boundary": [[4000, 3000], [8000, 3000], [8000, 6000], [4000, 6000]], "area": 12.0, "floor_level": 0 },
+      { "room_id": "R004", "name": "健身区", "type": "GYM", "boundary": [[0, 3000], [2000, 3000], [2000, 4500], [0, 4500]], "area": 9.0, "floor_level": 0 },
+      { "room_id": "R005", "name": "影音室", "type": "MEDIA", "boundary": [[6000, 3000], [8000, 3000], [8000, 6000], [6000, 6000]], "area": 12.0, "floor_level": 0 }
+    ]
+  }
+}

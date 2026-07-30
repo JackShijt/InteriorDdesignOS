@@ -1,0 +1,330 @@
+{
+  "metadata": {
+    "project_id": "demo-prof-001",
+    "agent": "electrical",
+    "task_id": "professional-electrical-demo-prof-001",
+    "timestamp": "2026-07-23T16:34:51.963687+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 0.95,
+      "quality_score": 95,
+      "validation_passed": true
+    }
+  },
+  "layout_model_version": "v1",
+  "discipline": "ELECTRICAL",
+  "objects": [
+    {
+      "category": "switches",
+      "id": "SW-R001",
+      "room_id": "R001",
+      "name": "客厅主开关",
+      "spec": {
+        "type": "single_pole",
+        "gang": 1
+      }
+    },
+    {
+      "category": "switches",
+      "id": "SW-R002",
+      "room_id": "R002",
+      "name": "主卧主开关",
+      "spec": {
+        "type": "single_pole",
+        "gang": 1
+      }
+    },
+    {
+      "category": "switches",
+      "id": "SW-R003",
+      "room_id": "R003",
+      "name": "次卧主开关",
+      "spec": {
+        "type": "single_pole",
+        "gang": 1
+      }
+    },
+    {
+      "category": "switches",
+      "id": "SW-R004",
+      "room_id": "R004",
+      "name": "厨房主开关",
+      "spec": {
+        "type": "single_pole",
+        "gang": 1
+      }
+    },
+    {
+      "category": "switches",
+      "id": "SW-R005",
+      "room_id": "R005",
+      "name": "卫生间主开关",
+      "spec": {
+        "type": "single_pole",
+        "gang": 1
+      }
+    },
+    {
+      "category": "sockets",
+      "id": "SK-R001-1",
+      "room_id": "R001",
+      "name": "客厅插座1",
+      "spec": {
+        "type": "5_hole",
+        "rating": "10A"
+      }
+    },
+    {
+      "category": "sockets",
+      "id": "SK-R001-2",
+      "room_id": "R001",
+      "name": "客厅插座2",
+      "spec": {
+        "type": "5_hole",
+        "rating": "10A"
+      }
+    },
+    {
+      "category": "sockets",
+      "id": "SK-R002-1",
+      "room_id": "R002",
+      "name": "主卧插座1",
+      "spec": {
+        "type": "5_hole",
+        "rating": "10A"
+      }
+    },
+    {
+      "category": "sockets",
+      "id": "SK-R002-2",
+      "room_id": "R002",
+      "name": "主卧插座2",
+      "spec": {
+        "type": "5_hole",
+        "rating": "10A"
+      }
+    },
+    {
+      "category": "sockets",
+      "id": "SK-R003-1",
+      "room_id": "R003",
+      "name": "次卧插座1",
+      "spec": {
+        "type": "5_hole",
+        "rating": "10A"
+      }
+    },
+    {
+      "category": "sockets",
+      "id": "SK-R003-2",
+      "room_id": "R003",
+      "name": "次卧插座2",
+      "spec": {
+        "type": "5_hole",
+        "rating": "10A"
+      }
+    },
+    {
+      "category": "sockets",
+      "id": "SK-R004-1",
+      "room_id": "R004",
+      "name": "厨房插座1",
+      "spec": {
+        "type": "5_hole",
+        "rating": "10A"
+      }
+    },
+    {
+      "category": "sockets",
+      "id": "SK-R004-2",
+      "room_id": "R004",
+      "name": "厨房插座2",
+      "spec": {
+        "type": "5_hole",
+        "rating": "10A"
+      }
+    },
+    {
+      "category": "sockets",
+      "id": "SK-R005-1",
+      "room_id": "R005",
+      "name": "卫生间插座1",
+      "spec": {
+        "type": "5_hole",
+        "rating": "10A"
+      }
+    },
+    {
+      "category": "sockets",
+      "id": "SK-R005-2",
+      "room_id": "R005",
+      "name": "卫生间插座2",
+      "spec": {
+        "type": "5_hole",
+        "rating": "10A"
+      }
+    },
+    {
+      "category": "lights",
+      "id": "LT-R001",
+      "room_id": "R001",
+      "name": "客厅照明回路点位",
+      "spec": {
+        "type": "ceiling",
+        "power_w": 24
+      }
+    },
+    {
+      "category": "lights",
+      "id": "LT-R002",
+      "room_id": "R002",
+      "name": "主卧照明回路点位",
+      "spec": {
+        "type": "ceiling",
+        "power_w": 24
+      }
+    },
+    {
+      "category": "lights",
+      "id": "LT-R003",
+      "room_id": "R003",
+      "name": "次卧照明回路点位",
+      "spec": {
+        "type": "ceiling",
+        "power_w": 24
+      }
+    },
+    {
+      "category": "lights",
+      "id": "LT-R004",
+      "room_id": "R004",
+      "name": "厨房照明回路点位",
+      "spec": {
+        "type": "ceiling",
+        "power_w": 24
+      }
+    },
+    {
+      "category": "lights",
+      "id": "LT-R005",
+      "room_id": "R005",
+      "name": "卫生间照明回路点位",
+      "spec": {
+        "type": "ceiling",
+        "power_w": 24
+      }
+    },
+    {
+      "category": "circuits",
+      "id": "C-R001",
+      "room_id": "R001",
+      "name": "客厅回路",
+      "spec": {
+        "breaker": "16A",
+        "loads": [
+          "LT-R001",
+          "SK-R001-1",
+          "SK-R001-2"
+        ]
+      }
+    },
+    {
+      "category": "circuits",
+      "id": "C-R002",
+      "room_id": "R002",
+      "name": "主卧回路",
+      "spec": {
+        "breaker": "16A",
+        "loads": [
+          "LT-R002",
+          "SK-R002-1",
+          "SK-R002-2"
+        ]
+      }
+    },
+    {
+      "category": "circuits",
+      "id": "C-R003",
+      "room_id": "R003",
+      "name": "次卧回路",
+      "spec": {
+        "breaker": "16A",
+        "loads": [
+          "LT-R003",
+          "SK-R003-1",
+          "SK-R003-2"
+        ]
+      }
+    },
+    {
+      "category": "circuits",
+      "id": "C-R004",
+      "room_id": "R004",
+      "name": "厨房回路",
+      "spec": {
+        "breaker": "16A",
+        "loads": [
+          "LT-R004",
+          "SK-R004-1",
+          "SK-R004-2"
+        ]
+      }
+    },
+    {
+      "category": "circuits",
+      "id": "C-R005",
+      "room_id": "R005",
+      "name": "卫生间回路",
+      "spec": {
+        "breaker": "16A",
+        "loads": [
+          "LT-R005",
+          "SK-R005-1",
+          "SK-R005-2"
+        ]
+      }
+    },
+    {
+      "category": "panel",
+      "id": "PANEL-1",
+      "name": "户内配电箱",
+      "spec": {
+        "main_breaker": "63A",
+        "circuit_count": 5
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "type": "code",
+      "room_id": "R001",
+      "description": "客厅插座回路须配剩余电流保护（Mock 规范约束）"
+    },
+    {
+      "type": "code",
+      "room_id": "R002",
+      "description": "主卧插座回路须配剩余电流保护（Mock 规范约束）"
+    },
+    {
+      "type": "code",
+      "room_id": "R003",
+      "description": "次卧插座回路须配剩余电流保护（Mock 规范约束）"
+    },
+    {
+      "type": "code",
+      "room_id": "R004",
+      "description": "厨房插座回路须配剩余电流保护（Mock 规范约束）"
+    },
+    {
+      "type": "code",
+      "room_id": "R005",
+      "description": "卫生间插座回路须配剩余电流保护（Mock 规范约束）"
+    }
+  ],
+  "quality": {
+    "confidence": 0.95,
+    "quality_score": 95,
+    "validation_passed": true
+  }
+}

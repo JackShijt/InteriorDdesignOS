@@ -1,0 +1,77 @@
+{
+  "project_id": "orchestrated-project",
+  "chain": [
+    {
+      "model_type": "layout",
+      "version": "v1",
+      "parent_version": "none",
+      "producer_agent": "layout",
+      "task_id": "layout-demo",
+      "timestamp": "2026-07-24T09:00:00+08:00"
+    },
+    {
+      "model_type": "lighting",
+      "version": "v1",
+      "parent_version": "v1",
+      "producer_agent": "lighting",
+      "task_id": "lighting_task",
+      "timestamp": "2026-07-27T10:07:52.353725+08:00"
+    },
+    {
+      "model_type": "plumbing",
+      "version": "v1",
+      "parent_version": "v1",
+      "producer_agent": "plumbing",
+      "task_id": "plumbing_task",
+      "timestamp": "2026-07-27T10:07:52.354137+08:00"
+    },
+    {
+      "model_type": "ceiling",
+      "version": "v1",
+      "parent_version": "v1",
+      "producer_agent": "ceiling",
+      "task_id": "ceiling_task",
+      "timestamp": "2026-07-27T10:07:52.354326+08:00"
+    },
+    {
+      "model_type": "electrical",
+      "version": "v1",
+      "parent_version": "v1",
+      "producer_agent": "electrical",
+      "task_id": "electrical_task",
+      "timestamp": "2026-07-27T10:07:52.354551+08:00"
+    },
+    {
+      "model_type": "geometry",
+      "version": "v1",
+      "parent_version": "v1",
+      "producer_agent": "geometry",
+      "task_id": "geometry_task",
+      "timestamp": "2026-07-27T10:07:52.355006+08:00"
+    },
+    {
+      "model_type": "drawing",
+      "version": "v1",
+      "parent_version": "v1",
+      "producer_agent": "drawing",
+      "task_id": "drawing_task",
+      "timestamp": "2026-07-27T10:07:52.356711+08:00"
+    },
+    {
+      "model_type": "validator",
+      "version": "v1",
+      "parent_version": "v1",
+      "producer_agent": "validator",
+      "task_id": "validator_task",
+      "timestamp": "2026-07-27T10:07:52.359901+08:00"
+    },
+    {
+      "model_type": "generated",
+      "version": "v1",
+      "parent_version": "v1",
+      "producer_agent": "pipeline",
+      "task_id": "generated-orchestrated-project",
+      "timestamp": "2026-07-27T10:07:52.360370+08:00"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "lighting",
+  "agent_name": "lighting",
+  "role": "照明专业深化 Agent：由 LayoutModel 派生灯具 / 开关 / 照明回路（规则式）。",
+  "discipline": "LIGHTING",
+  "input_schema": ["LayoutModel"],
+  "output_schema": ["LightingModel"],
+  "capabilities": ["professional_deepening", "lighting_design", "fixture_layout"],
+  "dependencies": ["layout"],
+  "forbidden_actions": ["generate_DWG", "modify_layout", "autocad_operation", "ai_design_algorithm"],
+  "impl": "agents.lighting.lighting_agent:LightingAgent"
+}

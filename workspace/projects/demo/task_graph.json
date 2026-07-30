@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "task_id": "geometry",
+      "agent": "geometry",
+      "stage": "GEOMETRY",
+      "status": "COMPLETED",
+      "dependencies": [],
+      "created_at": "2026-07-24T16:07:56.354644+08:00",
+      "updated_at": "2026-07-24T16:07:56.356626+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {}
+    },
+    {
+      "task_id": "drawing",
+      "agent": "drawing",
+      "stage": "DRAWING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "geometry"
+      ],
+      "created_at": "2026-07-24T16:07:56.354722+08:00",
+      "updated_at": "2026-07-24T16:07:56.360120+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {}
+    }
+  ]
+}

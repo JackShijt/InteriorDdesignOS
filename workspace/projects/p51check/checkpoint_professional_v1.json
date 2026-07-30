@@ -1,0 +1,27 @@
+{
+  "version": "v1",
+  "project_id": "p51check",
+  "stage": "PROFESSIONAL_DEEPENING",
+  "state": "COMPLETED",
+  "disciplines": [
+    "electrical",
+    "plumbing",
+    "lighting",
+    "ceiling",
+    "flooring",
+    "hvac",
+    "construction",
+    "furniture"
+  ],
+  "task_status": {
+    "professional-electrical-p51check": "COMPLETED",
+    "professional-plumbing-p51check": "COMPLETED",
+    "professional-lighting-p51check": "COMPLETED",
+    "professional-ceiling-p51check": "COMPLETED",
+    "professional-flooring-p51check": "COMPLETED",
+    "professional-hvac-p51check": "COMPLETED",
+    "professional-construction-p51check": "COMPLETED",
+    "professional-furniture-p51check": "COMPLETED"
+  },
+  "updated_at": "2026-07-24T13:24:37.323563"
+}

@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "project_id": "e2e_design",
+  "state": "RUNNING",
+  "current_stage": "DESIGN_SPEC",
+  "task_status": {
+    "original_model-e2e_design": "PENDING",
+    "design-e2e_design": "COMPLETED"
+  },
+  "updated_at": "2026-07-23T14:21:50.504777"
+}

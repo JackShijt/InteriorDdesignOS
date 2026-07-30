@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "project_id": "project",
+    "agent": "validator",
+    "task_id": "validator-project",
+    "timestamp": "2026-07-27T08:46:09.819743+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "validator",
+    "timestamp": "2026-07-27T08:46:09.819743+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "status": "PASS",
+  "checked_count": 107,
+  "issues": [],
+  "rule_results": [
+    {
+      "rule": "circuit_load_limit",
+      "violations": 0
+    }
+  ],
+  "summary": {
+    "error_count": 0,
+    "warn_count": 0,
+    "room_count": 5,
+    "professional_model_count": 6
+  }
+}

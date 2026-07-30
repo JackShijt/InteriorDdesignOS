@@ -1,0 +1,1265 @@
+{
+  "metadata": {},
+  "version": {},
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "source_project_id": "demo001",
+  "drawing_model_ref": "",
+  "cad_backend": "mock",
+  "command_count": 0,
+  "drawing_command_log": "",
+  "summary": {
+    "source": "dwg_round_trip",
+    "counts": {
+      "layers": 7,
+      "entities": 63,
+      "dimensions": 9,
+      "walls": 36,
+      "doors": 9,
+      "windows": 9,
+      "furniture": 0,
+      "annotations": 9
+    }
+  },
+  "dwg_path": "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/examples/e2e/workspace/projects/demo001/cad/demo001.dwg",
+  "layers": [
+    {
+      "name": "WALL",
+      "color": "7",
+      "linetype": "Continuous"
+    },
+    {
+      "name": "DOOR",
+      "color": "3",
+      "linetype": "Continuous"
+    },
+    {
+      "name": "WIN",
+      "color": "4",
+      "linetype": "Continuous"
+    },
+    {
+      "name": "FURN",
+      "color": "2",
+      "linetype": "Continuous"
+    },
+    {
+      "name": "AXIS",
+      "color": "1",
+      "linetype": "Center"
+    },
+    {
+      "name": "DIM",
+      "color": "1",
+      "linetype": "Continuous"
+    },
+    {
+      "name": "TITLEBLOCK",
+      "color": "7",
+      "linetype": "Continuous"
+    }
+  ],
+  "entities": [
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 3166.67,
+          "y": 0.0
+        }
+      ],
+      "tag": "W001",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00001"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 0.0
+        },
+        {
+          "x": 3166.67,
+          "y": 3166.67
+        }
+      ],
+      "tag": "W002",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00002"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 3166.67
+        },
+        {
+          "x": 0.0,
+          "y": 3166.67
+        }
+      ],
+      "tag": "W003",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00003"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 3166.67
+        },
+        {
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "tag": "W004",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00004"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 0.0
+        },
+        {
+          "x": 6500.0,
+          "y": 0.0
+        }
+      ],
+      "tag": "W005",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00005"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 0.0
+        },
+        {
+          "x": 6500.0,
+          "y": 3166.67
+        }
+      ],
+      "tag": "W006",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00006"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 3166.67
+        },
+        {
+          "x": 3333.33,
+          "y": 3166.67
+        }
+      ],
+      "tag": "W007",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00007"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 3166.67
+        },
+        {
+          "x": 3333.33,
+          "y": 0.0
+        }
+      ],
+      "tag": "W008",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00008"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 0.0
+        },
+        {
+          "x": 9833.33,
+          "y": 0.0
+        }
+      ],
+      "tag": "W009",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00009"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 0.0
+        },
+        {
+          "x": 9833.33,
+          "y": 3166.67
+        }
+      ],
+      "tag": "W010",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00010"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 3166.67
+        },
+        {
+          "x": 6666.67,
+          "y": 3166.67
+        }
+      ],
+      "tag": "W011",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00011"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 3166.67
+        },
+        {
+          "x": 6666.67,
+          "y": 0.0
+        }
+      ],
+      "tag": "W012",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00012"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 3333.33
+        },
+        {
+          "x": 3166.67,
+          "y": 3333.33
+        }
+      ],
+      "tag": "W013",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00013"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 3333.33
+        },
+        {
+          "x": 3166.67,
+          "y": 6500.0
+        }
+      ],
+      "tag": "W014",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00014"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 6500.0
+        },
+        {
+          "x": 0.0,
+          "y": 6500.0
+        }
+      ],
+      "tag": "W015",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00015"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 6500.0
+        },
+        {
+          "x": 0.0,
+          "y": 3333.33
+        }
+      ],
+      "tag": "W016",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00016"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 3333.33
+        },
+        {
+          "x": 6500.0,
+          "y": 3333.33
+        }
+      ],
+      "tag": "W017",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00017"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 3333.33
+        },
+        {
+          "x": 6500.0,
+          "y": 6500.0
+        }
+      ],
+      "tag": "W018",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00018"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 6500.0
+        },
+        {
+          "x": 3333.33,
+          "y": 6500.0
+        }
+      ],
+      "tag": "W019",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00019"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 6500.0
+        },
+        {
+          "x": 3333.33,
+          "y": 3333.33
+        }
+      ],
+      "tag": "W020",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00020"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 3333.33
+        },
+        {
+          "x": 9833.33,
+          "y": 3333.33
+        }
+      ],
+      "tag": "W021",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00021"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 3333.33
+        },
+        {
+          "x": 9833.33,
+          "y": 6500.0
+        }
+      ],
+      "tag": "W022",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00022"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 6500.0
+        },
+        {
+          "x": 6666.67,
+          "y": 6500.0
+        }
+      ],
+      "tag": "W023",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00023"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 6500.0
+        },
+        {
+          "x": 6666.67,
+          "y": 3333.33
+        }
+      ],
+      "tag": "W024",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00024"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 6666.67
+        },
+        {
+          "x": 3166.67,
+          "y": 6666.67
+        }
+      ],
+      "tag": "W025",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00025"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 6666.67
+        },
+        {
+          "x": 3166.67,
+          "y": 9833.33
+        }
+      ],
+      "tag": "W026",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00026"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 9833.33
+        },
+        {
+          "x": 0.0,
+          "y": 9833.33
+        }
+      ],
+      "tag": "W027",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00027"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 9833.33
+        },
+        {
+          "x": 0.0,
+          "y": 6666.67
+        }
+      ],
+      "tag": "W028",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00028"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 6666.67
+        },
+        {
+          "x": 6500.0,
+          "y": 6666.67
+        }
+      ],
+      "tag": "W029",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00029"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 6666.67
+        },
+        {
+          "x": 6500.0,
+          "y": 9833.33
+        }
+      ],
+      "tag": "W030",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00030"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 9833.33
+        },
+        {
+          "x": 3333.33,
+          "y": 9833.33
+        }
+      ],
+      "tag": "W031",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00031"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 9833.33
+        },
+        {
+          "x": 3333.33,
+          "y": 6666.67
+        }
+      ],
+      "tag": "W032",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00032"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 6666.67
+        },
+        {
+          "x": 9833.33,
+          "y": 6666.67
+        }
+      ],
+      "tag": "W033",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00033"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 6666.67
+        },
+        {
+          "x": 9833.33,
+          "y": 9833.33
+        }
+      ],
+      "tag": "W034",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00034"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 9833.33
+        },
+        {
+          "x": 6666.67,
+          "y": 9833.33
+        }
+      ],
+      "tag": "W035",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00035"
+    },
+    {
+      "type": "polyline",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 9833.33
+        },
+        {
+          "x": 6666.67,
+          "y": 6666.67
+        }
+      ],
+      "tag": "W036",
+      "role": "wall",
+      "thickness": 200,
+      "id": "E-00036"
+    },
+    {
+      "type": "line",
+      "layer": "DOOR",
+      "start": {
+        "x": 1133.33,
+        "y": 0.0
+      },
+      "end": {
+        "x": 2033.33,
+        "y": 0.0
+      },
+      "tag": "D001",
+      "role": "door",
+      "width": 900,
+      "id": "E-00037"
+    },
+    {
+      "type": "line",
+      "layer": "DOOR",
+      "start": {
+        "x": 4466.67,
+        "y": 0.0
+      },
+      "end": {
+        "x": 5366.67,
+        "y": 0.0
+      },
+      "tag": "D002",
+      "role": "door",
+      "width": 900,
+      "id": "E-00038"
+    },
+    {
+      "type": "line",
+      "layer": "DOOR",
+      "start": {
+        "x": 7800.0,
+        "y": 0.0
+      },
+      "end": {
+        "x": 8700.0,
+        "y": 0.0
+      },
+      "tag": "D003",
+      "role": "door",
+      "width": 900,
+      "id": "E-00039"
+    },
+    {
+      "type": "line",
+      "layer": "DOOR",
+      "start": {
+        "x": 1133.33,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 2033.33,
+        "y": 3333.33
+      },
+      "tag": "D004",
+      "role": "door",
+      "width": 900,
+      "id": "E-00040"
+    },
+    {
+      "type": "line",
+      "layer": "DOOR",
+      "start": {
+        "x": 4466.67,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 5366.67,
+        "y": 3333.33
+      },
+      "tag": "D005",
+      "role": "door",
+      "width": 900,
+      "id": "E-00041"
+    },
+    {
+      "type": "line",
+      "layer": "DOOR",
+      "start": {
+        "x": 7800.0,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 8700.0,
+        "y": 3333.33
+      },
+      "tag": "D006",
+      "role": "door",
+      "width": 900,
+      "id": "E-00042"
+    },
+    {
+      "type": "line",
+      "layer": "DOOR",
+      "start": {
+        "x": 1133.33,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 2033.33,
+        "y": 6666.67
+      },
+      "tag": "D007",
+      "role": "door",
+      "width": 900,
+      "id": "E-00043"
+    },
+    {
+      "type": "line",
+      "layer": "DOOR",
+      "start": {
+        "x": 4466.67,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 5366.67,
+        "y": 6666.67
+      },
+      "tag": "D008",
+      "role": "door",
+      "width": 900,
+      "id": "E-00044"
+    },
+    {
+      "type": "line",
+      "layer": "DOOR",
+      "start": {
+        "x": 7800.0,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 8700.0,
+        "y": 6666.67
+      },
+      "tag": "D009",
+      "role": "door",
+      "width": 900,
+      "id": "E-00045"
+    },
+    {
+      "type": "line",
+      "layer": "WIN",
+      "start": {
+        "x": 3166.67,
+        "y": 833.33
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 2333.33
+      },
+      "tag": "WIN001",
+      "role": "window",
+      "width": null,
+      "id": "E-00046"
+    },
+    {
+      "type": "line",
+      "layer": "WIN",
+      "start": {
+        "x": 6500.0,
+        "y": 833.33
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 2333.33
+      },
+      "tag": "WIN002",
+      "role": "window",
+      "width": null,
+      "id": "E-00047"
+    },
+    {
+      "type": "line",
+      "layer": "WIN",
+      "start": {
+        "x": 9833.33,
+        "y": 833.33
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 2333.33
+      },
+      "tag": "WIN003",
+      "role": "window",
+      "width": null,
+      "id": "E-00048"
+    },
+    {
+      "type": "line",
+      "layer": "WIN",
+      "start": {
+        "x": 3166.67,
+        "y": 4166.67
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 5666.67
+      },
+      "tag": "WIN004",
+      "role": "window",
+      "width": null,
+      "id": "E-00049"
+    },
+    {
+      "type": "line",
+      "layer": "WIN",
+      "start": {
+        "x": 6500.0,
+        "y": 4166.67
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 5666.67
+      },
+      "tag": "WIN005",
+      "role": "window",
+      "width": null,
+      "id": "E-00050"
+    },
+    {
+      "type": "line",
+      "layer": "WIN",
+      "start": {
+        "x": 9833.33,
+        "y": 4166.67
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 5666.67
+      },
+      "tag": "WIN006",
+      "role": "window",
+      "width": null,
+      "id": "E-00051"
+    },
+    {
+      "type": "line",
+      "layer": "WIN",
+      "start": {
+        "x": 3166.67,
+        "y": 7500.0
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 9000.0
+      },
+      "tag": "WIN007",
+      "role": "window",
+      "width": null,
+      "id": "E-00052"
+    },
+    {
+      "type": "line",
+      "layer": "WIN",
+      "start": {
+        "x": 6500.0,
+        "y": 7500.0
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 9000.0
+      },
+      "tag": "WIN008",
+      "role": "window",
+      "width": null,
+      "id": "E-00053"
+    },
+    {
+      "type": "line",
+      "layer": "WIN",
+      "start": {
+        "x": 9833.33,
+        "y": 7500.0
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 9000.0
+      },
+      "tag": "WIN009",
+      "role": "window",
+      "width": null,
+      "id": "E-00054"
+    },
+    {
+      "type": "text",
+      "layer": "AXIS",
+      "text": "客厅 10.03㎡",
+      "position": {
+        "x": 1583.34,
+        "y": 1583.34
+      },
+      "height": 300,
+      "role": "annotation",
+      "id": "E-00055"
+    },
+    {
+      "type": "text",
+      "layer": "AXIS",
+      "text": "主卧 10.03㎡",
+      "position": {
+        "x": 4916.66,
+        "y": 1583.34
+      },
+      "height": 300,
+      "role": "annotation",
+      "id": "E-00056"
+    },
+    {
+      "type": "text",
+      "layer": "AXIS",
+      "text": "次卧 10.03㎡",
+      "position": {
+        "x": 8250.0,
+        "y": 1583.34
+      },
+      "height": 300,
+      "role": "annotation",
+      "id": "E-00057"
+    },
+    {
+      "type": "text",
+      "layer": "AXIS",
+      "text": "厨房 10.03㎡",
+      "position": {
+        "x": 1583.34,
+        "y": 4916.67
+      },
+      "height": 300,
+      "role": "annotation",
+      "id": "E-00058"
+    },
+    {
+      "type": "text",
+      "layer": "AXIS",
+      "text": "卫生间 10.03㎡",
+      "position": {
+        "x": 4916.67,
+        "y": 4916.66
+      },
+      "height": 300,
+      "role": "annotation",
+      "id": "E-00059"
+    },
+    {
+      "type": "text",
+      "layer": "AXIS",
+      "text": "阳台 10.03㎡",
+      "position": {
+        "x": 8250.0,
+        "y": 4916.67
+      },
+      "height": 300,
+      "role": "annotation",
+      "id": "E-00060"
+    },
+    {
+      "type": "text",
+      "layer": "AXIS",
+      "text": "餐厅 10.03㎡",
+      "position": {
+        "x": 1583.34,
+        "y": 8250.0
+      },
+      "height": 300,
+      "role": "annotation",
+      "id": "E-00061"
+    },
+    {
+      "type": "text",
+      "layer": "AXIS",
+      "text": "书房 10.03㎡",
+      "position": {
+        "x": 4916.67,
+        "y": 8250.0
+      },
+      "height": 300,
+      "role": "annotation",
+      "id": "E-00062"
+    },
+    {
+      "type": "text",
+      "layer": "AXIS",
+      "text": "玄关 10.03㎡",
+      "position": {
+        "x": 8250.0,
+        "y": 8250.0
+      },
+      "height": 300,
+      "role": "annotation",
+      "id": "E-00063"
+    }
+  ],
+  "dimensions": [
+    {
+      "type": "linear",
+      "layer": "DIM",
+      "start": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 0.0
+      },
+      "value": 3166.7,
+      "unit": "mm",
+      "tag": "DIM-R01",
+      "id": "DIM-00064"
+    },
+    {
+      "type": "linear",
+      "layer": "DIM",
+      "start": {
+        "x": 3333.33,
+        "y": 0.0
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 0.0
+      },
+      "value": 3166.7,
+      "unit": "mm",
+      "tag": "DIM-R02",
+      "id": "DIM-00065"
+    },
+    {
+      "type": "linear",
+      "layer": "DIM",
+      "start": {
+        "x": 6666.67,
+        "y": 0.0
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 0.0
+      },
+      "value": 3166.7,
+      "unit": "mm",
+      "tag": "DIM-R03",
+      "id": "DIM-00066"
+    },
+    {
+      "type": "linear",
+      "layer": "DIM",
+      "start": {
+        "x": 0.0,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 3333.33
+      },
+      "value": 3166.7,
+      "unit": "mm",
+      "tag": "DIM-R04",
+      "id": "DIM-00067"
+    },
+    {
+      "type": "linear",
+      "layer": "DIM",
+      "start": {
+        "x": 3333.33,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 3333.33
+      },
+      "value": 3166.7,
+      "unit": "mm",
+      "tag": "DIM-R05",
+      "id": "DIM-00068"
+    },
+    {
+      "type": "linear",
+      "layer": "DIM",
+      "start": {
+        "x": 6666.67,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 3333.33
+      },
+      "value": 3166.7,
+      "unit": "mm",
+      "tag": "DIM-R06",
+      "id": "DIM-00069"
+    },
+    {
+      "type": "linear",
+      "layer": "DIM",
+      "start": {
+        "x": 0.0,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 6666.67
+      },
+      "value": 3166.7,
+      "unit": "mm",
+      "tag": "DIM-R07",
+      "id": "DIM-00070"
+    },
+    {
+      "type": "linear",
+      "layer": "DIM",
+      "start": {
+        "x": 3333.33,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 6666.67
+      },
+      "value": 3166.7,
+      "unit": "mm",
+      "tag": "DIM-R08",
+      "id": "DIM-00071"
+    },
+    {
+      "type": "linear",
+      "layer": "DIM",
+      "start": {
+        "x": 6666.67,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 6666.67
+      },
+      "value": 3166.7,
+      "unit": "mm",
+      "tag": "DIM-R09",
+      "id": "DIM-00072"
+    }
+  ],
+  "counts": {
+    "layers": 7,
+    "entities": 63,
+    "dimensions": 9,
+    "walls": 36,
+    "doors": 9,
+    "windows": 9,
+    "furniture": 0,
+    "annotations": 9
+  }
+}

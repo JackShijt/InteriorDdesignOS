@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/cad/generated_model.schema.json",
+  "title": "GeneratedModel",
+  "description": "DWG 回读模型（WORKFLOW.md Stage 9 / PROJECT_RULES §19）。结构尽量接近 LayoutModel + GeometryModel，用于 Round-trip Compare：与 LayoutModel 比对房间数量、边界、墙体/门窗位置、尺寸与空间关系。",
+  "type": "object",
+  "required": ["metadata", "source_dwg", "coordinates", "rooms", "walls", "doors", "windows", "dimensions"],
+  "properties": {
+    "metadata": {
+      "$ref": "../core/metadata.schema.json",
+      "description": "统一元数据（canonical: core/metadata.schema.json，PROJECT_RULES §4.3）"
+    },
+    "source_dwg": { "type": "string", "description": "回读来源的 DWG 路径" },
+    "coordinates": {
+      "type": "object",
+      "properties": {
+        "origin": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 },
+        "system": { "type": "string" }
+      }
+    },
+    "rooms": {
+      "type": "array",
+      "description": "回读得到的房间（用于与 LayoutModel.rooms 比对）",
+      "items": { "$ref": "../room/room.schema.json" }
+    },
+    "walls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "start", "end"],
+        "properties": {
+          "id": { "type": "string" },
+          "start": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 },
+          "end": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 }
+        }
+      }
+    },
+    "doors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "position"],
+        "properties": {
+          "id": { "type": "string" },
+          "position": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 }
+        }
+      }
+    },
+    "windows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "position"],
+        "properties": {
+          "id": { "type": "string" },
+          "position": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 }
+        }
+      }
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "value"],
+        "properties": {
+          "id": { "type": "string" },
+          "value": { "type": "number", "minimum": 0 },
+          "unit": { "type": "string", "enum": ["mm"] }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

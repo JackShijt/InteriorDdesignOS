@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "project_id": "project",
+    "agent": "construction",
+    "task_id": "construction-project",
+    "timestamp": "2026-07-27T08:46:09.815365+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "construction",
+    "timestamp": "2026-07-27T08:46:09.815365+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "CONSTRUCTION",
+  "summary": {
+    "item_count": 5,
+    "finish_count": 10
+  },
+  "items": [
+    {
+      "item_id": "CI-living",
+      "category": "WALL",
+      "room_id": "living",
+      "room_name": "客厅",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-master",
+      "category": "WALL",
+      "room_id": "master",
+      "room_name": "主卧",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-second",
+      "category": "WALL",
+      "room_id": "second",
+      "room_name": "次卧",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-kitchen",
+      "category": "WALL",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-bath",
+      "category": "WALL",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    }
+  ],
+  "finishes": [
+    {
+      "finish_id": "FN-FLOOR-living",
+      "category": "FLOOR",
+      "room_id": "living",
+      "room_name": "客厅",
+      "material": "实木复合地板",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-living",
+      "category": "WALL",
+      "room_id": "living",
+      "room_name": "客厅",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-master",
+      "category": "FLOOR",
+      "room_id": "master",
+      "room_name": "主卧",
+      "material": "实木复合地板",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-master",
+      "category": "WALL",
+      "room_id": "master",
+      "room_name": "主卧",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-second",
+      "category": "FLOOR",
+      "room_id": "second",
+      "room_name": "次卧",
+      "material": "实木复合地板",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-second",
+      "category": "WALL",
+      "room_id": "second",
+      "room_name": "次卧",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-kitchen",
+      "category": "FLOOR",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "material": "瓷砖",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-kitchen",
+      "category": "WALL",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-bath",
+      "category": "FLOOR",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "material": "瓷砖",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-bath",
+      "category": "WALL",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/project/project.schema.json",
+  "title": "Project",
+  "description": "工程级项目状态对象，持久化于 workspace/projects/<id>/（PROJECT_RULES §11、WORKFLOW.md Stage 0）。",
+  "type": "object",
+  "required": ["project_id", "name", "current_stage", "state", "created_at", "updated_at"],
+  "properties": {
+    "project_id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string" },
+    "current_stage": {
+      "type": "string",
+      "enum": [
+        "INITIALIZATION", "INPUT_ANALYSIS", "ORIGINAL_MODEL", "DESIGN_SPEC",
+        "LAYOUT", "PROFESSIONAL_DEEPENING", "GEOMETRY", "DRAWING",
+        "DWG_GENERATION", "VALIDATION", "REPAIR", "EXPORT"
+      ]
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "PENDING", "READY", "RUNNING", "WAITING_USER", "WAITING_AGENT",
+        "RETRYING", "VALIDATING", "REPAIRING", "COMPLETED", "FAILED",
+        "CANCELLED", "DELIVERED"
+      ]
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": true
+}

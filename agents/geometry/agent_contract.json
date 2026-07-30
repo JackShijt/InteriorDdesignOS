@@ -1,0 +1,10 @@
+{
+  "name": "geometry",
+  "role": "将 LayoutModel 转换为 GeometryModel 几何中间层（Layout → CAD）",
+  "input_schema": ["LayoutModel"],
+  "output_schema": ["GeometryModel"],
+  "capabilities": ["geometry_generate", "wall_geometry", "dimension_chain"],
+  "dependencies": ["layout"],
+  "forbidden": ["modify_design", "modify_layout", "modify_drawing"],
+  "impl": "agents.geometry.geometry_agent:GeometryAgent"
+}

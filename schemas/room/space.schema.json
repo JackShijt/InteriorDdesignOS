@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/room/space.schema.json",
+  "title": "Space",
+  "description": "空间集合：全局边界 + 房间列表。用于专业深化阶段的局部空间上下文。房间定义统一引用 room/room.schema.json，避免定义分裂（P1-3）。",
+  "type": "object",
+  "required": ["rooms"],
+  "properties": {
+    "global_bounds": {
+      "type": "array",
+      "description": "户型外包络多边形（mm）",
+      "items": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 }
+    },
+    "rooms": {
+      "type": "array",
+      "description": "房间列表（canonical: room/room.schema.json）",
+      "items": { "$ref": "./room.schema.json" }
+    }
+  },
+  "additionalProperties": true
+}

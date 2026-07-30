@@ -1,0 +1,40 @@
+{
+  "provider": "puran-water/autocad-mcp",
+  "version": "unknown",
+  "transport": "stdio / MCP JSON-RPC",
+  "description": "AutoCAD LT 2024+ / AutoCAD 2026 自动化 MCP 服务。本注册表仅记录其对外暴露的工具组能力，并据 Phase 13 CAD Tool Command Contract 映射为 command_type。未假设不存在的能力。",
+  "mcp_tool_groups": [
+    "drawing", "entity", "layer", "block", "annotation",
+    "pid", "view", "system", "query", "search",
+    "geometry", "select", "modify", "validate", "export",
+    "xref", "layout", "electrical"
+  ],
+  "capabilities": [
+    "CREATE_LINE",
+    "CREATE_POLYLINE",
+    "CREATE_RECTANGLE",
+    "CREATE_TEXT",
+    "CREATE_DIMENSION",
+    "CREATE_BLOCK",
+    "CREATE_LAYER",
+    "OPEN_DWG",
+    "SAVE_DWG",
+    "READ_ENTITY"
+  ],
+  "capability_details": [
+    { "command_type": "CREATE_LINE",     "mcp_group": "entity",     "supported": true },
+    { "command_type": "CREATE_POLYLINE", "mcp_group": "entity",     "supported": true },
+    { "command_type": "CREATE_RECTANGLE","mcp_group": "entity",     "supported": true, "note": "经闭合 polyline 合成" },
+    { "command_type": "CREATE_TEXT",     "mcp_group": "annotation", "supported": true },
+    { "command_type": "CREATE_DIMENSION","mcp_group": "annotation", "supported": true },
+    { "command_type": "CREATE_BLOCK",    "mcp_group": "block",      "supported": true },
+    { "command_type": "CREATE_LAYER",    "mcp_group": "layer",      "supported": true },
+    { "command_type": "OPEN_DWG",        "mcp_group": "drawing",    "supported": true },
+    { "command_type": "SAVE_DWG",        "mcp_group": "drawing",    "supported": true },
+    { "command_type": "READ_ENTITY",     "mcp_group": "query",      "supported": true }
+  ],
+  "not_supported": {
+    "note": "以下为 Phase 13 CAD Tool Command Contract 预留的 command_type，但当前 puran-water/autocad-mcp 文档未明确暴露对应原子工具，故不在 capabilities 中声明；待确认后补充。",
+    "command_types": []
+  }
+}

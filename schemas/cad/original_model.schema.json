@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/cad/original_model.schema.json",
+  "title": "OriginalModel",
+  "description": "DWG 解析后的原始空间模型（parser + geometry 产出，WORKFLOW.md Stage 2）。无 DWG 输入时该阶段整体跳过。",
+  "type": "object",
+  "required": ["metadata", "units", "coordinates", "walls", "doors", "windows", "rooms"],
+  "properties": {
+    "metadata": {
+      "$ref": "../core/metadata.schema.json",
+      "description": "统一元数据（canonical: core/metadata.schema.json，PROJECT_RULES §4.3）"
+    },
+    "units": {
+      "type": "object",
+      "required": ["length", "area", "angle"],
+      "properties": {
+        "length": { "type": "string", "enum": ["mm"] },
+        "area": { "type": "string", "enum": ["m2"] },
+        "angle": { "type": "string", "enum": ["degree"] }
+      }
+    },
+    "coordinates": {
+      "type": "object",
+      "required": ["origin", "system"],
+      "properties": {
+        "origin": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 },
+        "system": { "type": "string", "description": "坐标系说明，如 world" }
+      }
+    },
+    "walls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "start", "end"],
+        "properties": {
+          "id": { "type": "string" },
+          "start": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 },
+          "end": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 },
+          "thickness": { "type": "number", "minimum": 0 }
+        }
+      }
+    },
+    "doors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "position", "width"],
+        "properties": {
+          "id": { "type": "string" },
+          "position": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 },
+          "width": { "type": "number", "minimum": 0 },
+          "rotation": { "type": "number" }
+        }
+      }
+    },
+    "windows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "position", "width"],
+        "properties": {
+          "id": { "type": "string" },
+          "position": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 },
+          "width": { "type": "number", "minimum": 0 }
+        }
+      }
+    },
+    "rooms": {
+      "type": "array",
+      "description": "房间列表（canonical: room/room.schema.json）",
+      "items": { "$ref": "../room/room.schema.json" }
+    }
+  },
+  "additionalProperties": true
+}

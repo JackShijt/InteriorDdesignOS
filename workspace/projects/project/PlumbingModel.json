@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "project_id": "project",
+    "agent": "plumbing",
+    "task_id": "plumbing-project",
+    "timestamp": "2026-07-27T08:46:09.815023+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "plumbing",
+    "timestamp": "2026-07-27T08:46:09.815023+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "PLUMBING",
+  "summary": {
+    "fixture_count": 4,
+    "supply_count": 4,
+    "drain_count": 2
+  },
+  "supply_pipes": [
+    {
+      "pipe_id": "P-SUP-kitchen-C",
+      "kind": "COLD",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 2000,
+        "y": 8000
+      },
+      "diameter_mm": 25,
+      "room_id": "kitchen",
+      "layer": "PLUMB-COLD"
+    },
+    {
+      "pipe_id": "P-SUP-kitchen-H",
+      "kind": "HOT",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 2000,
+        "y": 8000
+      },
+      "diameter_mm": 20,
+      "room_id": "kitchen",
+      "layer": "PLUMB-HOT"
+    },
+    {
+      "pipe_id": "P-SUP-bath-C",
+      "kind": "COLD",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 5000,
+        "y": 8000
+      },
+      "diameter_mm": 25,
+      "room_id": "bath",
+      "layer": "PLUMB-COLD"
+    },
+    {
+      "pipe_id": "P-SUP-bath-H",
+      "kind": "HOT",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "end": {
+        "x": 5000,
+        "y": 8000
+      },
+      "diameter_mm": 20,
+      "room_id": "bath",
+      "layer": "PLUMB-HOT"
+    }
+  ],
+  "drain_pipes": [
+    {
+      "pipe_id": "P-DRN-kitchen",
+      "kind": "DRAIN",
+      "start": {
+        "x": 2000,
+        "y": 8000
+      },
+      "end": {
+        "x": 0,
+        "y": 0
+      },
+      "diameter_mm": 50,
+      "room_id": "kitchen",
+      "layer": "PLUMB-DRAIN"
+    },
+    {
+      "pipe_id": "P-DRN-bath",
+      "kind": "DRAIN",
+      "start": {
+        "x": 5000,
+        "y": 8000
+      },
+      "end": {
+        "x": 0,
+        "y": 0
+      },
+      "diameter_mm": 50,
+      "room_id": "bath",
+      "layer": "PLUMB-DRAIN"
+    }
+  ],
+  "fixtures": [
+    {
+      "fixture_id": "PL-SINK-kitchen",
+      "type": "SINK",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "position": {
+        "x": 2000,
+        "y": 8000
+      },
+      "layer": "PLUMB-FIXTURE"
+    },
+    {
+      "fixture_id": "PL-WC-bath",
+      "type": "TOILET",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "position": {
+        "x": 5000,
+        "y": 8000
+      },
+      "layer": "PLUMB-FIXTURE"
+    },
+    {
+      "fixture_id": "PL-WB-bath",
+      "type": "WASHBASIN",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "position": {
+        "x": 5000,
+        "y": 8000
+      },
+      "layer": "PLUMB-FIXTURE"
+    },
+    {
+      "fixture_id": "PL-SH-bath",
+      "type": "SHOWER",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "position": {
+        "x": 5000,
+        "y": 8000
+      },
+      "layer": "PLUMB-FIXTURE"
+    }
+  ],
+  "water_heaters": [
+    {
+      "heater_id": "WH-bath",
+      "type": "STORAGE",
+      "capacity_l": 60,
+      "room_id": "bath",
+      "position": {
+        "x": 5000,
+        "y": 8000
+      },
+      "layer": "PLUMB-HEATER"
+    }
+  ]
+}

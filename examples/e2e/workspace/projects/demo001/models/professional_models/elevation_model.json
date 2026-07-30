@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "project_id": "demo001",
+    "agent": "elevation",
+    "task_id": "elevation_task",
+    "timestamp": "2026-07-27T16:25:43.820512+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {}
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "none",
+    "producer_agent": "elevation",
+    "timestamp": "2026-07-27T16:25:43.820522+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "ELEVATION",
+  "summary": {
+    "elevation_count": 36,
+    "element_count": 0
+  },
+  "elevations": [
+    {
+      "elevation_id": "EL-R01-NORTH",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R01-SOUTH",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R01-EAST",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R01-WEST",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R02-NORTH",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R02-SOUTH",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R02-EAST",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R02-WEST",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R03-NORTH",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R03-SOUTH",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R03-EAST",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R03-WEST",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R04-NORTH",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R04-SOUTH",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R04-EAST",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R04-WEST",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R05-NORTH",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R05-SOUTH",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R05-EAST",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R05-WEST",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R06-NORTH",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R06-SOUTH",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R06-EAST",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R06-WEST",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R07-NORTH",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R07-SOUTH",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R07-EAST",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R07-WEST",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R08-NORTH",
+      "room_id": "R08",
+      "room_name": "书房",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R08-SOUTH",
+      "room_id": "R08",
+      "room_name": "书房",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R08-EAST",
+      "room_id": "R08",
+      "room_name": "书房",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R08-WEST",
+      "room_id": "R08",
+      "room_name": "书房",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R09-NORTH",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R09-SOUTH",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R09-EAST",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-R09-WEST",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    }
+  ],
+  "elements": []
+}

@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "project_id": "p51check",
+    "agent": "hvac",
+    "task_id": "professional-hvac-p51check",
+    "timestamp": "2026-07-24T13:24:37.294867+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 0.93,
+      "quality_score": 93,
+      "validation_passed": true
+    }
+  },
+  "layout_model_version": "v1",
+  "discipline": "HVAC",
+  "objects": [
+    {
+      "category": "air_supply",
+      "id": "AS-R001",
+      "room_id": "R001",
+      "name": "客厅送风口",
+      "spec": {
+        "type": "slot_diffuser",
+        "airflow_cmh": 180
+      }
+    },
+    {
+      "category": "air_supply",
+      "id": "AS-R002",
+      "room_id": "R002",
+      "name": "主卧送风口",
+      "spec": {
+        "type": "slot_diffuser",
+        "airflow_cmh": 180
+      }
+    },
+    {
+      "category": "air_supply",
+      "id": "AS-R003",
+      "room_id": "R003",
+      "name": "次卧送风口",
+      "spec": {
+        "type": "slot_diffuser",
+        "airflow_cmh": 180
+      }
+    },
+    {
+      "category": "air_supply",
+      "id": "AS-R004",
+      "room_id": "R004",
+      "name": "厨房送风口",
+      "spec": {
+        "type": "slot_diffuser",
+        "airflow_cmh": 180
+      }
+    },
+    {
+      "category": "air_supply",
+      "id": "AS-R005",
+      "room_id": "R005",
+      "name": "卫生间送风口",
+      "spec": {
+        "type": "slot_diffuser",
+        "airflow_cmh": 180
+      }
+    },
+    {
+      "category": "return_air",
+      "id": "RA-R001",
+      "room_id": "R001",
+      "name": "客厅回风口",
+      "spec": {
+        "type": "grille",
+        "airflow_cmh": 160
+      }
+    },
+    {
+      "category": "return_air",
+      "id": "RA-R002",
+      "room_id": "R002",
+      "name": "主卧回风口",
+      "spec": {
+        "type": "grille",
+        "airflow_cmh": 160
+      }
+    },
+    {
+      "category": "return_air",
+      "id": "RA-R003",
+      "room_id": "R003",
+      "name": "次卧回风口",
+      "spec": {
+        "type": "grille",
+        "airflow_cmh": 160
+      }
+    },
+    {
+      "category": "return_air",
+      "id": "RA-R004",
+      "room_id": "R004",
+      "name": "厨房回风口",
+      "spec": {
+        "type": "grille",
+        "airflow_cmh": 160
+      }
+    },
+    {
+      "category": "return_air",
+      "id": "RA-R005",
+      "room_id": "R005",
+      "name": "卫生间回风口",
+      "spec": {
+        "type": "grille",
+        "airflow_cmh": 160
+      }
+    },
+    {
+      "category": "equipment",
+      "id": "AC-1",
+      "name": "多联机室内机（Mock）",
+      "spec": {
+        "capacity_kw": 7.1,
+        "serves": [
+          "R001",
+          "R002",
+          "R003",
+          "R004",
+          "R005"
+        ]
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "type": "noise",
+      "room_id": "R001",
+      "description": "客厅风口噪声不超过室内舒适限值（Mock 约束）"
+    },
+    {
+      "type": "noise",
+      "room_id": "R002",
+      "description": "主卧风口噪声不超过室内舒适限值（Mock 约束）"
+    },
+    {
+      "type": "noise",
+      "room_id": "R003",
+      "description": "次卧风口噪声不超过室内舒适限值（Mock 约束）"
+    },
+    {
+      "type": "noise",
+      "room_id": "R004",
+      "description": "厨房风口噪声不超过室内舒适限值（Mock 约束）"
+    },
+    {
+      "type": "noise",
+      "room_id": "R005",
+      "description": "卫生间风口噪声不超过室内舒适限值（Mock 约束）"
+    }
+  ],
+  "quality": {
+    "confidence": 0.93,
+    "quality_score": 93,
+    "validation_passed": true
+  }
+}

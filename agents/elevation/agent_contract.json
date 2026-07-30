@@ -1,0 +1,12 @@
+{
+  "name": "elevation",
+  "agent_name": "elevation",
+  "role": "立面专业深化 Agent：由 LayoutModel 派生立面 / 立面元素（规则式）。",
+  "discipline": "ELEVATION",
+  "input_schema": ["LayoutModel"],
+  "output_schema": ["ElevationModel"],
+  "capabilities": ["professional_deepening", "elevation_design"],
+  "dependencies": ["layout"],
+  "forbidden_actions": ["generate_DWG", "modify_layout", "autocad_operation", "ai_design_algorithm"],
+  "impl": "agents.elevation.elevation_agent:ElevationAgent"
+}

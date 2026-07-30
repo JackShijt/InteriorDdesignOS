@@ -1,0 +1,8 @@
+{
+  "name": "orchestrator",
+  "role": "调度层入口，解析需求、动态生成 Task Graph、维护状态机、汇总与冲突裁决",
+  "input_schema": ["ProjectInput", "UserRequirement"],
+  "output_schema": ["Project", "TaskGraph"],
+  "capabilities": ["orchestrate", "plan", "route", "resolve_conflict"],
+  "forbidden": ["modify_DWG", "modify_design", "modify_layout", "modify_drawing"]
+}

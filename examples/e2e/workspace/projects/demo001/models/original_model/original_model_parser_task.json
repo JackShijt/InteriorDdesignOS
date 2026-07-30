@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generated_at": "2026-07-27T16:25:43.813637+08:00",
+    "generator": "phase11-mock-builder"
+  },
+  "version": "1.0",
+  "source_type": "TEXT",
+  "source_path": "user-requirement",
+  "quality": {
+    "score": 0.85,
+    "walls": 36,
+    "doors": 9,
+    "windows": 9,
+    "rooms": 9
+  },
+  "rooms": [
+    {
+      "name": "客厅",
+      "type": "LIVING",
+      "area": 28.0
+    },
+    {
+      "name": "主卧",
+      "type": "BEDROOM",
+      "area": 18.0
+    },
+    {
+      "name": "次卧",
+      "type": "BEDROOM",
+      "area": 14.0
+    },
+    {
+      "name": "厨房",
+      "type": "KITCHEN",
+      "area": 8.0
+    },
+    {
+      "name": "卫生间",
+      "type": "BATHROOM",
+      "area": 6.0
+    },
+    {
+      "name": "阳台",
+      "type": "BALCONY",
+      "area": 8.0
+    },
+    {
+      "name": "餐厅",
+      "type": "DINING",
+      "area": 10.0
+    },
+    {
+      "name": "书房",
+      "type": "STUDY",
+      "area": 10.0
+    },
+    {
+      "name": "玄关",
+      "type": "ENTRY",
+      "area": 4.0
+    }
+  ],
+  "spaces": [
+    {
+      "name": "客厅",
+      "type": "LIVING",
+      "area": 28.0
+    },
+    {
+      "name": "主卧",
+      "type": "BEDROOM",
+      "area": 18.0
+    },
+    {
+      "name": "次卧",
+      "type": "BEDROOM",
+      "area": 14.0
+    },
+    {
+      "name": "厨房",
+      "type": "KITCHEN",
+      "area": 8.0
+    },
+    {
+      "name": "卫生间",
+      "type": "BATHROOM",
+      "area": 6.0
+    },
+    {
+      "name": "阳台",
+      "type": "BALCONY",
+      "area": 8.0
+    },
+    {
+      "name": "餐厅",
+      "type": "DINING",
+      "area": 10.0
+    },
+    {
+      "name": "书房",
+      "type": "STUDY",
+      "area": 10.0
+    },
+    {
+      "name": "玄关",
+      "type": "ENTRY",
+      "area": 4.0
+    }
+  ],
+  "story": 1
+}

@@ -1,0 +1,12 @@
+{
+  "name": "electrical",
+  "agent_name": "electrical",
+  "role": "电气专业深化 Agent：由 LayoutModel 派生回路 / 点位 / 配电箱（规则式，禁止真实设计算法）。",
+  "discipline": "ELECTRICAL",
+  "input_schema": ["LayoutModel"],
+  "output_schema": ["ElectricalModel"],
+  "capabilities": ["professional_deepening", "electrical_design", "circuit_layout"],
+  "dependencies": ["layout"],
+  "forbidden_actions": ["generate_DWG", "modify_layout", "autocad_operation", "ai_design_algorithm"],
+  "impl": "agents.electrical.electrical_agent:ElectricalAgent"
+}

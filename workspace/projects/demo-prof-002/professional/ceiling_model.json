@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "project_id": "demo-prof-002",
+    "agent": "ceiling",
+    "task_id": "professional-ceiling-demo-prof-002",
+    "timestamp": "2026-07-23T16:35:04.136448+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 0.93,
+      "quality_score": 93,
+      "validation_passed": true
+    }
+  },
+  "layout_model_version": "v1",
+  "discipline": "CEILING",
+  "objects": [
+    {
+      "category": "ceiling_regions",
+      "id": "CR-R001",
+      "room_id": "R001",
+      "name": "客厅吊顶区域",
+      "spec": {
+        "shape": "flat",
+        "note": "Mock 区域，不含几何"
+      }
+    },
+    {
+      "category": "ceiling_regions",
+      "id": "CR-R002",
+      "room_id": "R002",
+      "name": "主卧吊顶区域",
+      "spec": {
+        "shape": "flat",
+        "note": "Mock 区域，不含几何"
+      }
+    },
+    {
+      "category": "ceiling_regions",
+      "id": "CR-R003",
+      "room_id": "R003",
+      "name": "次卧吊顶区域",
+      "spec": {
+        "shape": "flat",
+        "note": "Mock 区域，不含几何"
+      }
+    },
+    {
+      "category": "ceiling_regions",
+      "id": "CR-R004",
+      "room_id": "R004",
+      "name": "厨房吊顶区域",
+      "spec": {
+        "shape": "flat",
+        "note": "Mock 区域，不含几何"
+      }
+    },
+    {
+      "category": "ceiling_regions",
+      "id": "CR-R005",
+      "room_id": "R005",
+      "name": "卫生间吊顶区域",
+      "spec": {
+        "shape": "flat",
+        "note": "Mock 区域，不含几何"
+      }
+    },
+    {
+      "category": "levels",
+      "id": "LV-R001",
+      "room_id": "R001",
+      "name": "客厅标高层级",
+      "spec": {
+        "drop_mm": 120,
+        "level": 1
+      }
+    },
+    {
+      "category": "levels",
+      "id": "LV-R002",
+      "room_id": "R002",
+      "name": "主卧标高层级",
+      "spec": {
+        "drop_mm": 120,
+        "level": 1
+      }
+    },
+    {
+      "category": "levels",
+      "id": "LV-R003",
+      "room_id": "R003",
+      "name": "次卧标高层级",
+      "spec": {
+        "drop_mm": 120,
+        "level": 1
+      }
+    },
+    {
+      "category": "levels",
+      "id": "LV-R004",
+      "room_id": "R004",
+      "name": "厨房标高层级",
+      "spec": {
+        "drop_mm": 120,
+        "level": 1
+      }
+    },
+    {
+      "category": "levels",
+      "id": "LV-R005",
+      "room_id": "R005",
+      "name": "卫生间标高层级",
+      "spec": {
+        "drop_mm": 120,
+        "level": 1
+      }
+    },
+    {
+      "category": "materials",
+      "id": "CM-1",
+      "name": "石膏板",
+      "spec": {
+        "fire_rating": "A",
+        "thickness_mm": 9.5
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "type": "clearance",
+      "room_id": "R001",
+      "description": "客厅吊顶完成面净高不低于规范要求（Mock 约束）"
+    },
+    {
+      "type": "clearance",
+      "room_id": "R002",
+      "description": "主卧吊顶完成面净高不低于规范要求（Mock 约束）"
+    },
+    {
+      "type": "clearance",
+      "room_id": "R003",
+      "description": "次卧吊顶完成面净高不低于规范要求（Mock 约束）"
+    },
+    {
+      "type": "clearance",
+      "room_id": "R004",
+      "description": "厨房吊顶完成面净高不低于规范要求（Mock 约束）"
+    },
+    {
+      "type": "clearance",
+      "room_id": "R005",
+      "description": "卫生间吊顶完成面净高不低于规范要求（Mock 约束）"
+    }
+  ],
+  "quality": {
+    "confidence": 0.93,
+    "quality_score": 93,
+    "validation_passed": true
+  }
+}

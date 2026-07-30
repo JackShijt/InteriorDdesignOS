@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/cad/drawing_model.schema.json",
+  "title": "DrawingModel",
+  "description": "CAD 表达中间层（architecture.md §4、§13）。承载图层映射/图元组织/标注规则/图框配置，避免 Drawing Agent 直接操作 LayoutModel。禁止直接保存设计决策——实体须通过 geometry_ref 引用 GeometryModel，而非在此重做空间判定。",
+  "type": "object",
+  "required": ["metadata", "schema_version", "layout_model_version", "geometry_model_version", "sheets", "layers", "entities", "dimensions"],
+  "properties": {
+    "metadata": {
+      "$ref": "../core/metadata.schema.json",
+      "description": "统一元数据（canonical: core/metadata.schema.json，PROJECT_RULES §4.3）"
+    },
+    "schema_version": { "type": "string", "description": "Schema 版本，如 1.0" },
+    "layout_model_version": { "type": "string", "description": "所基于的 LayoutModel 版本" },
+    "geometry_model_version": { "type": "string", "description": "所基于的 GeometryModel 版本" },
+    "sheets": {
+      "type": "array",
+      "description": "图纸空间/布局列表",
+      "items": {
+        "type": "object",
+        "required": ["sheet_id", "paper_size", "titleblock_ref"],
+        "properties": {
+          "sheet_id": { "type": "string" },
+          "paper_size": { "type": "string", "enum": ["A0", "A1", "A2", "A3"] },
+          "titleblock_ref": { "type": "string" }
+        }
+      }
+    },
+    "layers": {
+      "type": "array",
+      "description": "图层定义，须符合 standards/cad 图层命名（PROJECT_RULES §7.3）",
+      "items": {
+        "type": "object",
+        "required": ["name", "color", "line_type"],
+        "properties": {
+          "name": { "type": "string" },
+          "color": { "type": "integer", "minimum": 0 },
+          "line_type": { "type": "string" }
+        }
+      }
+    },
+    "entities": {
+      "type": "array",
+      "description": "CAD 图元（墙/门/窗/家具等），通过 geometry_ref 引用 GeometryModel 几何，不在此保存设计决策",
+      "items": {
+        "type": "object",
+        "required": ["entity_id", "type"],
+        "properties": {
+          "entity_id": { "type": "string" },
+          "type": { "type": "string", "description": "图元类型，如 WALL/DOOR/WINDOW/FURNITURE" },
+          "geometry_ref": { "type": "string", "description": "引用的 GeometryModel 几何 id" },
+          "layer": { "type": "string", "description": "所属图层名" }
+        }
+      }
+    },
+    "annotations": {
+      "type": "array",
+      "description": "文字注释",
+      "items": { "type": "object" }
+    },
+    "dimensions": {
+      "type": "array",
+      "description": "尺寸标注（P1-5 契约：dimension_id/geometry_ref/value/unit/start/end）",
+      "items": {
+        "type": "object",
+        "required": ["dimension_id", "geometry_ref", "value", "unit"],
+        "properties": {
+          "dimension_id": { "type": "string" },
+          "geometry_ref": { "type": "string", "description": "引用的 GeometryModel 尺寸 id" },
+          "value": { "type": "number", "minimum": 0 },
+          "unit": { "type": "string", "enum": ["mm"] },
+          "start": { "type": "array", "items": { "type": "number" } },
+          "end": { "type": "array", "items": { "type": "number" } }
+        }
+      }
+    },
+    "blocks": {
+      "type": "array",
+      "description": "图块引用",
+      "items": { "type": "object" }
+    },
+    "titleblock": {
+      "type": "object",
+      "description": "图框配置",
+      "properties": {
+        "template_ref": { "type": "string", "description": "引用 templates/cad 只读副本（PROJECT_RULES §20）" },
+        "project_fields": { "type": "object" }
+      }
+    }
+  },
+  "allOf": [
+    { "not": { "required": ["design_decision"] }, "description": "禁止直接保存设计决策" }
+  ],
+  "additionalProperties": false
+}

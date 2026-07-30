@@ -1,0 +1,60 @@
+Project Started
+Stage:
+  INITIALIZATION
+Running:
+  parser
+Completed:
+  OriginalModel
+Running:
+  design
+Completed:
+  DesignSpec
+Running:
+  layout
+Completed:
+  LayoutModel
+Running:
+  geometry
+Completed:
+  GeometryModel
+Completed:
+  LightingModel
+Completed:
+  ElevationModel
+Completed:
+  PlumbingModel
+Completed:
+  ElectricalModel
+Completed:
+  ConstructionModel
+Completed:
+  CeilingModel
+Running:
+  drawing
+Completed:
+  GeneratedModel
+Completed:
+  DrawingModel
+Running:
+  validator
+Completed:
+  ValidationReport
+Running:
+  deliverable
+Completed:
+  Deliverable
+Project Delivered
+
+==== 执行摘要 ====
+Project ID : demo001
+Status     : DELIVERED
+Artifacts  : DESIGN_SPEC, DRAWING, EXPORT, GEOMETRY, LAYOUT, ORIGINAL_MODEL, PROFESSIONAL_DEEPENING, VALIDATION
+Professions: ceiling, construction, electrical, elevation, lighting, plumbing
+CAD 命令   : 80
+冲突数     : 33
+结果目录   : /Users/shijunteng/Desktop/图纸/InteriorDesignOS/examples/e2e/workspace/projects/demo001
+
+CAD Backend: Mock
+DWG Generated: /Users/shijunteng/Desktop/图纸/InteriorDesignOS/examples/e2e/workspace/projects/demo001/cad/demo001.dwg
+Round Trip Validation: PASSED (coord_err=0.005mm, dim_err=0.04mm)
+Project Delivered

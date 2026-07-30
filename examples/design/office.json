@@ -1,0 +1,35 @@
+{
+  "requirement": "居家工作室兼小办公，2-3人，预算较高，现代工业风，需要开放办公区和独立会议室，强收纳，采光要好，有宠物友好需求。",
+  "original_model": {
+    "metadata": {
+      "project_id": "office",
+      "agent": "parser",
+      "task_id": "parser-office",
+      "timestamp": "2026-07-23T10:00:00+08:00",
+      "schema_version": "1.0",
+      "status": "COMPLETED",
+      "quality": { "confidence": 0.6, "quality_score": 60, "validation_passed": true }
+    },
+    "version": "v1",
+    "source_type": "json",
+    "units": { "length": "mm", "area": "m2", "angle": "degree" },
+    "coordinates": { "origin": [0, 0], "system": "world" },
+    "walls": [
+      { "id": "W01", "start": [0, 0], "end": [6000, 0], "thickness": 200 },
+      { "id": "W02", "start": [6000, 0], "end": [6000, 4500], "thickness": 200 },
+      { "id": "W03", "start": [6000, 4500], "end": [0, 4500], "thickness": 200 },
+      { "id": "W04", "start": [0, 4500], "end": [0, 0], "thickness": 200 }
+    ],
+    "doors": [
+      { "id": "D01", "position": [3000, 0], "width": 1000, "rotation": 0 }
+    ],
+    "windows": [
+      { "id": "WIN01", "position": [1500, 4500], "width": 2000 },
+      { "id": "WIN02", "position": [4500, 4500], "width": 2000 }
+    ],
+    "rooms": [
+      { "room_id": "R001", "name": "开放办公区", "type": "OFFICE", "boundary": [[0, 0], [6000, 0], [6000, 3000], [0, 3000]], "area": 18.0, "floor_level": 0 },
+      { "room_id": "R002", "name": "会议室", "type": "MEETING", "boundary": [[0, 3000], [6000, 3000], [6000, 4500], [0, 4500]], "area": 9.0, "floor_level": 0 }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checked": 4,
+  "disciplines": [
+    "ELECTRICAL",
+    "FURNITURE",
+    "HVAC",
+    "LIGHTING"
+  ],
+  "errors": {},
+  "version_errors": [],
+  "layout_model_versions": {
+    "ELECTRICAL": "v1",
+    "FURNITURE": "v1",
+    "HVAC": "v1",
+    "LIGHTING": "v1"
+  },
+  "timestamp": "2026-07-23T16:34:51.978058+08:00"
+}

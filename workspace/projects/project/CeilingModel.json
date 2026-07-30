@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "project_id": "project",
+    "agent": "ceiling",
+    "task_id": "ceiling-project",
+    "timestamp": "2026-07-27T08:46:09.815176+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "ceiling",
+    "timestamp": "2026-07-27T08:46:09.815176+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "CEILING",
+  "summary": {
+    "plane_count": 5,
+    "opening_count": 20
+  },
+  "planes": [
+    {
+      "plane_id": "CL-living",
+      "room_id": "living",
+      "room_name": "客厅",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 6000,
+            "y": 0
+          },
+          {
+            "x": 6000,
+            "y": 6000
+          },
+          {
+            "x": 0,
+            "y": 6000
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-master",
+      "room_id": "master",
+      "room_name": "主卧",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 6000,
+            "y": 0
+          },
+          {
+            "x": 10000,
+            "y": 0
+          },
+          {
+            "x": 10000,
+            "y": 5000
+          },
+          {
+            "x": 6000,
+            "y": 5000
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-second",
+      "room_id": "second",
+      "room_name": "次卧",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 6000,
+            "y": 5000
+          },
+          {
+            "x": 10000,
+            "y": 5000
+          },
+          {
+            "x": 10000,
+            "y": 10000
+          },
+          {
+            "x": 6000,
+            "y": 10000
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-kitchen",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 0,
+            "y": 6000
+          },
+          {
+            "x": 4000,
+            "y": 6000
+          },
+          {
+            "x": 4000,
+            "y": 10000
+          },
+          {
+            "x": 0,
+            "y": 10000
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    },
+    {
+      "plane_id": "CL-bath",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "type": "GYPROCK_FLAT",
+      "height_mm": 2600,
+      "material": "石膏板",
+      "boundary": {
+        "points": [
+          {
+            "x": 4000,
+            "y": 6000
+          },
+          {
+            "x": 6000,
+            "y": 6000
+          },
+          {
+            "x": 6000,
+            "y": 10000
+          },
+          {
+            "x": 4000,
+            "y": 10000
+          }
+        ]
+      },
+      "layer": "CEIL-PLANE"
+    }
+  ],
+  "beams": [
+    {
+      "beam_id": "BM-MAIN",
+      "type": "STRUCTURAL",
+      "size_mm": [
+        300,
+        500
+      ],
+      "layer": "CEIL-BEAM"
+    }
+  ],
+  "openings": [
+    {
+      "opening_id": "CL-OP-living-win1",
+      "room_id": "living",
+      "source": "window",
+      "ref_id": "win1",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-living-win2",
+      "room_id": "living",
+      "source": "window",
+      "ref_id": "win2",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-living-win3",
+      "room_id": "living",
+      "source": "window",
+      "ref_id": "win3",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-living-win4",
+      "room_id": "living",
+      "source": "window",
+      "ref_id": "win4",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-master-win1",
+      "room_id": "master",
+      "source": "window",
+      "ref_id": "win1",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-master-win2",
+      "room_id": "master",
+      "source": "window",
+      "ref_id": "win2",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-master-win3",
+      "room_id": "master",
+      "source": "window",
+      "ref_id": "win3",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-master-win4",
+      "room_id": "master",
+      "source": "window",
+      "ref_id": "win4",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-second-win1",
+      "room_id": "second",
+      "source": "window",
+      "ref_id": "win1",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-second-win2",
+      "room_id": "second",
+      "source": "window",
+      "ref_id": "win2",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-second-win3",
+      "room_id": "second",
+      "source": "window",
+      "ref_id": "win3",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-second-win4",
+      "room_id": "second",
+      "source": "window",
+      "ref_id": "win4",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-kitchen-win1",
+      "room_id": "kitchen",
+      "source": "window",
+      "ref_id": "win1",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-kitchen-win2",
+      "room_id": "kitchen",
+      "source": "window",
+      "ref_id": "win2",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-kitchen-win3",
+      "room_id": "kitchen",
+      "source": "window",
+      "ref_id": "win3",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-kitchen-win4",
+      "room_id": "kitchen",
+      "source": "window",
+      "ref_id": "win4",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-bath-win1",
+      "room_id": "bath",
+      "source": "window",
+      "ref_id": "win1",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-bath-win2",
+      "room_id": "bath",
+      "source": "window",
+      "ref_id": "win2",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-bath-win3",
+      "room_id": "bath",
+      "source": "window",
+      "ref_id": "win3",
+      "layer": "CEIL-OPENING"
+    },
+    {
+      "opening_id": "CL-OP-bath-win4",
+      "room_id": "bath",
+      "source": "window",
+      "ref_id": "win4",
+      "layer": "CEIL-OPENING"
+    }
+  ]
+}

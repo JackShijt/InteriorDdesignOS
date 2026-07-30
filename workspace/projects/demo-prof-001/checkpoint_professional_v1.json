@@ -1,0 +1,19 @@
+{
+  "version": "v1",
+  "project_id": "demo-prof-001",
+  "stage": "PROFESSIONAL_DEEPENING",
+  "state": "COMPLETED",
+  "disciplines": [
+    "electrical",
+    "lighting",
+    "hvac",
+    "furniture"
+  ],
+  "task_status": {
+    "professional-electrical-demo-prof-001": "COMPLETED",
+    "professional-lighting-demo-prof-001": "COMPLETED",
+    "professional-hvac-demo-prof-001": "COMPLETED",
+    "professional-furniture-demo-prof-001": "COMPLETED"
+  },
+  "updated_at": "2026-07-23T16:34:51.978343"
+}

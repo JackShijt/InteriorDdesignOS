@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "project_id": "demo",
+    "agent": "layout",
+    "task_id": "layout-demo",
+    "timestamp": "2026-07-24T09:00:00+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {"confidence": 1.0, "quality_score": 100, "validation_passed": true}
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "none",
+    "change_reason": "initial layout for 100sqm three-room apartment",
+    "changed_by": "layout_agent",
+    "approval_status": "APPROVED",
+    "timestamp": "2026-07-24T09:00:00+08:00"
+  },
+  "rooms": [
+    {
+      "room_id": "living",
+      "name": "\u5ba2\u5385",
+      "type": "living",
+      "boundary": {"type": "polygon", "points": [
+        {"x": 0, "y": 0}, {"x": 6000, "y": 0}, {"x": 6000, "y": 6000}, {"x": 0, "y": 6000}
+      ]},
+      "area": 36.0,
+      "perimeter": 24.0,
+      "centroid": {"x": 3000, "y": 3000}
+    },
+    {
+      "room_id": "master",
+      "name": "\u4e3b\u5367",
+      "type": "bedroom",
+      "boundary": {"type": "polygon", "points": [
+        {"x": 6000, "y": 0}, {"x": 10000, "y": 0}, {"x": 10000, "y": 5000}, {"x": 6000, "y": 5000}
+      ]},
+      "area": 20.0,
+      "perimeter": 18.0,
+      "centroid": {"x": 8000, "y": 2500}
+    },
+    {
+      "room_id": "second",
+      "name": "\u6b21\u5367",
+      "type": "bedroom",
+      "boundary": {"type": "polygon", "points": [
+        {"x": 6000, "y": 5000}, {"x": 10000, "y": 5000}, {"x": 10000, "y": 10000}, {"x": 6000, "y": 10000}
+      ]},
+      "area": 20.0,
+      "perimeter": 18.0,
+      "centroid": {"x": 8000, "y": 7500}
+    },
+    {
+      "room_id": "kitchen",
+      "name": "\u53a8\u623f",
+      "type": "kitchen",
+      "boundary": {"type": "polygon", "points": [
+        {"x": 0, "y": 6000}, {"x": 4000, "y": 6000}, {"x": 4000, "y": 10000}, {"x": 0, "y": 10000}
+      ]},
+      "area": 16.0,
+      "perimeter": 16.0,
+      "centroid": {"x": 2000, "y": 8000}
+    },
+    {
+      "room_id": "bath",
+      "name": "\u536b\u751f\u95f4",
+      "type": "bathroom",
+      "boundary": {"type": "polygon", "points": [
+        {"x": 4000, "y": 6000}, {"x": 6000, "y": 6000}, {"x": 6000, "y": 10000}, {"x": 4000, "y": 10000}
+      ]},
+      "area": 8.0,
+      "perimeter": 12.0,
+      "centroid": {"x": 5000, "y": 8000}
+    }
+  ],
+  "walls": [
+    {"wall_id": "w1", "start": {"x": 0, "y": 0}, "end": {"x": 10000, "y": 0}, "thickness": 200, "type": "exterior", "layer": "WALL"},
+    {"wall_id": "w2", "start": {"x": 10000, "y": 0}, "end": {"x": 10000, "y": 10000}, "thickness": 200, "type": "exterior", "layer": "WALL"},
+    {"wall_id": "w3", "start": {"x": 10000, "y": 10000}, "end": {"x": 0, "y": 10000}, "thickness": 200, "type": "exterior", "layer": "WALL"},
+    {"wall_id": "w4", "start": {"x": 0, "y": 10000}, "end": {"x": 0, "y": 0}, "thickness": 200, "type": "exterior", "layer": "WALL"},
+    {"wall_id": "w5", "start": {"x": 0, "y": 6000}, "end": {"x": 6000, "y": 6000}, "thickness": 120, "type": "interior", "layer": "WALL"},
+    {"wall_id": "w6", "start": {"x": 4000, "y": 6000}, "end": {"x": 4000, "y": 10000}, "thickness": 120, "type": "interior", "layer": "WALL"},
+    {"wall_id": "w7", "start": {"x": 6000, "y": 0}, "end": {"x": 6000, "y": 10000}, "thickness": 120, "type": "interior", "layer": "WALL"},
+    {"wall_id": "w8", "start": {"x": 6000, "y": 5000}, "end": {"x": 10000, "y": 5000}, "thickness": 120, "type": "interior", "layer": "WALL"}
+  ],
+  "doors": [
+    {"door_id": "d1", "start": {"x": 2000, "y": 0}, "end": {"x": 2600, "y": 0}, "width": 900, "swing": 90, "layer": "DOOR", "type": "single"},
+    {"door_id": "d2", "start": {"x": 6000, "y": 2000}, "end": {"x": 6000, "y": 2600}, "width": 900, "swing": 90, "layer": "DOOR", "type": "single"},
+    {"door_id": "d3", "start": {"x": 6000, "y": 7000}, "end": {"x": 6000, "y": 7600}, "width": 900, "swing": 90, "layer": "DOOR", "type": "single"},
+    {"door_id": "d4", "start": {"x": 2000, "y": 6000}, "end": {"x": 2600, "y": 6000}, "width": 800, "swing": 90, "layer": "DOOR", "type": "single"},
+    {"door_id": "d5", "start": {"x": 4000, "y": 8000}, "end": {"x": 4000, "y": 8600}, "width": 700, "swing": 90, "layer": "DOOR", "type": "single"}
+  ],
+  "windows": [
+    {"window_id": "win1", "start": {"x": 4000, "y": 0}, "end": {"x": 5200, "y": 0}, "width": 1200, "offset": 60, "layer": "WIN"},
+    {"window_id": "win2", "start": {"x": 10000, "y": 2000}, "end": {"x": 10000, "y": 3500}, "width": 1500, "offset": 60, "layer": "WIN"},
+    {"window_id": "win3", "start": {"x": 1000, "y": 10000}, "end": {"x": 2500, "y": 10000}, "width": 1500, "offset": 60, "layer": "WIN"},
+    {"window_id": "win4", "start": {"x": 10000, "y": 7000}, "end": {"x": 10000, "y": 8500}, "width": 1500, "offset": 60, "layer": "WIN"}
+  ],
+  "furniture": [
+    {"item_id": "s1", "name": "\u6c99\u53d1", "type": "SOFA", "position": {"x": 3000, "y": 3000}, "size": {"width": 2000, "depth": 800}, "rotation": 0},
+    {"item_id": "s2", "name": "\u8336\u51e0", "type": "TABLE", "position": {"x": 3000, "y": 4200}, "size": {"width": 1200, "depth": 600}, "rotation": 0},
+    {"item_id": "s3", "name": "\u9910\u684c", "type": "DINING", "position": {"x": 4800, "y": 2000}, "size": {"width": 1400, "depth": 800}, "rotation": 0},
+    {"item_id": "s4", "name": "\u4e3b\u5367\u5e8a", "type": "BED", "position": {"x": 8000, "y": 2500}, "size": {"width": 1800, "depth": 2000}, "rotation": 0},
+    {"item_id": "s5", "name": "\u6b21\u5367\u5e8a", "type": "BED", "position": {"x": 8000, "y": 7500}, "size": {"width": 1500, "depth": 2000}, "rotation": 0},
+    {"item_id": "s6", "name": "\u53a8\u67dc", "type": "CABINET", "position": {"x": 2000, "y": 8000}, "size": {"width": 3000, "depth": 600}, "rotation": 0},
+    {"item_id": "s7", "name": "\u536b\u751f\u95f4\u6d01\u5177", "type": "FIXTURE", "position": {"x": 5000, "y": 8000}, "size": {"width": 800, "depth": 1200}, "rotation": 0}
+  ],
+  "constraints": [
+    {"type": "area", "room": "living", "min": 30, "unit": "m2"},
+    {"type": "orientation", "room": "master", "facing": "south"}
+  ]
+}

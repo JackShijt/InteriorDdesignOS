@@ -1,0 +1,12 @@
+{
+  "name": "ceiling",
+  "agent_name": "ceiling",
+  "role": "吊顶专业深化 Agent：由 LayoutModel 派生吊顶面 / 梁 / 检修口与灯槽开口（规则式）。",
+  "discipline": "CEILING",
+  "input_schema": ["LayoutModel"],
+  "output_schema": ["CeilingModel"],
+  "capabilities": ["professional_deepening", "ceiling_design", "opening_layout"],
+  "dependencies": ["layout"],
+  "forbidden_actions": ["generate_DWG", "modify_layout", "autocad_operation", "ai_design_algorithm"],
+  "impl": "agents.ceiling.ceiling_agent:CeilingAgent"
+}

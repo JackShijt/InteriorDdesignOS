@@ -1,0 +1,48 @@
+{
+  "source_project_id": "orchestrated-project",
+  "cad_backend": "mock",
+  "command_count": 42,
+  "professional_models": [
+    "LIGHTING",
+    "PLUMBING",
+    "CEILING",
+    "ELECTRICAL"
+  ],
+  "validation_status": "WARN",
+  "summary": {
+    "status": "MOCK_EXECUTED",
+    "messages": [
+      "layout: 5 房间",
+      "lighting: v1",
+      "plumbing: v1",
+      "ceiling: v1",
+      "electrical: v1",
+      "geometry: GeometryModel",
+      "conflict: 19 冲突, approval=APPROVED",
+      "drawing: 42 CAD commands",
+      "validator: ValidationReport"
+    ]
+  },
+  "metadata": {
+    "project_id": "orchestrated-project",
+    "agent": "pipeline",
+    "task_id": "generated-orchestrated-project",
+    "timestamp": "2026-07-27T10:07:52.360370+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "pipeline",
+    "timestamp": "2026-07-27T10:07:52.360370+08:00"
+  },
+  "layout_model_version": "v1",
+  "geometry_model_version": "v1",
+  "drawing_model_version": "v1"
+}

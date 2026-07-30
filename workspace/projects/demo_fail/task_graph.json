@@ -1,0 +1,158 @@
+{
+  "tasks": [
+    {
+      "task_id": "initialization-demo_fail",
+      "agent": "initialization",
+      "stage": "INITIALIZATION",
+      "status": "COMPLETED",
+      "dependencies": [],
+      "created_at": "2026-07-23T09:30:36.362457+08:00",
+      "updated_at": "2026-07-23T09:30:36.363381+08:00",
+      "result_ref": null,
+      "notes": ""
+    },
+    {
+      "task_id": "input_analysis-demo_fail",
+      "agent": "input_analysis",
+      "stage": "INPUT_ANALYSIS",
+      "status": "COMPLETED",
+      "dependencies": [
+        "initialization-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362477+08:00",
+      "updated_at": "2026-07-23T09:30:36.364864+08:00",
+      "result_ref": null,
+      "notes": ""
+    },
+    {
+      "task_id": "original_model-demo_fail",
+      "agent": "original_model",
+      "stage": "ORIGINAL_MODEL",
+      "status": "COMPLETED",
+      "dependencies": [
+        "input_analysis-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362489+08:00",
+      "updated_at": "2026-07-23T09:30:36.366094+08:00",
+      "result_ref": null,
+      "notes": ""
+    },
+    {
+      "task_id": "design_spec-demo_fail",
+      "agent": "design_spec",
+      "stage": "DESIGN_SPEC",
+      "status": "COMPLETED",
+      "dependencies": [
+        "original_model-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362501+08:00",
+      "updated_at": "2026-07-23T09:30:36.366685+08:00",
+      "result_ref": null,
+      "notes": ""
+    },
+    {
+      "task_id": "layout-demo_fail",
+      "agent": "layout",
+      "stage": "LAYOUT",
+      "status": "COMPLETED",
+      "dependencies": [
+        "design_spec-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362513+08:00",
+      "updated_at": "2026-07-23T09:30:36.367632+08:00",
+      "result_ref": "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/workspace/projects/demo_fail/layout_v1.json",
+      "notes": ""
+    },
+    {
+      "task_id": "professional_deepening-demo_fail",
+      "agent": "professional_deepening",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362524+08:00",
+      "updated_at": "2026-07-23T09:30:36.368221+08:00",
+      "result_ref": null,
+      "notes": ""
+    },
+    {
+      "task_id": "geometry-demo_fail",
+      "agent": "geometry",
+      "stage": "GEOMETRY",
+      "status": "COMPLETED",
+      "dependencies": [
+        "professional_deepening-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362536+08:00",
+      "updated_at": "2026-07-23T09:30:36.369274+08:00",
+      "result_ref": "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/workspace/projects/demo_fail/geometry_v1.json",
+      "notes": ""
+    },
+    {
+      "task_id": "drawing-demo_fail",
+      "agent": "drawing",
+      "stage": "DRAWING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "geometry-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362548+08:00",
+      "updated_at": "2026-07-23T09:30:36.370205+08:00",
+      "result_ref": "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/workspace/projects/demo_fail/drawing_v1.json",
+      "notes": ""
+    },
+    {
+      "task_id": "dwg_generation-demo_fail",
+      "agent": "dwg_generation",
+      "stage": "DWG_GENERATION",
+      "status": "COMPLETED",
+      "dependencies": [
+        "drawing-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362560+08:00",
+      "updated_at": "2026-07-23T09:30:36.371131+08:00",
+      "result_ref": "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/workspace/projects/demo_fail/drawing_v2.json",
+      "notes": ""
+    },
+    {
+      "task_id": "validation-demo_fail",
+      "agent": "validation",
+      "stage": "VALIDATION",
+      "status": "FAILED",
+      "dependencies": [
+        "dwg_generation-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362573+08:00",
+      "updated_at": "2026-07-23T09:30:36.371530+08:00",
+      "result_ref": null,
+      "notes": ""
+    },
+    {
+      "task_id": "repair-demo_fail",
+      "agent": "repair",
+      "stage": "REPAIR",
+      "status": "PENDING",
+      "dependencies": [
+        "validation-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362585+08:00",
+      "updated_at": "2026-07-23T09:30:36.362588+08:00",
+      "result_ref": null,
+      "notes": ""
+    },
+    {
+      "task_id": "export-demo_fail",
+      "agent": "export",
+      "stage": "EXPORT",
+      "status": "PENDING",
+      "dependencies": [
+        "repair-demo_fail"
+      ],
+      "created_at": "2026-07-23T09:30:36.362598+08:00",
+      "updated_at": "2026-07-23T09:30:36.362601+08:00",
+      "result_ref": null,
+      "notes": ""
+    }
+  ]
+}

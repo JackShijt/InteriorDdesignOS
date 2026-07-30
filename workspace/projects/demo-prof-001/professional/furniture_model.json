@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "project_id": "demo-prof-001",
+    "agent": "furniture",
+    "task_id": "professional-furniture-demo-prof-001",
+    "timestamp": "2026-07-23T16:34:51.964311+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 0.95,
+      "quality_score": 95,
+      "validation_passed": true
+    }
+  },
+  "layout_model_version": "v1",
+  "discipline": "FURNITURE",
+  "objects": [
+    {
+      "category": "movable",
+      "id": "MV-F001",
+      "name": "活动家具（引用布局家具 F001）",
+      "spec": {
+        "layout_ref": "F001",
+        "category": "SOFA"
+      }
+    },
+    {
+      "category": "movable",
+      "id": "MV-F002",
+      "name": "活动家具（引用布局家具 F002）",
+      "spec": {
+        "layout_ref": "F002",
+        "category": "BED"
+      }
+    },
+    {
+      "category": "fixed",
+      "id": "FX-R001",
+      "room_id": "R001",
+      "name": "客厅定制柜体（Mock）",
+      "spec": {
+        "type": "built_in_cabinet"
+      }
+    },
+    {
+      "category": "fixed",
+      "id": "FX-R002",
+      "room_id": "R002",
+      "name": "主卧定制柜体（Mock）",
+      "spec": {
+        "type": "built_in_cabinet"
+      }
+    },
+    {
+      "category": "fixed",
+      "id": "FX-R003",
+      "room_id": "R003",
+      "name": "次卧定制柜体（Mock）",
+      "spec": {
+        "type": "built_in_cabinet"
+      }
+    },
+    {
+      "category": "fixed",
+      "id": "FX-R004",
+      "room_id": "R004",
+      "name": "厨房定制柜体（Mock）",
+      "spec": {
+        "type": "built_in_cabinet"
+      }
+    },
+    {
+      "category": "fixed",
+      "id": "FX-R005",
+      "room_id": "R005",
+      "name": "卫生间定制柜体（Mock）",
+      "spec": {
+        "type": "built_in_cabinet"
+      }
+    },
+    {
+      "category": "clearance",
+      "id": "CL-R001",
+      "room_id": "R001",
+      "name": "客厅通行净宽要求",
+      "spec": {
+        "min_passage_mm": 800
+      }
+    },
+    {
+      "category": "clearance",
+      "id": "CL-R002",
+      "room_id": "R002",
+      "name": "主卧通行净宽要求",
+      "spec": {
+        "min_passage_mm": 800
+      }
+    },
+    {
+      "category": "clearance",
+      "id": "CL-R003",
+      "room_id": "R003",
+      "name": "次卧通行净宽要求",
+      "spec": {
+        "min_passage_mm": 800
+      }
+    },
+    {
+      "category": "clearance",
+      "id": "CL-R004",
+      "room_id": "R004",
+      "name": "厨房通行净宽要求",
+      "spec": {
+        "min_passage_mm": 800
+      }
+    },
+    {
+      "category": "clearance",
+      "id": "CL-R005",
+      "room_id": "R005",
+      "name": "卫生间通行净宽要求",
+      "spec": {
+        "min_passage_mm": 800
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "type": "clearance",
+      "room_id": "R001",
+      "description": "客厅主通道净宽不小于 800mm（Mock 约束）"
+    },
+    {
+      "type": "clearance",
+      "room_id": "R002",
+      "description": "主卧主通道净宽不小于 800mm（Mock 约束）"
+    },
+    {
+      "type": "clearance",
+      "room_id": "R003",
+      "description": "次卧主通道净宽不小于 800mm（Mock 约束）"
+    },
+    {
+      "type": "clearance",
+      "room_id": "R004",
+      "description": "厨房主通道净宽不小于 800mm（Mock 约束）"
+    },
+    {
+      "type": "clearance",
+      "room_id": "R005",
+      "description": "卫生间主通道净宽不小于 800mm（Mock 约束）"
+    }
+  ],
+  "quality": {
+    "confidence": 0.95,
+    "quality_score": 95,
+    "validation_passed": true
+  }
+}

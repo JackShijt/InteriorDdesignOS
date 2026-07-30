@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "project_id": "Project_001",
+    "agent": "drawing",
+    "task_id": "task-2d4e",
+    "timestamp": "2026-07-22T11:00:00+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": { "confidence": 0.92, "quality_score": 90, "validation_passed": true }
+  },
+  "schema_version": "1.0",
+  "layout_model_version": "v1",
+  "geometry_model_version": "v1",
+  "sheets": [
+    { "sheet_id": "P-01", "paper_size": "A3", "titleblock_ref": "templates/cad/titleblock/A3_standard" }
+  ],
+  "layers": [
+    { "name": "WALL", "color": 7, "line_type": "Continuous" },
+    { "name": "AXIS", "color": 1, "line_type": "Center" },
+    { "name": "FURN", "color": 4, "line_type": "Continuous" },
+    { "name": "DIM", "color": 2, "line_type": "Continuous" }
+  ],
+  "entities": [
+    { "entity_id": "E001", "type": "WALL", "geometry_ref": "L001", "layer": "WALL" },
+    { "entity_id": "E002", "type": "WALL", "geometry_ref": "L002", "layer": "WALL" },
+    { "entity_id": "E003", "type": "WALL", "geometry_ref": "L003", "layer": "WALL" },
+    { "entity_id": "E004", "type": "WALL", "geometry_ref": "L007", "layer": "WALL" },
+    { "entity_id": "E005", "type": "FURNITURE", "geometry_ref": "PG001", "layer": "FURN" },
+    { "entity_id": "E006", "type": "DOOR", "geometry_ref": "D001", "layer": "WALL" }
+  ],
+  "annotations": [
+    { "entity_id": "A001", "text": "客厅 24.0 m²", "position": [3000, 2000] }
+  ],
+  "dimensions": [
+    { "dimension_id": "DM001", "geometry_ref": "D001", "value": 6000, "unit": "mm", "start": [0, 0], "end": [6000, 0] },
+    { "dimension_id": "DM002", "geometry_ref": "D003", "value": 10000, "unit": "mm", "start": [0, 0], "end": [0, 7000] }
+  ],
+  "blocks": [],
+  "titleblock": {
+    "template_ref": "templates/cad/titleblock/A3_standard",
+    "project_fields": {
+      "project_name": "示范三居室",
+      "drawing_name": "平面布置图",
+      "scale": "1:50"
+    }
+  }
+}

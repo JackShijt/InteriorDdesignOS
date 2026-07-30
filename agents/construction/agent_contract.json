@@ -1,0 +1,12 @@
+{
+  "name": "construction",
+  "agent_name": "construction",
+  "role": "施工专业深化 Agent：由 LayoutModel 派生施工项 / 饰面做法（规则式，禁止施工规范知识库）。",
+  "discipline": "CONSTRUCTION",
+  "input_schema": ["LayoutModel"],
+  "output_schema": ["ConstructionModel"],
+  "capabilities": ["professional_deepening", "construction_detailing"],
+  "dependencies": ["layout"],
+  "forbidden_actions": ["generate_DWG", "modify_layout", "autocad_operation", "ai_design_algorithm", "code_knowledge_base"],
+  "impl": "agents.construction.construction_agent:ConstructionAgent"
+}

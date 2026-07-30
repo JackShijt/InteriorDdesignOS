@@ -1,0 +1,72 @@
+{
+  "tasks": [
+    {
+      "task_id": "professional-electrical-demo-prof-001",
+      "agent": "electrical",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [],
+      "created_at": "2026-07-23T16:34:51.958065+08:00",
+      "updated_at": "2026-07-23T16:34:51.974983+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/schemas/examples/LayoutModel.example.json"
+      ],
+      "parameters": {
+        "layout_path": "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/schemas/examples/LayoutModel.example.json"
+      }
+    },
+    {
+      "task_id": "professional-lighting-demo-prof-001",
+      "agent": "lighting",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [],
+      "created_at": "2026-07-23T16:34:51.958080+08:00",
+      "updated_at": "2026-07-23T16:34:51.974811+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/schemas/examples/LayoutModel.example.json"
+      ],
+      "parameters": {
+        "layout_path": "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/schemas/examples/LayoutModel.example.json"
+      }
+    },
+    {
+      "task_id": "professional-hvac-demo-prof-001",
+      "agent": "hvac",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [],
+      "created_at": "2026-07-23T16:34:51.958090+08:00",
+      "updated_at": "2026-07-23T16:34:51.975069+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/schemas/examples/LayoutModel.example.json"
+      ],
+      "parameters": {
+        "layout_path": "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/schemas/examples/LayoutModel.example.json"
+      }
+    },
+    {
+      "task_id": "professional-furniture-demo-prof-001",
+      "agent": "furniture",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [],
+      "created_at": "2026-07-23T16:34:51.958099+08:00",
+      "updated_at": "2026-07-23T16:34:51.974873+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/schemas/examples/LayoutModel.example.json"
+      ],
+      "parameters": {
+        "layout_path": "/Users/shijunteng/Desktop/图纸/InteriorDesignOS/schemas/examples/LayoutModel.example.json"
+      }
+    }
+  ]
+}

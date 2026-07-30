@@ -1,0 +1,29 @@
+{
+  "project_id": "demo001",
+  "name": "100㎡三居室住宅完整设计",
+  "goal": "full_drawing",
+  "area": 100.0,
+  "story": 1,
+  "style": "现代简约",
+  "source": "user-requirement",
+  "rooms": [
+    {"name": "客厅", "type": "LIVING", "area": 28.0},
+    {"name": "主卧", "type": "BEDROOM", "area": 18.0},
+    {"name": "次卧", "type": "BEDROOM", "area": 14.0},
+    {"name": "厨房", "type": "KITCHEN", "area": 8.0},
+    {"name": "卫生间", "type": "BATHROOM", "area": 6.0},
+    {"name": "阳台", "type": "BALCONY", "area": 8.0},
+    {"name": "餐厅", "type": "DINING", "area": 10.0},
+    {"name": "书房", "type": "STUDY", "area": 10.0},
+    {"name": "玄关", "type": "ENTRY", "area": 4.0}
+  ],
+  "features": [
+    "平面布局", "家具规划", "水电", "照明", "吊顶", "地面", "施工图"
+  ],
+  "materials": {"floor": "木地板", "wall": "乳胶漆"},
+  "disciplines": [
+    "electrical", "lighting", "plumbing", "ceiling", "construction", "elevation"
+  ],
+  "initial_schemas": ["DesignSpec"],
+  "target_schemas": ["DrawingModel", "ValidationReport"]
+}

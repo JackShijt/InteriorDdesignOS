@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "project_id": "project",
+    "agent": "elevation",
+    "task_id": "elevation-project",
+    "timestamp": "2026-07-27T08:46:09.815498+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "elevation",
+    "timestamp": "2026-07-27T08:46:09.815498+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "ELEVATION",
+  "summary": {
+    "elevation_count": 20,
+    "element_count": 35
+  },
+  "elevations": [
+    {
+      "elevation_id": "EL-living-NORTH",
+      "room_id": "living",
+      "room_name": "客厅",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-living-SOUTH",
+      "room_id": "living",
+      "room_name": "客厅",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-living-EAST",
+      "room_id": "living",
+      "room_name": "客厅",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-living-WEST",
+      "room_id": "living",
+      "room_name": "客厅",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-master-NORTH",
+      "room_id": "master",
+      "room_name": "主卧",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-master-SOUTH",
+      "room_id": "master",
+      "room_name": "主卧",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-master-EAST",
+      "room_id": "master",
+      "room_name": "主卧",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-master-WEST",
+      "room_id": "master",
+      "room_name": "主卧",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-second-NORTH",
+      "room_id": "second",
+      "room_name": "次卧",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-second-SOUTH",
+      "room_id": "second",
+      "room_name": "次卧",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-second-EAST",
+      "room_id": "second",
+      "room_name": "次卧",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-second-WEST",
+      "room_id": "second",
+      "room_name": "次卧",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-kitchen-NORTH",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-kitchen-SOUTH",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-kitchen-EAST",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-kitchen-WEST",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-bath-NORTH",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "direction": "NORTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-bath-SOUTH",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "direction": "SOUTH",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-bath-EAST",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "direction": "EAST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    },
+    {
+      "elevation_id": "EL-bath-WEST",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "direction": "WEST",
+      "height_mm": 2600,
+      "layer": "ELEV-MAIN"
+    }
+  ],
+  "elements": [
+    {
+      "element_id": "EL-EL-living-s1",
+      "room_id": "living",
+      "source_type": "SOFA",
+      "ref_id": "s1",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-living-s2",
+      "room_id": "living",
+      "source_type": "TABLE",
+      "ref_id": "s2",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-living-s3",
+      "room_id": "living",
+      "source_type": "DINING",
+      "ref_id": "s3",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-living-s4",
+      "room_id": "living",
+      "source_type": "BED",
+      "ref_id": "s4",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-living-s5",
+      "room_id": "living",
+      "source_type": "BED",
+      "ref_id": "s5",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-living-s6",
+      "room_id": "living",
+      "source_type": "CABINET",
+      "ref_id": "s6",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-living-s7",
+      "room_id": "living",
+      "source_type": "FIXTURE",
+      "ref_id": "s7",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-master-s1",
+      "room_id": "master",
+      "source_type": "SOFA",
+      "ref_id": "s1",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-master-s2",
+      "room_id": "master",
+      "source_type": "TABLE",
+      "ref_id": "s2",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-master-s3",
+      "room_id": "master",
+      "source_type": "DINING",
+      "ref_id": "s3",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-master-s4",
+      "room_id": "master",
+      "source_type": "BED",
+      "ref_id": "s4",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-master-s5",
+      "room_id": "master",
+      "source_type": "BED",
+      "ref_id": "s5",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-master-s6",
+      "room_id": "master",
+      "source_type": "CABINET",
+      "ref_id": "s6",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-master-s7",
+      "room_id": "master",
+      "source_type": "FIXTURE",
+      "ref_id": "s7",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-second-s1",
+      "room_id": "second",
+      "source_type": "SOFA",
+      "ref_id": "s1",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-second-s2",
+      "room_id": "second",
+      "source_type": "TABLE",
+      "ref_id": "s2",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-second-s3",
+      "room_id": "second",
+      "source_type": "DINING",
+      "ref_id": "s3",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-second-s4",
+      "room_id": "second",
+      "source_type": "BED",
+      "ref_id": "s4",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-second-s5",
+      "room_id": "second",
+      "source_type": "BED",
+      "ref_id": "s5",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-second-s6",
+      "room_id": "second",
+      "source_type": "CABINET",
+      "ref_id": "s6",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-second-s7",
+      "room_id": "second",
+      "source_type": "FIXTURE",
+      "ref_id": "s7",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-kitchen-s1",
+      "room_id": "kitchen",
+      "source_type": "SOFA",
+      "ref_id": "s1",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-kitchen-s2",
+      "room_id": "kitchen",
+      "source_type": "TABLE",
+      "ref_id": "s2",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-kitchen-s3",
+      "room_id": "kitchen",
+      "source_type": "DINING",
+      "ref_id": "s3",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-kitchen-s4",
+      "room_id": "kitchen",
+      "source_type": "BED",
+      "ref_id": "s4",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-kitchen-s5",
+      "room_id": "kitchen",
+      "source_type": "BED",
+      "ref_id": "s5",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-kitchen-s6",
+      "room_id": "kitchen",
+      "source_type": "CABINET",
+      "ref_id": "s6",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-kitchen-s7",
+      "room_id": "kitchen",
+      "source_type": "FIXTURE",
+      "ref_id": "s7",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-bath-s1",
+      "room_id": "bath",
+      "source_type": "SOFA",
+      "ref_id": "s1",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-bath-s2",
+      "room_id": "bath",
+      "source_type": "TABLE",
+      "ref_id": "s2",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-bath-s3",
+      "room_id": "bath",
+      "source_type": "DINING",
+      "ref_id": "s3",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-bath-s4",
+      "room_id": "bath",
+      "source_type": "BED",
+      "ref_id": "s4",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-bath-s5",
+      "room_id": "bath",
+      "source_type": "BED",
+      "ref_id": "s5",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-bath-s6",
+      "room_id": "bath",
+      "source_type": "CABINET",
+      "ref_id": "s6",
+      "layer": "ELEV-ELEMENT"
+    },
+    {
+      "element_id": "EL-EL-bath-s7",
+      "room_id": "bath",
+      "source_type": "FIXTURE",
+      "ref_id": "s7",
+      "layer": "ELEV-ELEMENT"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "layout",
+  "role": "基于 DesignSpec 生成 LayoutModel（SSOT），建立唯一可信空间模型",
+  "input_schema": ["DesignSpec"],
+  "output_schema": ["LayoutModel"],
+  "capabilities": ["space_layout", "furniture_placement", "constraint_build"],
+  "forbidden": ["modify_DWG", "modify_drawing"]
+}

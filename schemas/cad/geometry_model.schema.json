@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/cad/geometry_model.schema.json",
+  "title": "GeometryModel",
+  "description": "Layout → CAD 的几何中间层（architecture.md §4）。承载空间几何转换、墙体几何、门窗/家具定位、尺寸链、标注基准与 CAD 绘图基础数据。单位统一：长度 mm、面积 m²、角度 °（PROJECT_RULES §4.5）。",
+  "type": "object",
+  "required": [
+    "metadata",
+    "layout_model_version",
+    "geometry_model_version",
+    "coordinate_system",
+    "units",
+    "points",
+    "lines",
+    "polygons",
+    "dimensions"
+  ],
+  "properties": {
+    "metadata": {
+      "$ref": "../core/metadata.schema.json",
+      "description": "统一元数据（canonical: core/metadata.schema.json，PROJECT_RULES §4.3）"
+    },
+    "layout_model_version": { "type": "string", "description": "所基于的 LayoutModel 版本（输入版本声明，architecture.md §14）" },
+    "geometry_model_version": { "type": "string", "description": "本 GeometryModel 版本，支持 Geometry → Drawing 版本追踪" },
+    "coordinate_system": {
+      "type": "object",
+      "required": ["origin", "axis"],
+      "properties": {
+        "origin": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 },
+        "axis": { "type": "string", "enum": ["x-y", "x-y-z"] }
+      }
+    },
+    "units": {
+      "type": "object",
+      "required": ["length", "area", "angle"],
+      "properties": {
+        "length": { "type": "string", "enum": ["mm"] },
+        "area": { "type": "string", "enum": ["m2"] },
+        "angle": { "type": "string", "enum": ["degree"] }
+      }
+    },
+    "points": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "coord"],
+        "properties": {
+          "id": { "type": "string" },
+          "coord": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 }
+        }
+      }
+    },
+    "lines": {
+      "type": "array",
+      "description": "墙线等线段几何",
+      "items": {
+        "type": "object",
+        "required": ["id", "start", "end"],
+        "properties": {
+          "id": { "type": "string" },
+          "start": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 },
+          "end": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 3 },
+          "layer_ref": { "type": "string", "description": "目标图层引用（在 DrawingModel 中解析）" }
+        }
+      }
+    },
+    "polygons": {
+      "type": "array",
+      "description": "封闭多边形（房间/家具外轮廓）",
+      "items": {
+        "type": "object",
+        "required": ["id", "vertices"],
+        "properties": {
+          "id": { "type": "string" },
+          "vertices": { "type": "array", "items": { "type": "array", "items": { "type": "number" } } }
+        }
+      }
+    },
+    "dimensions": {
+      "type": "array",
+      "description": "尺寸标注基准",
+      "items": {
+        "type": "object",
+        "required": ["id", "value"],
+        "properties": {
+          "id": { "type": "string" },
+          "value": { "type": "number", "minimum": 0 },
+          "unit": { "type": "string", "enum": ["mm"] },
+          "start": { "type": "array", "items": { "type": "number" } },
+          "end": { "type": "array", "items": { "type": "number" } }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

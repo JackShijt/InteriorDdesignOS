@@ -1,0 +1,177 @@
+{
+  "backend": "mock",
+  "command_count": 15,
+  "log": [
+    {
+      "op": "create_layer",
+      "layer": "WALL",
+      "color": 7,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "AXIS",
+      "color": 1,
+      "line_type": "Center"
+    },
+    {
+      "op": "create_layer",
+      "layer": "FURN",
+      "color": 4,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "DIM",
+      "color": 2,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          6000,
+          0
+        ]
+      ],
+      "layer": "WALL",
+      "width": 100,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        [
+          6000,
+          0
+        ],
+        [
+          10000,
+          0
+        ]
+      ],
+      "layer": "WALL",
+      "width": 100,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        [
+          0,
+          4000
+        ],
+        [
+          4000,
+          4000
+        ]
+      ],
+      "layer": "WALL",
+      "width": 100,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        [
+          10000,
+          0
+        ],
+        [
+          10000,
+          7000
+        ]
+      ],
+      "layer": "WALL",
+      "width": 100,
+      "closed": false
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "PG001",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1.0,
+      "rotation": 0.0,
+      "layer": "FURN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        6000,
+        0
+      ],
+      "layer": "WALL"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        0,
+        0
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "WALL"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        6000,
+        0
+      ],
+      "value": 6000,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        0,
+        7000
+      ],
+      "value": 10000,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_text",
+      "text": "客厅 24.0 m²",
+      "position": [
+        3000,
+        2000
+      ],
+      "height": 300,
+      "layer": null
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "templates/cad/titleblock/A3_standard",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1.0,
+      "rotation": 0.0,
+      "layer": "TITLEBLOCK"
+    }
+  ]
+}

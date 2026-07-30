@@ -1,0 +1,4 @@
+{
+  "$ref": "./drawing_model.schema.json",
+  "description": "本文件为 ARCHITECTURE.md §4 中引用的历史文件名，现作为指向 canonical Schema 的转发指针，避免重复定义（canonical: drawing_model.schema.json）。"
+}

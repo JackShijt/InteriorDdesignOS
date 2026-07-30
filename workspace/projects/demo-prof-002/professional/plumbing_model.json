@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "project_id": "demo-prof-002",
+    "agent": "plumbing",
+    "task_id": "professional-plumbing-demo-prof-002",
+    "timestamp": "2026-07-23T16:35:04.136275+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 0.78,
+      "quality_score": 78,
+      "validation_passed": true
+    }
+  },
+  "layout_model_version": "v1",
+  "discipline": "PLUMBING",
+  "objects": [
+    {
+      "category": "water_supply",
+      "id": "WS-R004",
+      "room_id": "R004",
+      "name": "厨房给水点",
+      "spec": {
+        "pipe": "PPR-DN20",
+        "cold_hot": "both"
+      }
+    },
+    {
+      "category": "water_supply",
+      "id": "WS-R005",
+      "room_id": "R005",
+      "name": "卫生间给水点",
+      "spec": {
+        "pipe": "PPR-DN20",
+        "cold_hot": "both"
+      }
+    },
+    {
+      "category": "drain",
+      "id": "DR-R004",
+      "room_id": "R004",
+      "name": "厨房排水点",
+      "spec": {
+        "pipe": "PVC-DN50",
+        "slope": "0.026"
+      }
+    },
+    {
+      "category": "drain",
+      "id": "DR-R005",
+      "room_id": "R005",
+      "name": "卫生间排水点",
+      "spec": {
+        "pipe": "PVC-DN50",
+        "slope": "0.026"
+      }
+    },
+    {
+      "category": "equipment",
+      "id": "EQ-R004",
+      "room_id": "R004",
+      "name": "厨房用水设备（Mock）",
+      "spec": {
+        "type": "generic_fixture"
+      }
+    },
+    {
+      "category": "equipment",
+      "id": "EQ-R005",
+      "room_id": "R005",
+      "name": "卫生间用水设备（Mock）",
+      "spec": {
+        "type": "generic_fixture"
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "type": "code",
+      "room_id": "R004",
+      "description": "厨房排水须设存水弯，防返味（Mock 规范约束）"
+    },
+    {
+      "type": "code",
+      "room_id": "R005",
+      "description": "卫生间排水须设存水弯，防返味（Mock 规范约束）"
+    }
+  ],
+  "quality": {
+    "confidence": 0.78,
+    "quality_score": 78,
+    "validation_passed": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "v1",
+  "project_id": "demo-prof-002",
+  "stage": "PROFESSIONAL_DEEPENING",
+  "state": "COMPLETED",
+  "disciplines": [
+    "electrical",
+    "plumbing",
+    "lighting",
+    "ceiling",
+    "flooring",
+    "hvac",
+    "construction",
+    "furniture"
+  ],
+  "task_status": {
+    "professional-electrical-demo-prof-002": "COMPLETED",
+    "professional-plumbing-demo-prof-002": "COMPLETED",
+    "professional-lighting-demo-prof-002": "COMPLETED",
+    "professional-ceiling-demo-prof-002": "COMPLETED",
+    "professional-flooring-demo-prof-002": "COMPLETED",
+    "professional-hvac-demo-prof-002": "COMPLETED",
+    "professional-construction-demo-prof-002": "COMPLETED",
+    "professional-furniture-demo-prof-002": "COMPLETED"
+  },
+  "updated_at": "2026-07-23T16:35:04.181363"
+}

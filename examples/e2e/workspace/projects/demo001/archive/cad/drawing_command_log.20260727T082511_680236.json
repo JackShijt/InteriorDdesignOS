@@ -1,0 +1,851 @@
+{
+  "backend": "mock",
+  "command_count": 62,
+  "log": [
+    {
+      "op": "create_layer",
+      "layer": "WALL",
+      "color": 7,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "DOOR",
+      "color": 3,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "WIN",
+      "color": 4,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "FURN",
+      "color": 2,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "AXIS",
+      "color": 1,
+      "line_type": "Center"
+    },
+    {
+      "op": "create_layer",
+      "layer": "DIM",
+      "color": 1,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "TITLEBLOCK",
+      "color": 7,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 3166.67,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 0.0
+        },
+        {
+          "x": 3166.67,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 3166.67
+        },
+        {
+          "x": 0.0,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 3166.67
+        },
+        {
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 0.0
+        },
+        {
+          "x": 6500.0,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 0.0
+        },
+        {
+          "x": 6500.0,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 3166.67
+        },
+        {
+          "x": 3333.33,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 3166.67
+        },
+        {
+          "x": 3333.33,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 0.0
+        },
+        {
+          "x": 9833.33,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 0.0
+        },
+        {
+          "x": 9833.33,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 3166.67
+        },
+        {
+          "x": 6666.67,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 3166.67
+        },
+        {
+          "x": 6666.67,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 3333.33
+        },
+        {
+          "x": 3166.67,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 3333.33
+        },
+        {
+          "x": 3166.67,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 6500.0
+        },
+        {
+          "x": 0.0,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 6500.0
+        },
+        {
+          "x": 0.0,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 3333.33
+        },
+        {
+          "x": 6500.0,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 3333.33
+        },
+        {
+          "x": 6500.0,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 6500.0
+        },
+        {
+          "x": 3333.33,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 6500.0
+        },
+        {
+          "x": 3333.33,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 3333.33
+        },
+        {
+          "x": 9833.33,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 3333.33
+        },
+        {
+          "x": 9833.33,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 6500.0
+        },
+        {
+          "x": 6666.67,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 6500.0
+        },
+        {
+          "x": 6666.67,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 6666.67
+        },
+        {
+          "x": 3166.67,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 6666.67
+        },
+        {
+          "x": 3166.67,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 9833.33
+        },
+        {
+          "x": 0.0,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 9833.33
+        },
+        {
+          "x": 0.0,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 6666.67
+        },
+        {
+          "x": 6500.0,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 6666.67
+        },
+        {
+          "x": 6500.0,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 9833.33
+        },
+        {
+          "x": 3333.33,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 9833.33
+        },
+        {
+          "x": 3333.33,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 6666.67
+        },
+        {
+          "x": 9833.33,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 6666.67
+        },
+        {
+          "x": 9833.33,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 9833.33
+        },
+        {
+          "x": 6666.67,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 9833.33
+        },
+        {
+          "x": 6666.67,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "end": [
+        3166.67,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        3333.33,
+        0.0
+      ],
+      "end": [
+        6500.0,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        6666.67,
+        0.0
+      ],
+      "end": [
+        9833.33,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        0.0,
+        3333.33
+      ],
+      "end": [
+        3166.67,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        3333.33,
+        3333.33
+      ],
+      "end": [
+        6500.0,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        6666.67,
+        3333.33
+      ],
+      "end": [
+        9833.33,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        0.0,
+        6666.67
+      ],
+      "end": [
+        3166.67,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        3333.33,
+        6666.67
+      ],
+      "end": [
+        6500.0,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        6666.67,
+        6666.67
+      ],
+      "end": [
+        9833.33,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_text",
+      "text": "客厅 10.03㎡",
+      "position": [
+        1583.34,
+        1583.34
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "主卧 10.03㎡",
+      "position": [
+        4916.66,
+        1583.34
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "次卧 10.03㎡",
+      "position": [
+        8250.0,
+        1583.34
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "厨房 10.03㎡",
+      "position": [
+        1583.34,
+        4916.67
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "卫生间 10.03㎡",
+      "position": [
+        4916.67,
+        4916.66
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "阳台 10.03㎡",
+      "position": [
+        8250.0,
+        4916.67
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "餐厅 10.03㎡",
+      "position": [
+        1583.34,
+        8250.0
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "书房 10.03㎡",
+      "position": [
+        4916.67,
+        8250.0
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "玄关 10.03㎡",
+      "position": [
+        8250.0,
+        8250.0
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "A3",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1.0,
+      "rotation": 0.0,
+      "layer": "TITLEBLOCK"
+    }
+  ]
+}

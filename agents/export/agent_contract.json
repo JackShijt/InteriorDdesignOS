@@ -1,0 +1,8 @@
+{
+  "name": "export",
+  "role": "对通过验证的 DWG 执行四项终检，导出最终交付物并归档质量凭证",
+  "input_schema": ["DWG", "ValidationReport"],
+  "output_schema": ["Deliverable"],
+  "capabilities": ["export", "final_check", "archive"],
+  "forbidden": ["modify_DWG", "modify_design", "modify_layout", "modify_drawing"]
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "task_id": "original_model-cli_run",
+      "agent": "parser",
+      "stage": "ORIGINAL_MODEL",
+      "status": "COMPLETED",
+      "dependencies": [],
+      "created_at": "2026-07-23T14:29:31.028314+08:00",
+      "updated_at": "2026-07-23T14:29:31.035782+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "examples/input/sample_json/sample.json"
+      ],
+      "parameters": {}
+    },
+    {
+      "task_id": "design-cli_run",
+      "agent": "design",
+      "stage": "DESIGN_SPEC",
+      "status": "COMPLETED",
+      "dependencies": [
+        "original_model-cli_run"
+      ],
+      "created_at": "2026-07-23T14:29:31.028678+08:00",
+      "updated_at": "2026-07-23T14:29:31.038510+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "requirement": "三口之家，北欧风，预算中等，强收纳，居家办公"
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "project_id": "demo001",
+    "agent": "lighting",
+    "task_id": "lighting_task",
+    "timestamp": "2026-07-27T16:25:43.820713+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {}
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "none",
+    "producer_agent": "lighting",
+    "timestamp": "2026-07-27T16:25:43.820717+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "LIGHTING",
+  "summary": {
+    "fixture_count": 9,
+    "switch_count": 9,
+    "circuit_count": 9
+  },
+  "fixtures": [
+    {
+      "fixture_id": "L-FIX-R01-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-R02-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-R03-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-R04-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-R05-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-R06-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-R07-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-R08-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "R08",
+      "room_name": "书房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    },
+    {
+      "fixture_id": "L-FIX-R09-1",
+      "type": "RECESSED_DOWNLIGHT",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-FIXTURE",
+      "power_w": 36
+    }
+  ],
+  "switches": [
+    {
+      "switch_id": "L-SW-R01-1",
+      "type": "DIMMER",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-R02-1",
+      "type": "DIMMER",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-R03-1",
+      "type": "DIMMER",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-R04-1",
+      "type": "DIMMER",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-R05-1",
+      "type": "DIMMER",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-R06-1",
+      "type": "DIMMER",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-R07-1",
+      "type": "DIMMER",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-R08-1",
+      "type": "DIMMER",
+      "room_id": "R08",
+      "room_name": "书房",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-SWITCH"
+    },
+    {
+      "switch_id": "L-SW-R09-1",
+      "type": "DIMMER",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "layer": "LIGHT-SWITCH"
+    }
+  ],
+  "circuits": [
+    {
+      "circuit_id": "LC-R01",
+      "purpose": "客厅 照明",
+      "rooms": [
+        "R01"
+      ],
+      "estimated_load_w": 36
+    },
+    {
+      "circuit_id": "LC-R02",
+      "purpose": "主卧 照明",
+      "rooms": [
+        "R02"
+      ],
+      "estimated_load_w": 36
+    },
+    {
+      "circuit_id": "LC-R03",
+      "purpose": "次卧 照明",
+      "rooms": [
+        "R03"
+      ],
+      "estimated_load_w": 36
+    },
+    {
+      "circuit_id": "LC-R04",
+      "purpose": "厨房 照明",
+      "rooms": [
+        "R04"
+      ],
+      "estimated_load_w": 36
+    },
+    {
+      "circuit_id": "LC-R05",
+      "purpose": "卫生间 照明",
+      "rooms": [
+        "R05"
+      ],
+      "estimated_load_w": 36
+    },
+    {
+      "circuit_id": "LC-R06",
+      "purpose": "阳台 照明",
+      "rooms": [
+        "R06"
+      ],
+      "estimated_load_w": 36
+    },
+    {
+      "circuit_id": "LC-R07",
+      "purpose": "餐厅 照明",
+      "rooms": [
+        "R07"
+      ],
+      "estimated_load_w": 36
+    },
+    {
+      "circuit_id": "LC-R08",
+      "purpose": "书房 照明",
+      "rooms": [
+        "R08"
+      ],
+      "estimated_load_w": 36
+    },
+    {
+      "circuit_id": "LC-R09",
+      "purpose": "玄关 照明",
+      "rooms": [
+        "R09"
+      ],
+      "estimated_load_w": 36
+    }
+  ]
+}

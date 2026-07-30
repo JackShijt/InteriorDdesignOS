@@ -1,0 +1,8 @@
+{
+  "name": "parser",
+  "role": "解析原始 DWG 为 OriginalModel，并做输入分类与路径决策",
+  "input_schema": ["DWG", "OriginalModel"],
+  "output_schema": ["OriginalModel"],
+  "capabilities": ["dwg_parse", "input_analysis"],
+  "forbidden": ["modify_design", "modify_layout", "modify_drawing"]
+}

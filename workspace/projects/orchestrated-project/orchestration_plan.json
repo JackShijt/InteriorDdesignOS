@@ -1,0 +1,385 @@
+{
+  "requirement": {
+    "project_id": "orchestrated-project",
+    "name": "orchestrated-pipeline",
+    "goal": "full_drawing",
+    "initial_schemas": [
+      "DesignSpec"
+    ],
+    "target_schemas": [
+      "DrawingModel",
+      "ValidationReport"
+    ],
+    "disciplines": [
+      "electrical",
+      "lighting",
+      "plumbing",
+      "ceiling"
+    ]
+  },
+  "analysis": {
+    "goal": "full_drawing",
+    "initial_schemas": [
+      "DesignSpec"
+    ],
+    "target_schemas": [
+      "DrawingModel",
+      "ValidationReport"
+    ],
+    "disciplines": [
+      "electrical",
+      "lighting",
+      "plumbing",
+      "ceiling"
+    ],
+    "target_producers": [
+      "drawing",
+      "validator"
+    ]
+  },
+  "task_graph": {
+    "tasks": [
+      {
+        "task_id": "layout_task",
+        "agent": "layout",
+        "stage": "LAYOUT",
+        "status": "READY",
+        "dependencies": [],
+        "created_at": "2026-07-27T10:07:52.351078+08:00",
+        "updated_at": "2026-07-27T10:07:52.351086+08:00",
+        "result_ref": null,
+        "notes": "",
+        "input_refs": [
+          "DesignSpec"
+        ],
+        "parameters": {
+          "output_schema": [
+            "LayoutModel"
+          ],
+          "capabilities": [
+            "space_layout",
+            "furniture_placement",
+            "constraint_build"
+          ],
+          "impl": null,
+          "discipline": null
+        }
+      },
+      {
+        "task_id": "lighting_task",
+        "agent": "lighting",
+        "stage": "PROFESSIONAL_DEEPENING",
+        "status": "READY",
+        "dependencies": [
+          "layout_task"
+        ],
+        "created_at": "2026-07-27T10:07:52.351097+08:00",
+        "updated_at": "2026-07-27T10:07:52.351100+08:00",
+        "result_ref": null,
+        "notes": "",
+        "input_refs": [
+          "LayoutModel"
+        ],
+        "parameters": {
+          "output_schema": [
+            "LightingModel"
+          ],
+          "capabilities": [
+            "professional_deepening",
+            "lighting_design",
+            "fixture_layout"
+          ],
+          "impl": "agents.lighting.lighting_agent:LightingAgent",
+          "discipline": "LIGHTING"
+        }
+      },
+      {
+        "task_id": "plumbing_task",
+        "agent": "plumbing",
+        "stage": "PROFESSIONAL_DEEPENING",
+        "status": "READY",
+        "dependencies": [
+          "layout_task"
+        ],
+        "created_at": "2026-07-27T10:07:52.351108+08:00",
+        "updated_at": "2026-07-27T10:07:52.351111+08:00",
+        "result_ref": null,
+        "notes": "",
+        "input_refs": [
+          "LayoutModel"
+        ],
+        "parameters": {
+          "output_schema": [
+            "PlumbingModel"
+          ],
+          "capabilities": [
+            "professional_deepening",
+            "plumbing_design",
+            "pipe_layout"
+          ],
+          "impl": "agents.plumbing.plumbing_agent:PlumbingAgent",
+          "discipline": "PLUMBING"
+        }
+      },
+      {
+        "task_id": "ceiling_task",
+        "agent": "ceiling",
+        "stage": "PROFESSIONAL_DEEPENING",
+        "status": "READY",
+        "dependencies": [
+          "layout_task"
+        ],
+        "created_at": "2026-07-27T10:07:52.351118+08:00",
+        "updated_at": "2026-07-27T10:07:52.351120+08:00",
+        "result_ref": null,
+        "notes": "",
+        "input_refs": [
+          "LayoutModel"
+        ],
+        "parameters": {
+          "output_schema": [
+            "CeilingModel"
+          ],
+          "capabilities": [
+            "professional_deepening",
+            "ceiling_design",
+            "opening_layout"
+          ],
+          "impl": "agents.ceiling.ceiling_agent:CeilingAgent",
+          "discipline": "CEILING"
+        }
+      },
+      {
+        "task_id": "electrical_task",
+        "agent": "electrical",
+        "stage": "PROFESSIONAL_DEEPENING",
+        "status": "READY",
+        "dependencies": [
+          "layout_task"
+        ],
+        "created_at": "2026-07-27T10:07:52.351126+08:00",
+        "updated_at": "2026-07-27T10:07:52.351129+08:00",
+        "result_ref": null,
+        "notes": "",
+        "input_refs": [
+          "LayoutModel"
+        ],
+        "parameters": {
+          "output_schema": [
+            "ElectricalModel"
+          ],
+          "capabilities": [
+            "professional_deepening",
+            "electrical_design",
+            "circuit_layout"
+          ],
+          "impl": "agents.electrical.electrical_agent:ElectricalAgent",
+          "discipline": "ELECTRICAL"
+        }
+      },
+      {
+        "task_id": "geometry_task",
+        "agent": "geometry",
+        "stage": "GEOMETRY",
+        "status": "READY",
+        "dependencies": [
+          "layout_task"
+        ],
+        "created_at": "2026-07-27T10:07:52.351135+08:00",
+        "updated_at": "2026-07-27T10:07:52.351138+08:00",
+        "result_ref": null,
+        "notes": "",
+        "input_refs": [
+          "LayoutModel"
+        ],
+        "parameters": {
+          "output_schema": [
+            "GeometryModel"
+          ],
+          "capabilities": [
+            "geometry_generate",
+            "wall_geometry",
+            "dimension_chain"
+          ],
+          "impl": "agents.geometry.geometry_agent:GeometryAgent",
+          "discipline": null
+        }
+      },
+      {
+        "task_id": "drawing_task",
+        "agent": "drawing",
+        "stage": "DRAWING",
+        "status": "READY",
+        "dependencies": [
+          "geometry_task",
+          "layout_task"
+        ],
+        "created_at": "2026-07-27T10:07:52.351144+08:00",
+        "updated_at": "2026-07-27T10:07:52.351147+08:00",
+        "result_ref": null,
+        "notes": "",
+        "input_refs": [
+          "GeometryModel",
+          "LayoutModel"
+        ],
+        "parameters": {
+          "output_schema": [
+            "DrawingModel",
+            "DWG"
+          ],
+          "capabilities": [
+            "drawing_generate",
+            "layer_map",
+            "dwg_export"
+          ],
+          "impl": "agents.drawing.agent:DrawingAgent",
+          "discipline": null
+        }
+      },
+      {
+        "task_id": "validator_task",
+        "agent": "validator",
+        "stage": "VALIDATION",
+        "status": "READY",
+        "dependencies": [
+          "layout_task",
+          "drawing_task",
+          "ceiling_task",
+          "lighting_task",
+          "plumbing_task",
+          "electrical_task"
+        ],
+        "created_at": "2026-07-27T10:07:52.351154+08:00",
+        "updated_at": "2026-07-27T10:07:52.351157+08:00",
+        "result_ref": null,
+        "notes": "",
+        "input_refs": [
+          "LayoutModel",
+          "GeneratedModel",
+          "DrawingModel",
+          "ProfessionalModels"
+        ],
+        "parameters": {
+          "output_schema": [
+            "ValidationReport",
+            "Quality"
+          ],
+          "capabilities": [
+            "validate",
+            "judge",
+            "spec_check"
+          ],
+          "impl": "agents.validator.validator_agent:ProfessionalValidator",
+          "discipline": null
+        }
+      }
+    ]
+  },
+  "data_flow": [
+    {
+      "producer": "design",
+      "consumer": "layout",
+      "schema": "DesignSpec"
+    },
+    {
+      "producer": "layout",
+      "consumer": "lighting",
+      "schema": "LayoutModel"
+    },
+    {
+      "producer": "layout",
+      "consumer": "plumbing",
+      "schema": "LayoutModel"
+    },
+    {
+      "producer": "layout",
+      "consumer": "ceiling",
+      "schema": "LayoutModel"
+    },
+    {
+      "producer": "layout",
+      "consumer": "construction",
+      "schema": "LayoutModel"
+    },
+    {
+      "producer": "layout",
+      "consumer": "electrical",
+      "schema": "LayoutModel"
+    },
+    {
+      "producer": "layout",
+      "consumer": "elevation",
+      "schema": "LayoutModel"
+    },
+    {
+      "producer": "layout",
+      "consumer": "geometry",
+      "schema": "LayoutModel"
+    },
+    {
+      "producer": "geometry",
+      "consumer": "drawing",
+      "schema": "GeometryModel"
+    },
+    {
+      "producer": "layout",
+      "consumer": "drawing",
+      "schema": "LayoutModel"
+    },
+    {
+      "producer": "layout",
+      "consumer": "validator",
+      "schema": "LayoutModel"
+    },
+    {
+      "producer": "drawing",
+      "consumer": "validator",
+      "schema": "DrawingModel"
+    },
+    {
+      "producer": "ceiling",
+      "consumer": "validator",
+      "schema": "ProfessionalModels"
+    },
+    {
+      "producer": "lighting",
+      "consumer": "validator",
+      "schema": "ProfessionalModels"
+    },
+    {
+      "producer": "plumbing",
+      "consumer": "validator",
+      "schema": "ProfessionalModels"
+    },
+    {
+      "producer": "elevation",
+      "consumer": "validator",
+      "schema": "ProfessionalModels"
+    },
+    {
+      "producer": "electrical",
+      "consumer": "validator",
+      "schema": "ProfessionalModels"
+    },
+    {
+      "producer": "construction",
+      "consumer": "validator",
+      "schema": "ProfessionalModels"
+    },
+    {
+      "producer": "drawing",
+      "consumer": "export",
+      "schema": "DWG"
+    },
+    {
+      "producer": "validator",
+      "consumer": "export",
+      "schema": "ValidationReport"
+    },
+    {
+      "producer": "validator",
+      "consumer": "repair",
+      "schema": "ValidationReport"
+    }
+  ]
+}

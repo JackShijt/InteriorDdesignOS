@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "task_id": "design-direct_design",
+      "agent": "design",
+      "stage": "DESIGN_SPEC",
+      "status": "PENDING",
+      "dependencies": [],
+      "created_at": "2026-07-23T14:21:50.414022+08:00",
+      "updated_at": "2026-07-23T14:21:50.414026+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [],
+      "parameters": {
+        "requirement": "三口之家，有学龄儿童需要学习区，夫妻二人常居家办公，预算中等，北欧风，原木色和浅灰，强收纳，采光要好，客厅要明亮。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "source_project_id": "demo",
+  "drawing_model_ref": "DrawingModel.json",
+  "cad_backend": "mock",
+  "command_count": 42,
+  "drawing_command_log": "drawing_command_log.json",
+  "summary": {
+    "status": "MOCK_EXECUTED",
+    "messages": [
+      "Geometry: 5 房间 / 8 墙线",
+      "Drawing: 42 CAD commands"
+    ]
+  },
+  "metadata": {
+    "project_id": "demo",
+    "agent": "pipeline",
+    "task_id": "generated-demo",
+    "timestamp": "2026-07-24T16:07:56.360128+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "pipeline",
+    "timestamp": "2026-07-24T16:07:56.360128+08:00"
+  },
+  "layout_model_version": "v1",
+  "geometry_model_version": "v1",
+  "drawing_model_version": "v1"
+}

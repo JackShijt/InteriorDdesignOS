@@ -1,0 +1,53 @@
+Project Started
+Stage:
+  INITIALIZATION
+Running:
+  parser
+Completed:
+  OriginalModel
+Running:
+  design
+Completed:
+  DesignSpec
+Running:
+  layout
+Completed:
+  LayoutModel
+Running:
+  geometry
+Completed:
+  GeometryModel
+Completed:
+  PlumbingModel
+Completed:
+  LightingModel
+Completed:
+  ElectricalModel
+Completed:
+  ElevationModel
+Completed:
+  CeilingModel
+Completed:
+  ConstructionModel
+Running:
+  drawing
+Completed:
+  DrawingModel
+Running:
+  validator
+Completed:
+  ValidationReport
+Running:
+  deliverable
+Completed:
+  Deliverable
+Project Delivered
+
+==== 执行摘要 ====
+Project ID : demo001
+Status     : DELIVERED
+Artifacts  : DESIGN_SPEC, DRAWING, EXPORT, GEOMETRY, LAYOUT, ORIGINAL_MODEL, PROFESSIONAL_DEEPENING, VALIDATION
+Professions: ceiling, construction, electrical, elevation, lighting, plumbing
+CAD 命令   : 62
+冲突数     : 33
+结果目录   : /Users/shijunteng/Desktop/图纸/InteriorDesignOS/examples/e2e/workspace/projects/demo001

@@ -1,0 +1,12 @@
+{
+  "name": "plumbing",
+  "agent_name": "plumbing",
+  "role": "给排水专业深化 Agent：由 LayoutModel 派生给水管 / 排水管 / 卫浴点位（规则式）。",
+  "discipline": "PLUMBING",
+  "input_schema": ["LayoutModel"],
+  "output_schema": ["PlumbingModel"],
+  "capabilities": ["professional_deepening", "plumbing_design", "pipe_layout"],
+  "dependencies": ["layout"],
+  "forbidden_actions": ["generate_DWG", "modify_layout", "autocad_operation", "ai_design_algorithm"],
+  "impl": "agents.plumbing.plumbing_agent:PlumbingAgent"
+}

@@ -1,0 +1,31 @@
+{
+  "backends": [
+    {
+      "backend": "mock",
+      "capabilities": [
+        "line",
+        "polyline",
+        "circle",
+        "arc",
+        "text",
+        "block",
+        "dimension",
+        "layer",
+        "save_dwg",
+        "read_dwg"
+      ]
+    },
+    {
+      "backend": "autocad",
+      "capabilities": [
+        "line",
+        "polyline",
+        "block",
+        "dimension",
+        "layer",
+        "save_dwg",
+        "read_dwg"
+      ]
+    }
+  ]
+}

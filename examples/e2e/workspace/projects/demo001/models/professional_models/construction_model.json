@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "project_id": "demo001",
+    "agent": "construction",
+    "task_id": "construction_task",
+    "timestamp": "2026-07-27T16:25:43.820227+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {}
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "none",
+    "producer_agent": "construction",
+    "timestamp": "2026-07-27T16:25:43.820232+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "CONSTRUCTION",
+  "summary": {
+    "item_count": 9,
+    "finish_count": 18
+  },
+  "items": [
+    {
+      "item_id": "CI-R01",
+      "category": "WALL",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-R02",
+      "category": "WALL",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-R03",
+      "category": "WALL",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-R04",
+      "category": "WALL",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-R05",
+      "category": "WALL",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-R06",
+      "category": "WALL",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-R07",
+      "category": "WALL",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-R08",
+      "category": "WALL",
+      "room_id": "R08",
+      "room_name": "书房",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    },
+    {
+      "item_id": "CI-R09",
+      "category": "WALL",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "spec": "新建轻质隔墙",
+      "quantity": 1,
+      "layer": "CONST-ITEM"
+    }
+  ],
+  "finishes": [
+    {
+      "finish_id": "FN-FLOOR-R01",
+      "category": "FLOOR",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "material": "实木复合地板",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-R01",
+      "category": "WALL",
+      "room_id": "R01",
+      "room_name": "客厅",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-R02",
+      "category": "FLOOR",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "material": "实木复合地板",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-R02",
+      "category": "WALL",
+      "room_id": "R02",
+      "room_name": "主卧",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-R03",
+      "category": "FLOOR",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "material": "实木复合地板",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-R03",
+      "category": "WALL",
+      "room_id": "R03",
+      "room_name": "次卧",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-R04",
+      "category": "FLOOR",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "material": "瓷砖",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-R04",
+      "category": "WALL",
+      "room_id": "R04",
+      "room_name": "厨房",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-R05",
+      "category": "FLOOR",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "material": "瓷砖",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-R05",
+      "category": "WALL",
+      "room_id": "R05",
+      "room_name": "卫生间",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-R06",
+      "category": "FLOOR",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "material": "瓷砖",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-R06",
+      "category": "WALL",
+      "room_id": "R06",
+      "room_name": "阳台",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-R07",
+      "category": "FLOOR",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "material": "实木复合地板",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-R07",
+      "category": "WALL",
+      "room_id": "R07",
+      "room_name": "餐厅",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-R08",
+      "category": "FLOOR",
+      "room_id": "R08",
+      "room_name": "书房",
+      "material": "实木复合地板",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-R08",
+      "category": "WALL",
+      "room_id": "R08",
+      "room_name": "书房",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    },
+    {
+      "finish_id": "FN-FLOOR-R09",
+      "category": "FLOOR",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "material": "实木复合地板",
+      "spec": "满铺",
+      "layer": "CONST-FLOOR"
+    },
+    {
+      "finish_id": "FN-WALL-R09",
+      "category": "WALL",
+      "room_id": "R09",
+      "room_name": "玄关",
+      "material": "乳胶漆",
+      "spec": "两底两面",
+      "layer": "CONST-WALL"
+    }
+  ]
+}

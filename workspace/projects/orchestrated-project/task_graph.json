@@ -1,0 +1,239 @@
+{
+  "tasks": [
+    {
+      "task_id": "layout_task",
+      "agent": "layout",
+      "stage": "LAYOUT",
+      "status": "COMPLETED",
+      "dependencies": [],
+      "created_at": "2026-07-27T10:07:52.351078+08:00",
+      "updated_at": "2026-07-27T10:07:52.351988+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "DesignSpec"
+      ],
+      "parameters": {
+        "output_schema": [
+          "LayoutModel"
+        ],
+        "capabilities": [
+          "space_layout",
+          "furniture_placement",
+          "constraint_build"
+        ],
+        "impl": null,
+        "discipline": null
+      }
+    },
+    {
+      "task_id": "lighting_task",
+      "agent": "lighting",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T10:07:52.351097+08:00",
+      "updated_at": "2026-07-27T10:07:52.354130+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "LayoutModel"
+      ],
+      "parameters": {
+        "output_schema": [
+          "LightingModel"
+        ],
+        "capabilities": [
+          "professional_deepening",
+          "lighting_design",
+          "fixture_layout"
+        ],
+        "impl": "agents.lighting.lighting_agent:LightingAgent",
+        "discipline": "LIGHTING"
+      }
+    },
+    {
+      "task_id": "plumbing_task",
+      "agent": "plumbing",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T10:07:52.351108+08:00",
+      "updated_at": "2026-07-27T10:07:52.354321+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "LayoutModel"
+      ],
+      "parameters": {
+        "output_schema": [
+          "PlumbingModel"
+        ],
+        "capabilities": [
+          "professional_deepening",
+          "plumbing_design",
+          "pipe_layout"
+        ],
+        "impl": "agents.plumbing.plumbing_agent:PlumbingAgent",
+        "discipline": "PLUMBING"
+      }
+    },
+    {
+      "task_id": "ceiling_task",
+      "agent": "ceiling",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T10:07:52.351118+08:00",
+      "updated_at": "2026-07-27T10:07:52.354546+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "LayoutModel"
+      ],
+      "parameters": {
+        "output_schema": [
+          "CeilingModel"
+        ],
+        "capabilities": [
+          "professional_deepening",
+          "ceiling_design",
+          "opening_layout"
+        ],
+        "impl": "agents.ceiling.ceiling_agent:CeilingAgent",
+        "discipline": "CEILING"
+      }
+    },
+    {
+      "task_id": "electrical_task",
+      "agent": "electrical",
+      "stage": "PROFESSIONAL_DEEPENING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T10:07:52.351126+08:00",
+      "updated_at": "2026-07-27T10:07:52.354750+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "LayoutModel"
+      ],
+      "parameters": {
+        "output_schema": [
+          "ElectricalModel"
+        ],
+        "capabilities": [
+          "professional_deepening",
+          "electrical_design",
+          "circuit_layout"
+        ],
+        "impl": "agents.electrical.electrical_agent:ElectricalAgent",
+        "discipline": "ELECTRICAL"
+      }
+    },
+    {
+      "task_id": "geometry_task",
+      "agent": "geometry",
+      "stage": "GEOMETRY",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T10:07:52.351135+08:00",
+      "updated_at": "2026-07-27T10:07:52.355490+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "LayoutModel"
+      ],
+      "parameters": {
+        "output_schema": [
+          "GeometryModel"
+        ],
+        "capabilities": [
+          "geometry_generate",
+          "wall_geometry",
+          "dimension_chain"
+        ],
+        "impl": "agents.geometry.geometry_agent:GeometryAgent",
+        "discipline": null
+      }
+    },
+    {
+      "task_id": "drawing_task",
+      "agent": "drawing",
+      "stage": "DRAWING",
+      "status": "COMPLETED",
+      "dependencies": [
+        "geometry_task",
+        "layout_task"
+      ],
+      "created_at": "2026-07-27T10:07:52.351144+08:00",
+      "updated_at": "2026-07-27T10:07:52.359182+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "GeometryModel",
+        "LayoutModel"
+      ],
+      "parameters": {
+        "output_schema": [
+          "DrawingModel",
+          "DWG"
+        ],
+        "capabilities": [
+          "drawing_generate",
+          "layer_map",
+          "dwg_export"
+        ],
+        "impl": "agents.drawing.agent:DrawingAgent",
+        "discipline": null,
+        "_command_count": 42
+      }
+    },
+    {
+      "task_id": "validator_task",
+      "agent": "validator",
+      "stage": "VALIDATION",
+      "status": "COMPLETED",
+      "dependencies": [
+        "layout_task",
+        "drawing_task",
+        "ceiling_task",
+        "lighting_task",
+        "plumbing_task",
+        "electrical_task"
+      ],
+      "created_at": "2026-07-27T10:07:52.351154+08:00",
+      "updated_at": "2026-07-27T10:07:52.360077+08:00",
+      "result_ref": null,
+      "notes": "",
+      "input_refs": [
+        "LayoutModel",
+        "GeneratedModel",
+        "DrawingModel",
+        "ProfessionalModels"
+      ],
+      "parameters": {
+        "output_schema": [
+          "ValidationReport",
+          "Quality"
+        ],
+        "capabilities": [
+          "validate",
+          "judge",
+          "spec_check"
+        ],
+        "impl": "agents.validator.validator_agent:ProfessionalValidator",
+        "discipline": null
+      }
+    }
+  ]
+}

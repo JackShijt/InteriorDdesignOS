@@ -1,0 +1,1274 @@
+{
+  "backend": "mock",
+  "command_count": 98,
+  "log": [
+    {
+      "op": "create_layer",
+      "layer": "WALL",
+      "color": 7,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "DOOR",
+      "color": 3,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "WIN",
+      "color": 4,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "FURN",
+      "color": 2,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "AXIS",
+      "color": 1,
+      "line_type": "Center"
+    },
+    {
+      "op": "create_layer",
+      "layer": "DIM",
+      "color": 1,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "create_layer",
+      "layer": "TITLEBLOCK",
+      "color": 7,
+      "line_type": "Continuous"
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 3166.67,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 0.0
+        },
+        {
+          "x": 3166.67,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 3166.67
+        },
+        {
+          "x": 0.0,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 3166.67
+        },
+        {
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 0.0
+        },
+        {
+          "x": 6500.0,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 0.0
+        },
+        {
+          "x": 6500.0,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 3166.67
+        },
+        {
+          "x": 3333.33,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 3166.67
+        },
+        {
+          "x": 3333.33,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 0.0
+        },
+        {
+          "x": 9833.33,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 0.0
+        },
+        {
+          "x": 9833.33,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 3166.67
+        },
+        {
+          "x": 6666.67,
+          "y": 3166.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 3166.67
+        },
+        {
+          "x": 6666.67,
+          "y": 0.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 3333.33
+        },
+        {
+          "x": 3166.67,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 3333.33
+        },
+        {
+          "x": 3166.67,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 6500.0
+        },
+        {
+          "x": 0.0,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 6500.0
+        },
+        {
+          "x": 0.0,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 3333.33
+        },
+        {
+          "x": 6500.0,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 3333.33
+        },
+        {
+          "x": 6500.0,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 6500.0
+        },
+        {
+          "x": 3333.33,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 6500.0
+        },
+        {
+          "x": 3333.33,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 3333.33
+        },
+        {
+          "x": 9833.33,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 3333.33
+        },
+        {
+          "x": 9833.33,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 6500.0
+        },
+        {
+          "x": 6666.67,
+          "y": 6500.0
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 6500.0
+        },
+        {
+          "x": 6666.67,
+          "y": 3333.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 6666.67
+        },
+        {
+          "x": 3166.67,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 6666.67
+        },
+        {
+          "x": 3166.67,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 9833.33
+        },
+        {
+          "x": 0.0,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 9833.33
+        },
+        {
+          "x": 0.0,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 6666.67
+        },
+        {
+          "x": 6500.0,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 6666.67
+        },
+        {
+          "x": 6500.0,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 9833.33
+        },
+        {
+          "x": 3333.33,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 9833.33
+        },
+        {
+          "x": 3333.33,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 6666.67
+        },
+        {
+          "x": 9833.33,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 6666.67
+        },
+        {
+          "x": 9833.33,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 9833.33
+        },
+        {
+          "x": 6666.67,
+          "y": 9833.33
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_polyline",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 9833.33
+        },
+        {
+          "x": 6666.67,
+          "y": 6666.67
+        }
+      ],
+      "layer": "WALL",
+      "width": 200,
+      "closed": false
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        1133.33,
+        0.0
+      ],
+      "end": [
+        2033.33,
+        0.0
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        1133.33,
+        0.0
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        4466.67,
+        0.0
+      ],
+      "end": [
+        5366.67,
+        0.0
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        4466.67,
+        0.0
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        7800.0,
+        0.0
+      ],
+      "end": [
+        8700.0,
+        0.0
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        7800.0,
+        0.0
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        1133.33,
+        3333.33
+      ],
+      "end": [
+        2033.33,
+        3333.33
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        1133.33,
+        3333.33
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        4466.67,
+        3333.33
+      ],
+      "end": [
+        5366.67,
+        3333.33
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        4466.67,
+        3333.33
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        7800.0,
+        3333.33
+      ],
+      "end": [
+        8700.0,
+        3333.33
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        7800.0,
+        3333.33
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        1133.33,
+        6666.67
+      ],
+      "end": [
+        2033.33,
+        6666.67
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        1133.33,
+        6666.67
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        4466.67,
+        6666.67
+      ],
+      "end": [
+        5366.67,
+        6666.67
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        4466.67,
+        6666.67
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        7800.0,
+        6666.67
+      ],
+      "end": [
+        8700.0,
+        6666.67
+      ],
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_arc",
+      "center": [
+        7800.0,
+        6666.67
+      ],
+      "radius": 900,
+      "start_angle": 0.0,
+      "end_angle": 90.0,
+      "layer": "DOOR"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        3166.67,
+        833.33
+      ],
+      "end": [
+        3166.67,
+        2333.33
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        3166.67,
+        893.33
+      ],
+      "end": [
+        3166.67,
+        2393.33
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        6500.0,
+        833.33
+      ],
+      "end": [
+        6500.0,
+        2333.33
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        6500.0,
+        893.33
+      ],
+      "end": [
+        6500.0,
+        2393.33
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        9833.33,
+        833.33
+      ],
+      "end": [
+        9833.33,
+        2333.33
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        9833.33,
+        893.33
+      ],
+      "end": [
+        9833.33,
+        2393.33
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        3166.67,
+        4166.67
+      ],
+      "end": [
+        3166.67,
+        5666.67
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        3166.67,
+        4226.67
+      ],
+      "end": [
+        3166.67,
+        5726.67
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        6500.0,
+        4166.67
+      ],
+      "end": [
+        6500.0,
+        5666.67
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        6500.0,
+        4226.67
+      ],
+      "end": [
+        6500.0,
+        5726.67
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        9833.33,
+        4166.67
+      ],
+      "end": [
+        9833.33,
+        5666.67
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        9833.33,
+        4226.67
+      ],
+      "end": [
+        9833.33,
+        5726.67
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        3166.67,
+        7500.0
+      ],
+      "end": [
+        3166.67,
+        9000.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        3166.67,
+        7560.0
+      ],
+      "end": [
+        3166.67,
+        9060.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        6500.0,
+        7500.0
+      ],
+      "end": [
+        6500.0,
+        9000.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        6500.0,
+        7560.0
+      ],
+      "end": [
+        6500.0,
+        9060.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        9833.33,
+        7500.0
+      ],
+      "end": [
+        9833.33,
+        9000.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "draw_line",
+      "start": [
+        9833.33,
+        7560.0
+      ],
+      "end": [
+        9833.33,
+        9060.0
+      ],
+      "layer": "WIN"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "end": [
+        3166.67,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        3333.33,
+        0.0
+      ],
+      "end": [
+        6500.0,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        6666.67,
+        0.0
+      ],
+      "end": [
+        9833.33,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        0.0,
+        3333.33
+      ],
+      "end": [
+        3166.67,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        3333.33,
+        3333.33
+      ],
+      "end": [
+        6500.0,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        6666.67,
+        3333.33
+      ],
+      "end": [
+        9833.33,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        0.0,
+        6666.67
+      ],
+      "end": [
+        3166.67,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        3333.33,
+        6666.67
+      ],
+      "end": [
+        6500.0,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_dimension",
+      "start": [
+        6666.67,
+        6666.67
+      ],
+      "end": [
+        9833.33,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "op": "create_text",
+      "text": "客厅 10.03㎡",
+      "position": [
+        1583.34,
+        1583.34
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "主卧 10.03㎡",
+      "position": [
+        4916.66,
+        1583.34
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "次卧 10.03㎡",
+      "position": [
+        8250.0,
+        1583.34
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "厨房 10.03㎡",
+      "position": [
+        1583.34,
+        4916.67
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "卫生间 10.03㎡",
+      "position": [
+        4916.67,
+        4916.66
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "阳台 10.03㎡",
+      "position": [
+        8250.0,
+        4916.67
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "餐厅 10.03㎡",
+      "position": [
+        1583.34,
+        8250.0
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "书房 10.03㎡",
+      "position": [
+        4916.67,
+        8250.0
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "create_text",
+      "text": "玄关 10.03㎡",
+      "position": [
+        8250.0,
+        8250.0
+      ],
+      "height": 300,
+      "layer": "AXIS"
+    },
+    {
+      "op": "insert_block",
+      "block_ref": "A3",
+      "position": [
+        0,
+        0
+      ],
+      "scale": 1.0,
+      "rotation": 0.0,
+      "layer": "TITLEBLOCK"
+    }
+  ]
+}

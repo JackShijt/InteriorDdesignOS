@@ -1,0 +1,8 @@
+{
+  "name": "design",
+  "role": "基于用户需求（及 OriginalModel）生成 DesignSpec 设计方案说明",
+  "input_schema": ["UserRequirement", "OriginalModel"],
+  "output_schema": ["DesignSpec"],
+  "capabilities": ["design_spec", "style_planning", "material_planning"],
+  "forbidden": ["modify_DWG", "modify_layout"]
+}

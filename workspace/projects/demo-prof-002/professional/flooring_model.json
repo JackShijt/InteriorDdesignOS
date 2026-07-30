@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "project_id": "demo-prof-002",
+    "agent": "flooring",
+    "task_id": "professional-flooring-demo-prof-002",
+    "timestamp": "2026-07-23T16:35:04.138808+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 0.95,
+      "quality_score": 95,
+      "validation_passed": true
+    }
+  },
+  "layout_model_version": "v1",
+  "discipline": "FLOORING",
+  "objects": [
+    {
+      "category": "areas",
+      "id": "FA-R001",
+      "room_id": "R001",
+      "name": "客厅地面区域",
+      "spec": {
+        "material": "wood_floor",
+        "area_m2": 24.0
+      }
+    },
+    {
+      "category": "areas",
+      "id": "FA-R002",
+      "room_id": "R002",
+      "name": "主卧地面区域",
+      "spec": {
+        "material": "wood_floor",
+        "area_m2": 16.0
+      }
+    },
+    {
+      "category": "areas",
+      "id": "FA-R003",
+      "room_id": "R003",
+      "name": "次卧地面区域",
+      "spec": {
+        "material": "wood_floor",
+        "area_m2": 12.0
+      }
+    },
+    {
+      "category": "areas",
+      "id": "FA-R004",
+      "room_id": "R004",
+      "name": "厨房地面区域",
+      "spec": {
+        "material": "tile",
+        "area_m2": 12.0
+      }
+    },
+    {
+      "category": "areas",
+      "id": "FA-R005",
+      "room_id": "R005",
+      "name": "卫生间地面区域",
+      "spec": {
+        "material": "tile",
+        "area_m2": 16.0
+      }
+    },
+    {
+      "category": "materials",
+      "id": "FM-1",
+      "name": "tile",
+      "spec": {
+        "category": "tile",
+        "slip_resistance": "R9"
+      }
+    },
+    {
+      "category": "materials",
+      "id": "FM-2",
+      "name": "wood_floor",
+      "spec": {
+        "category": "wood_floor",
+        "slip_resistance": "R9"
+      }
+    },
+    {
+      "category": "patterns",
+      "id": "FP-R001",
+      "room_id": "R001",
+      "name": "客厅铺贴方式",
+      "spec": {
+        "pattern": "staggered"
+      }
+    },
+    {
+      "category": "patterns",
+      "id": "FP-R002",
+      "room_id": "R002",
+      "name": "主卧铺贴方式",
+      "spec": {
+        "pattern": "staggered"
+      }
+    },
+    {
+      "category": "patterns",
+      "id": "FP-R003",
+      "room_id": "R003",
+      "name": "次卧铺贴方式",
+      "spec": {
+        "pattern": "staggered"
+      }
+    },
+    {
+      "category": "patterns",
+      "id": "FP-R004",
+      "room_id": "R004",
+      "name": "厨房铺贴方式",
+      "spec": {
+        "pattern": "straight"
+      }
+    },
+    {
+      "category": "patterns",
+      "id": "FP-R005",
+      "room_id": "R005",
+      "name": "卫生间铺贴方式",
+      "spec": {
+        "pattern": "straight"
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "type": "waterproof",
+      "room_id": "R004",
+      "description": "厨房地面须做防水并向地漏找坡（Mock 约束）"
+    },
+    {
+      "type": "waterproof",
+      "room_id": "R005",
+      "description": "卫生间地面须做防水并向地漏找坡（Mock 约束）"
+    }
+  ],
+  "quality": {
+    "confidence": 0.95,
+    "quality_score": 95,
+    "validation_passed": true
+  }
+}

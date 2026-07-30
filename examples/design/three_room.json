@@ -1,0 +1,36 @@
+{
+  "requirement": "三口之家，有学龄儿童需要学习区，夫妻二人常居家办公，预算中等，北欧风，原木色和浅灰，强收纳，采光要好，客厅要明亮。",
+  "original_model": {
+    "metadata": {
+      "project_id": "three_room",
+      "agent": "parser",
+      "task_id": "parser-three_room",
+      "timestamp": "2026-07-23T10:00:00+08:00",
+      "schema_version": "1.0",
+      "status": "COMPLETED",
+      "quality": { "confidence": 0.6, "quality_score": 60, "validation_passed": true }
+    },
+    "version": "v1",
+    "source_type": "json",
+    "units": { "length": "mm", "area": "m2", "angle": "degree" },
+    "coordinates": { "origin": [0, 0], "system": "world" },
+    "walls": [
+      { "id": "W01", "start": [0, 0], "end": [5000, 0], "thickness": 200 },
+      { "id": "W02", "start": [5000, 0], "end": [5000, 4000], "thickness": 200 },
+      { "id": "W03", "start": [5000, 4000], "end": [0, 4000], "thickness": 200 },
+      { "id": "W04", "start": [0, 4000], "end": [0, 0], "thickness": 200 }
+    ],
+    "doors": [
+      { "id": "D01", "position": [2500, 0], "width": 900, "rotation": 0 }
+    ],
+    "windows": [
+      { "id": "WIN01", "position": [1000, 4000], "width": 1800 },
+      { "id": "WIN02", "position": [3500, 4000], "width": 1500 }
+    ],
+    "rooms": [
+      { "room_id": "R001", "name": "客厅", "type": "LIVING", "boundary": [[0, 0], [5000, 0], [5000, 4000], [0, 4000]], "area": 20.0, "floor_level": 0 },
+      { "room_id": "R002", "name": "主卧", "type": "BEDROOM", "boundary": [[0, 0], [2500, 0], [2500, 4000], [0, 4000]], "area": 10.0, "floor_level": 0 },
+      { "room_id": "R003", "name": "次卧", "type": "BEDROOM", "boundary": [[2500, 0], [5000, 0], [5000, 4000], [2500, 4000]], "area": 10.0, "floor_level": 0 }
+    ]
+  }
+}

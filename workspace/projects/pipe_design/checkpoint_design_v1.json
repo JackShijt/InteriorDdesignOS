@@ -1,0 +1,141 @@
+{
+  "version": "v1",
+  "agent": "design",
+  "project_id": "pipe_design",
+  "task_id": "design-pipe_design",
+  "stage": "DESIGN_SPEC",
+  "design_spec": {
+    "metadata": {
+      "project_id": "pipe_design",
+      "agent": "design",
+      "task_id": "design-pipe_design",
+      "timestamp": "2026-07-23T14:21:50.396899+08:00",
+      "schema_version": "1.0",
+      "status": "COMPLETED",
+      "quality": {
+        "confidence": 0.7,
+        "quality_score": 70,
+        "validation_passed": true
+      }
+    },
+    "version": "v1",
+    "design_goal": "打造Nordic风格住宅（2人家庭，需求：居家办公），以 DesignSpec 固化全部设计决策。",
+    "style": {
+      "labels": [
+        "Nordic"
+      ],
+      "description": "浅木色 + 中性灰，强调自然采光与极简收纳"
+    },
+    "budget": {
+      "level": "MEDIUM",
+      "currency": "CNY",
+      "total_estimate": 30000.0,
+      "allocation": [
+        {
+          "category": "硬装基础",
+          "ratio": 0.4,
+          "note": "墙顶地与水电"
+        },
+        {
+          "category": "定制柜体",
+          "ratio": 0.2,
+          "note": "收纳系统"
+        },
+        {
+          "category": "软装家具",
+          "ratio": 0.2
+        },
+        {
+          "category": "电器设备",
+          "ratio": 0.15
+        },
+        {
+          "category": "备用机动",
+          "ratio": 0.05,
+          "note": "不可预见费"
+        }
+      ]
+    },
+    "family": {
+      "adults": 2,
+      "children": 0,
+      "elders": 0,
+      "pets": [],
+      "work_from_home": true,
+      "accessibility": false,
+      "notes": "居家办公，需独立工作区"
+    },
+    "rooms": [
+      {
+        "room_id": "客厅",
+        "name": "客厅",
+        "function": "LIVING",
+        "priority": "medium",
+        "notes": ""
+      }
+    ],
+    "constraints": {
+      "non_removable_walls": [
+        "W01",
+        "W02",
+        "W03",
+        "W04"
+      ],
+      "load_bearing_walls": [
+        "W01",
+        "W02",
+        "W03",
+        "W04"
+      ],
+      "pipe_shafts": [],
+      "windows": [
+        "WIN01"
+      ],
+      "beams": [],
+      "columns": [],
+      "balconies": [],
+      "equipment_platforms": [],
+      "ceiling_height_mm": 2800.0,
+      "area_m2": 20.0,
+      "orientation": "北",
+      "notes": "DWG 未含字段（pipe_shafts/beams/columns/balconies/equipment_platforms）需结构图 / 现场补充；层高按常规 2800mm 假设。"
+    },
+    "preferences": {
+      "colors": [],
+      "lighting_preference": "neutral",
+      "accessibility": false,
+      "notes": ""
+    },
+    "materials": [
+      {
+        "category": "地面",
+        "spec": "木地板",
+        "brand_recommended": false
+      },
+      {
+        "category": "墙面",
+        "spec": "乳胶漆",
+        "brand_recommended": false
+      }
+    ],
+    "lighting": {
+      "natural_light": "按常规采光设计",
+      "artificial_light": "无主灯 + 重点照明（具体由 Layout Agent 落实）",
+      "notes": "照明为策略描述，不含灯具几何 / 点位"
+    },
+    "storage": {
+      "strategy": "全屋系统收纳，玄关 / 客厅 / 卧室定制柜体",
+      "capacity_notes": "具体容量由 Layout Agent 计算"
+    },
+    "special_requirements": [
+      "居家办公"
+    ]
+  },
+  "task_status": {
+    "design": "COMPLETED"
+  },
+  "project_status": {
+    "stage": "DESIGN_SPEC",
+    "state": "COMPLETED"
+  }
+}

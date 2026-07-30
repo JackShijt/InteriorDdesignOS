@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "project_id": "project",
+    "agent": "electrical",
+    "task_id": "electrical-project",
+    "timestamp": "2026-07-27T08:46:09.814372+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "electrical",
+    "timestamp": "2026-07-27T08:46:09.814372+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "discipline": "ELECTRICAL",
+  "summary": {
+    "device_count": 17,
+    "circuit_count": 5,
+    "panel_count": 1
+  },
+  "circuits": [
+    {
+      "circuit_id": "C-living",
+      "purpose": "客厅 插座/照明",
+      "rooms": [
+        "living"
+      ],
+      "estimated_load_w": 900
+    },
+    {
+      "circuit_id": "C-master",
+      "purpose": "主卧 插座/照明",
+      "rooms": [
+        "master"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-second",
+      "purpose": "次卧 插座/照明",
+      "rooms": [
+        "second"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-kitchen",
+      "purpose": "厨房 插座/照明",
+      "rooms": [
+        "kitchen"
+      ],
+      "estimated_load_w": 500
+    },
+    {
+      "circuit_id": "C-bath",
+      "purpose": "卫生间 插座/照明",
+      "rooms": [
+        "bath"
+      ],
+      "estimated_load_w": 500
+    }
+  ],
+  "devices": [
+    {
+      "device_id": "E-SOCK-living-1",
+      "type": "SOCKET",
+      "room_id": "living",
+      "room_name": "客厅",
+      "position": {
+        "x": 3000,
+        "y": 3000
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-living-2",
+      "type": "SOCKET",
+      "room_id": "living",
+      "room_name": "客厅",
+      "position": {
+        "x": 3000,
+        "y": 3000
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-living-3",
+      "type": "SOCKET",
+      "room_id": "living",
+      "room_name": "客厅",
+      "position": {
+        "x": 3000,
+        "y": 3000
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-living-4",
+      "type": "SOCKET",
+      "room_id": "living",
+      "room_name": "客厅",
+      "position": {
+        "x": 3000,
+        "y": 3000
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-living-1",
+      "type": "SWITCH",
+      "room_id": "living",
+      "room_name": "客厅",
+      "position": {
+        "x": 3000,
+        "y": 3000
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-master-1",
+      "type": "SOCKET",
+      "room_id": "master",
+      "room_name": "主卧",
+      "position": {
+        "x": 8000,
+        "y": 2500
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-master-2",
+      "type": "SOCKET",
+      "room_id": "master",
+      "room_name": "主卧",
+      "position": {
+        "x": 8000,
+        "y": 2500
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-master-1",
+      "type": "SWITCH",
+      "room_id": "master",
+      "room_name": "主卧",
+      "position": {
+        "x": 8000,
+        "y": 2500
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-second-1",
+      "type": "SOCKET",
+      "room_id": "second",
+      "room_name": "次卧",
+      "position": {
+        "x": 8000,
+        "y": 7500
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-second-2",
+      "type": "SOCKET",
+      "room_id": "second",
+      "room_name": "次卧",
+      "position": {
+        "x": 8000,
+        "y": 7500
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-second-1",
+      "type": "SWITCH",
+      "room_id": "second",
+      "room_name": "次卧",
+      "position": {
+        "x": 8000,
+        "y": 7500
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-kitchen-1",
+      "type": "SOCKET",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "position": {
+        "x": 2000,
+        "y": 8000
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-kitchen-2",
+      "type": "SOCKET",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "position": {
+        "x": 2000,
+        "y": 8000
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-kitchen-1",
+      "type": "SWITCH",
+      "room_id": "kitchen",
+      "room_name": "厨房",
+      "position": {
+        "x": 2000,
+        "y": 8000
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    },
+    {
+      "device_id": "E-SOCK-bath-1",
+      "type": "SOCKET",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "position": {
+        "x": 5000,
+        "y": 8000
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SOCK-bath-2",
+      "type": "SOCKET",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "position": {
+        "x": 5000,
+        "y": 8000
+      },
+      "layer": "ELEC-SOCKET",
+      "spec": "10A 250V"
+    },
+    {
+      "device_id": "E-SW-bath-1",
+      "type": "SWITCH",
+      "room_id": "bath",
+      "room_name": "卫生间",
+      "position": {
+        "x": 5000,
+        "y": 8000
+      },
+      "layer": "ELEC-SWITCH",
+      "spec": "双联"
+    }
+  ],
+  "panels": [
+    {
+      "panel_id": "PANEL-MAIN",
+      "type": "distribution",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "circuits": 5
+    }
+  ]
+}

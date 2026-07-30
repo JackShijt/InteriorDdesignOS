@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interiordesignos.local/schemas/validation/validation_report.schema.json",
+  "title": "ValidationReport",
+  "description": "校验报告（WORKFLOW.md Stage 9 / PROJECT_RULES §19）。DWG 回读生成的 GeneratedModel 与 LayoutModel 比对后产出，驱动 Repair Loop。支持文件级 / 模型级 / 规范级检查。",
+  "type": "object",
+  "required": [
+    "validation_id",
+    "project_id",
+    "passed",
+    "checks",
+    "errors",
+    "quality"
+  ],
+  "properties": {
+    "validation_id": { "type": "string", "minLength": 1, "description": "本次校验唯一 ID" },
+    "project_id": { "type": "string", "minLength": 1 },
+    "passed": { "type": "boolean", "description": "整体是否通过（全部 ERROR 级检查 pass 且无 blocked 项）" },
+    "checks": {
+      "type": "array",
+      "description": "逐项检查结果（文件级 / 模型级 / 规范级）",
+      "items": {
+        "type": "object",
+        "required": ["name", "passed"],
+        "properties": {
+          "name": { "type": "string", "description": "检查项名称，如 room_boundary_match / wall_position_match" },
+          "passed": { "type": "boolean" },
+          "message": { "type": "string", "description": "说明（失败时给出差异）" },
+          "severity": { "type": "string", "enum": ["ERROR", "WARNING", "INFO"], "description": "严重级别，ERROR 阻断交付" },
+          "category": { "type": "string", "enum": ["FILE", "MODEL", "SPEC"], "description": "检查类别：文件级 / 模型级 / 规范级" }
+        }
+      }
+    },
+    "errors": {
+      "type": "array",
+      "description": "阻断性错误明细（severity=ERROR 的项）",
+      "items": {
+        "type": "object",
+        "required": ["path", "message"],
+        "properties": {
+          "path": { "type": "string", "description": "出错字段路径，如 rooms[2].boundary" },
+          "message": { "type": "string" },
+          "code": { "type": "string", "description": "错误码" }
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "description": "非阻断告警",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": { "type": "string" },
+          "message": { "type": "string" }
+        }
+      }
+    },
+    "quality": {
+      "$ref": "../validation/quality.schema.json",
+      "description": "本次校验质量评分（canonical: validation/quality.schema.json）"
+    },
+    "checked_by": { "type": "string", "description": "执行校验的 Agent，如 validator / cad_validator" },
+    "timestamp": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}

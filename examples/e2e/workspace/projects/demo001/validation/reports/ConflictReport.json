@@ -1,0 +1,879 @@
+{
+  "report_id": "conf-4c3b14a8",
+  "project_id": "demo001",
+  "status": "CONFLICTS_FOUND",
+  "requires_approval": true,
+  "conflicts": [
+    {
+      "conflict_id": "CFL-CEI-ELE-R01",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "R01",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 R01）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-R01-1",
+          "E-SOCK-R01-2",
+          "E-SW-R01-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-R02",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "R02",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 R02）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-R02-1",
+          "E-SOCK-R02-2",
+          "E-SW-R02-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-R03",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "R03",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 R03）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-R03-1",
+          "E-SOCK-R03-2",
+          "E-SW-R03-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-R04",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "R04",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 R04）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-R04-1",
+          "E-SOCK-R04-2",
+          "E-SW-R04-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-R05",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "R05",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 R05）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-R05-1",
+          "E-SOCK-R05-2",
+          "E-SW-R05-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-R06",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "R06",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 R06）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-R06-1",
+          "E-SOCK-R06-2",
+          "E-SW-R06-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-R07",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "R07",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 R07）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-R07-1",
+          "E-SOCK-R07-2",
+          "E-SW-R07-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-R08",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "R08",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 R08）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-R08-1",
+          "E-SOCK-R08-2",
+          "E-SW-R08-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-ELE-R09",
+      "type": "CEILING_x_ELECTRICAL",
+      "disciplines": [
+        "CEILING",
+        "ELECTRICAL"
+      ],
+      "room_id": "R09",
+      "description": "吊顶开洞与电气点位可能交叉，需人工确认（房间 R09）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w"
+        ],
+        "ELECTRICAL": [
+          "E-SOCK-R09-1",
+          "E-SOCK-R09-2",
+          "E-SW-R09-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-R01",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "R01",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 R01）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w",
+          "CL-OP-R01-w"
+        ],
+        "LIGHTING": [
+          "L-FIX-R01-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-R02",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "R02",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 R02）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w",
+          "CL-OP-R02-w"
+        ],
+        "LIGHTING": [
+          "L-FIX-R02-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-R03",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "R03",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 R03）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w",
+          "CL-OP-R03-w"
+        ],
+        "LIGHTING": [
+          "L-FIX-R03-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-R04",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "R04",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 R04）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w"
+        ],
+        "LIGHTING": [
+          "L-FIX-R04-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-R05",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "R05",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 R05）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w"
+        ],
+        "LIGHTING": [
+          "L-FIX-R05-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-R06",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "R06",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 R06）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w"
+        ],
+        "LIGHTING": [
+          "L-FIX-R06-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-R07",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "R07",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 R07）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w",
+          "CL-OP-R07-w"
+        ],
+        "LIGHTING": [
+          "L-FIX-R07-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-R08",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "R08",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 R08）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w",
+          "CL-OP-R08-w"
+        ],
+        "LIGHTING": [
+          "L-FIX-R08-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-LIG-R09",
+      "type": "CEILING_x_LIGHTING",
+      "disciplines": [
+        "CEILING",
+        "LIGHTING"
+      ],
+      "room_id": "R09",
+      "description": "吊顶开洞与灯具位置冲突（灯槽 / 检修口），需人工确认（房间 R09）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w",
+          "CL-OP-R09-w"
+        ],
+        "LIGHTING": [
+          "L-FIX-R09-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-PLU-R04",
+      "type": "CEILING_x_PLUMBING",
+      "disciplines": [
+        "CEILING",
+        "PLUMBING"
+      ],
+      "room_id": "R04",
+      "description": "吊顶开洞与给排水管线可能穿越冲突，需人工确认（房间 R04）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w",
+          "CL-OP-R04-w"
+        ],
+        "PLUMBING": [
+          "PL-SINK-R04",
+          "P-SUP-R04-C",
+          "P-SUP-R04-H",
+          "P-DRN-R04"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-PLU-R05",
+      "type": "CEILING_x_PLUMBING",
+      "disciplines": [
+        "CEILING",
+        "PLUMBING"
+      ],
+      "room_id": "R05",
+      "description": "吊顶开洞与给排水管线可能穿越冲突，需人工确认（房间 R05）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w",
+          "CL-OP-R05-w"
+        ],
+        "PLUMBING": [
+          "PL-WC-R05",
+          "PL-WB-R05",
+          "PL-SH-R05",
+          "P-SUP-R05-C",
+          "P-SUP-R05-H",
+          "P-DRN-R05"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-CEI-PLU-R06",
+      "type": "CEILING_x_PLUMBING",
+      "disciplines": [
+        "CEILING",
+        "PLUMBING"
+      ],
+      "room_id": "R06",
+      "description": "吊顶开洞与给排水管线可能穿越冲突，需人工确认（房间 R06）",
+      "severity": "WARNING",
+      "items": {
+        "CEILING": [
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w",
+          "CL-OP-R06-w"
+        ],
+        "PLUMBING": [
+          "PL-DRAIN-R06",
+          "P-SUP-R06-C",
+          "P-DRN-R06"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-R01",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "R01",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 R01）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R01-1",
+          "E-SOCK-R01-2",
+          "E-SW-R01-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-R01-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-R02",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "R02",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 R02）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R02-1",
+          "E-SOCK-R02-2",
+          "E-SW-R02-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-R02-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-R03",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "R03",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 R03）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R03-1",
+          "E-SOCK-R03-2",
+          "E-SW-R03-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-R03-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-R04",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "R04",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 R04）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R04-1",
+          "E-SOCK-R04-2",
+          "E-SW-R04-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-R04-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-R05",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "R05",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 R05）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R05-1",
+          "E-SOCK-R05-2",
+          "E-SW-R05-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-R05-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-R06",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "R06",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 R06）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R06-1",
+          "E-SOCK-R06-2",
+          "E-SW-R06-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-R06-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-R07",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "R07",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 R07）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R07-1",
+          "E-SOCK-R07-2",
+          "E-SW-R07-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-R07-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-R08",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "R08",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 R08）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R08-1",
+          "E-SOCK-R08-2",
+          "E-SW-R08-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-R08-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-LIG-R09",
+      "type": "ELECTRICAL_x_LIGHTING",
+      "disciplines": [
+        "ELECTRICAL",
+        "LIGHTING"
+      ],
+      "room_id": "R09",
+      "description": "电气回路与照明回路共处一室，需人工确认负荷与分回路（房间 R09）",
+      "severity": "INFO",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R09-1",
+          "E-SOCK-R09-2",
+          "E-SW-R09-1"
+        ],
+        "LIGHTING": [
+          "L-FIX-R09-1"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-PLU-R04",
+      "type": "ELECTRICAL_x_PLUMBING",
+      "disciplines": [
+        "ELECTRICAL",
+        "PLUMBING"
+      ],
+      "room_id": "R04",
+      "description": "电气点位与给排水管线位于同一空间，需人工确认间距与交叉（房间 R04）",
+      "severity": "WARNING",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R04-1",
+          "E-SOCK-R04-2",
+          "E-SW-R04-1"
+        ],
+        "PLUMBING": [
+          "PL-SINK-R04",
+          "P-SUP-R04-C",
+          "P-SUP-R04-H",
+          "P-DRN-R04"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-PLU-R05",
+      "type": "ELECTRICAL_x_PLUMBING",
+      "disciplines": [
+        "ELECTRICAL",
+        "PLUMBING"
+      ],
+      "room_id": "R05",
+      "description": "电气点位与给排水管线位于同一空间，需人工确认间距与交叉（房间 R05）",
+      "severity": "WARNING",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R05-1",
+          "E-SOCK-R05-2",
+          "E-SW-R05-1"
+        ],
+        "PLUMBING": [
+          "PL-WC-R05",
+          "PL-WB-R05",
+          "PL-SH-R05",
+          "P-SUP-R05-C",
+          "P-SUP-R05-H",
+          "P-DRN-R05"
+        ]
+      }
+    },
+    {
+      "conflict_id": "CFL-ELE-PLU-R06",
+      "type": "ELECTRICAL_x_PLUMBING",
+      "disciplines": [
+        "ELECTRICAL",
+        "PLUMBING"
+      ],
+      "room_id": "R06",
+      "description": "电气点位与给排水管线位于同一空间，需人工确认间距与交叉（房间 R06）",
+      "severity": "WARNING",
+      "items": {
+        "ELECTRICAL": [
+          "E-SOCK-R06-1",
+          "E-SOCK-R06-2",
+          "E-SW-R06-1"
+        ],
+        "PLUMBING": [
+          "PL-DRAIN-R06",
+          "P-SUP-R06-C",
+          "P-DRN-R06"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "conflict_count": 33,
+    "blocking_count": 24,
+    "disciplines": [
+      "CEILING",
+      "ELECTRICAL",
+      "LIGHTING",
+      "PLUMBING"
+    ],
+    "by_severity": {
+      "WARNING": 24,
+      "INFO": 9
+    }
+  }
+}

@@ -1,0 +1,1282 @@
+{
+  "metadata": {},
+  "version": {},
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "rooms": [
+    {
+      "room_id": "R01",
+      "name": "客厅",
+      "type": "LIVING",
+      "area": 10.03
+    },
+    {
+      "room_id": "R02",
+      "name": "主卧",
+      "type": "BEDROOM",
+      "area": 10.03
+    },
+    {
+      "room_id": "R03",
+      "name": "次卧",
+      "type": "BEDROOM",
+      "area": 10.03
+    },
+    {
+      "room_id": "R04",
+      "name": "厨房",
+      "type": "KITCHEN",
+      "area": 10.03
+    },
+    {
+      "room_id": "R05",
+      "name": "卫生间",
+      "type": "BATHROOM",
+      "area": 10.03
+    },
+    {
+      "room_id": "R06",
+      "name": "阳台",
+      "type": "BALCONY",
+      "area": 10.03
+    },
+    {
+      "room_id": "R07",
+      "name": "餐厅",
+      "type": "DINING",
+      "area": 10.03
+    },
+    {
+      "room_id": "R08",
+      "name": "书房",
+      "type": "STUDY",
+      "area": 10.03
+    },
+    {
+      "room_id": "R09",
+      "name": "玄关",
+      "type": "ENTRY",
+      "area": 10.03
+    }
+  ],
+  "layers": [
+    {
+      "name": "WALL",
+      "color": 7,
+      "line_type": "Continuous",
+      "description": "墙体"
+    },
+    {
+      "name": "DOOR",
+      "color": 3,
+      "line_type": "Continuous",
+      "description": "门"
+    },
+    {
+      "name": "WIN",
+      "color": 4,
+      "line_type": "Continuous",
+      "description": "窗"
+    },
+    {
+      "name": "FURN",
+      "color": 2,
+      "line_type": "Continuous",
+      "description": "家具"
+    },
+    {
+      "name": "AXIS",
+      "color": 1,
+      "line_type": "Center",
+      "description": "轴线"
+    },
+    {
+      "name": "DIM",
+      "color": 1,
+      "line_type": "Continuous",
+      "description": "尺寸标注"
+    },
+    {
+      "name": "TITLEBLOCK",
+      "color": 7,
+      "line_type": "Continuous",
+      "description": "图框"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "W001",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 3166.67,
+          "y": 0.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W002",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 0.0
+        },
+        {
+          "x": 3166.67,
+          "y": 3166.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W003",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 3166.67
+        },
+        {
+          "x": 0.0,
+          "y": 3166.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W004",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 3166.67
+        },
+        {
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W005",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 0.0
+        },
+        {
+          "x": 6500.0,
+          "y": 0.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W006",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 0.0
+        },
+        {
+          "x": 6500.0,
+          "y": 3166.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W007",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 3166.67
+        },
+        {
+          "x": 3333.33,
+          "y": 3166.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W008",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 3166.67
+        },
+        {
+          "x": 3333.33,
+          "y": 0.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W009",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 0.0
+        },
+        {
+          "x": 9833.33,
+          "y": 0.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W010",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 0.0
+        },
+        {
+          "x": 9833.33,
+          "y": 3166.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W011",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 3166.67
+        },
+        {
+          "x": 6666.67,
+          "y": 3166.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W012",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 3166.67
+        },
+        {
+          "x": 6666.67,
+          "y": 0.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W013",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 3333.33
+        },
+        {
+          "x": 3166.67,
+          "y": 3333.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W014",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 3333.33
+        },
+        {
+          "x": 3166.67,
+          "y": 6500.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W015",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 6500.0
+        },
+        {
+          "x": 0.0,
+          "y": 6500.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W016",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 6500.0
+        },
+        {
+          "x": 0.0,
+          "y": 3333.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W017",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 3333.33
+        },
+        {
+          "x": 6500.0,
+          "y": 3333.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W018",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 3333.33
+        },
+        {
+          "x": 6500.0,
+          "y": 6500.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W019",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 6500.0
+        },
+        {
+          "x": 3333.33,
+          "y": 6500.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W020",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 6500.0
+        },
+        {
+          "x": 3333.33,
+          "y": 3333.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W021",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 3333.33
+        },
+        {
+          "x": 9833.33,
+          "y": 3333.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W022",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 3333.33
+        },
+        {
+          "x": 9833.33,
+          "y": 6500.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W023",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 6500.0
+        },
+        {
+          "x": 6666.67,
+          "y": 6500.0
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W024",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 6500.0
+        },
+        {
+          "x": 6666.67,
+          "y": 3333.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W025",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 6666.67
+        },
+        {
+          "x": 3166.67,
+          "y": 6666.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W026",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 6666.67
+        },
+        {
+          "x": 3166.67,
+          "y": 9833.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W027",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3166.67,
+          "y": 9833.33
+        },
+        {
+          "x": 0.0,
+          "y": 9833.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W028",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 9833.33
+        },
+        {
+          "x": 0.0,
+          "y": 6666.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W029",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 6666.67
+        },
+        {
+          "x": 6500.0,
+          "y": 6666.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W030",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 6666.67
+        },
+        {
+          "x": 6500.0,
+          "y": 9833.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W031",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6500.0,
+          "y": 9833.33
+        },
+        {
+          "x": 3333.33,
+          "y": 9833.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W032",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 3333.33,
+          "y": 9833.33
+        },
+        {
+          "x": 3333.33,
+          "y": 6666.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W033",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 6666.67
+        },
+        {
+          "x": 9833.33,
+          "y": 6666.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W034",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 6666.67
+        },
+        {
+          "x": 9833.33,
+          "y": 9833.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W035",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 9833.33,
+          "y": 9833.33
+        },
+        {
+          "x": 6666.67,
+          "y": 9833.33
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "W036",
+      "type": "WALL",
+      "layer": "WALL",
+      "points": [
+        {
+          "x": 6666.67,
+          "y": 9833.33
+        },
+        {
+          "x": 6666.67,
+          "y": 6666.67
+        }
+      ],
+      "thickness": 200,
+      "properties": {
+        "wall_type": "interior"
+      }
+    },
+    {
+      "entity_id": "D001",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        1133.33,
+        0.0
+      ],
+      "end": [
+        2033.33,
+        0.0
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "D002",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        4466.67,
+        0.0
+      ],
+      "end": [
+        5366.67,
+        0.0
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "D003",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        7800.0,
+        0.0
+      ],
+      "end": [
+        8700.0,
+        0.0
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "D004",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        1133.33,
+        3333.33
+      ],
+      "end": [
+        2033.33,
+        3333.33
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "D005",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        4466.67,
+        3333.33
+      ],
+      "end": [
+        5366.67,
+        3333.33
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "D006",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        7800.0,
+        3333.33
+      ],
+      "end": [
+        8700.0,
+        3333.33
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "D007",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        1133.33,
+        6666.67
+      ],
+      "end": [
+        2033.33,
+        6666.67
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "D008",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        4466.67,
+        6666.67
+      ],
+      "end": [
+        5366.67,
+        6666.67
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "D009",
+      "type": "DOOR",
+      "layer": "DOOR",
+      "start": [
+        7800.0,
+        6666.67
+      ],
+      "end": [
+        8700.0,
+        6666.67
+      ],
+      "width": 900,
+      "swing": 90
+    },
+    {
+      "entity_id": "WIN001",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        3166.67,
+        833.33
+      ],
+      "end": [
+        3166.67,
+        2333.33
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "WIN002",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        6500.0,
+        833.33
+      ],
+      "end": [
+        6500.0,
+        2333.33
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "WIN003",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        9833.33,
+        833.33
+      ],
+      "end": [
+        9833.33,
+        2333.33
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "WIN004",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        3166.67,
+        4166.67
+      ],
+      "end": [
+        3166.67,
+        5666.67
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "WIN005",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        6500.0,
+        4166.67
+      ],
+      "end": [
+        6500.0,
+        5666.67
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "WIN006",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        9833.33,
+        4166.67
+      ],
+      "end": [
+        9833.33,
+        5666.67
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "WIN007",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        3166.67,
+        7500.0
+      ],
+      "end": [
+        3166.67,
+        9000.0
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "WIN008",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        6500.0,
+        7500.0
+      ],
+      "end": [
+        6500.0,
+        9000.0
+      ],
+      "offset": 60
+    },
+    {
+      "entity_id": "WIN009",
+      "type": "WINDOW",
+      "layer": "WIN",
+      "start": [
+        9833.33,
+        7500.0
+      ],
+      "end": [
+        9833.33,
+        9000.0
+      ],
+      "offset": 60
+    }
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "DIM-R01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "end": [
+        3166.67,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R02",
+      "start": [
+        3333.33,
+        0.0
+      ],
+      "end": [
+        6500.0,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R03",
+      "start": [
+        6666.67,
+        0.0
+      ],
+      "end": [
+        9833.33,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R04",
+      "start": [
+        0.0,
+        3333.33
+      ],
+      "end": [
+        3166.67,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R05",
+      "start": [
+        3333.33,
+        3333.33
+      ],
+      "end": [
+        6500.0,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R06",
+      "start": [
+        6666.67,
+        3333.33
+      ],
+      "end": [
+        9833.33,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R07",
+      "start": [
+        0.0,
+        6666.67
+      ],
+      "end": [
+        3166.67,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R08",
+      "start": [
+        3333.33,
+        6666.67
+      ],
+      "end": [
+        6500.0,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R09",
+      "start": [
+        6666.67,
+        6666.67
+      ],
+      "end": [
+        9833.33,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    }
+  ],
+  "annotations": [
+    {
+      "text": "客厅 10.03㎡",
+      "position": [
+        1583.34,
+        1583.34
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "主卧 10.03㎡",
+      "position": [
+        4916.66,
+        1583.34
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "次卧 10.03㎡",
+      "position": [
+        8250.0,
+        1583.34
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "厨房 10.03㎡",
+      "position": [
+        1583.34,
+        4916.67
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "卫生间 10.03㎡",
+      "position": [
+        4916.67,
+        4916.66
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "阳台 10.03㎡",
+      "position": [
+        8250.0,
+        4916.67
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "餐厅 10.03㎡",
+      "position": [
+        1583.34,
+        8250.0
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "书房 10.03㎡",
+      "position": [
+        4916.67,
+        8250.0
+      ],
+      "layer": "AXIS",
+      "height": 300
+    },
+    {
+      "text": "玄关 10.03㎡",
+      "position": [
+        8250.0,
+        8250.0
+      ],
+      "layer": "AXIS",
+      "height": 300
+    }
+  ],
+  "sheets": [
+    {
+      "sheet_id": "S1",
+      "name": "平面布置图",
+      "scale": "1:50",
+      "paper_size": "A3"
+    }
+  ],
+  "blocks": [],
+  "titleblock": {
+    "template_ref": "A3",
+    "size": "A3",
+    "author": "InteriorDesignOS",
+    "drawing_no": "v1"
+  },
+  "coordinate_system": "mm",
+  "units": "mm"
+}

@@ -1,0 +1,106 @@
+{
+  "project_id": "project",
+  "name": "100㎡三居室·专业深化",
+  "current_stage": "INITIALIZATION",
+  "state": "RUNNING",
+  "created_at": "2026-07-27T08:46:09.808303+08:00",
+  "updated_at": "2026-07-27T08:46:09.808303+08:00",
+  "pipeline": {
+    "status": "COMPLETED",
+    "backend": "mock",
+    "stage": "PROFESSIONAL_DEEPENING",
+    "model_chain": {
+      "project_id": "project",
+      "chain": [
+        {
+          "model_type": "layout",
+          "version": "v1",
+          "parent_version": "none",
+          "producer_agent": "layout",
+          "task_id": "layout-demo",
+          "timestamp": "2026-07-24T09:00:00+08:00"
+        },
+        {
+          "model_type": "electrical",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "electrical",
+          "task_id": "electrical-project",
+          "timestamp": "2026-07-27T08:46:09.814372+08:00"
+        },
+        {
+          "model_type": "lighting",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "lighting",
+          "task_id": "lighting-project",
+          "timestamp": "2026-07-27T08:46:09.814805+08:00"
+        },
+        {
+          "model_type": "plumbing",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "plumbing",
+          "task_id": "plumbing-project",
+          "timestamp": "2026-07-27T08:46:09.815023+08:00"
+        },
+        {
+          "model_type": "ceiling",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "ceiling",
+          "task_id": "ceiling-project",
+          "timestamp": "2026-07-27T08:46:09.815176+08:00"
+        },
+        {
+          "model_type": "construction",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "construction",
+          "task_id": "construction-project",
+          "timestamp": "2026-07-27T08:46:09.815365+08:00"
+        },
+        {
+          "model_type": "elevation",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "elevation",
+          "task_id": "elevation-project",
+          "timestamp": "2026-07-27T08:46:09.815498+08:00"
+        },
+        {
+          "model_type": "geometry",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "geometry",
+          "task_id": "geometry-project",
+          "timestamp": "2026-07-27T08:46:09.816603+08:00"
+        },
+        {
+          "model_type": "drawing",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "drawing",
+          "task_id": "drawing-project",
+          "timestamp": "2026-07-27T08:46:09.817501+08:00"
+        },
+        {
+          "model_type": "validation",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "validator",
+          "task_id": "validator-project",
+          "timestamp": "2026-07-27T08:46:09.819743+08:00"
+        },
+        {
+          "model_type": "generated",
+          "version": "v1",
+          "parent_version": "v1",
+          "producer_agent": "pipeline",
+          "task_id": "generated-project",
+          "timestamp": "2026-07-27T08:46:09.819873+08:00"
+        }
+      ]
+    }
+  }
+}

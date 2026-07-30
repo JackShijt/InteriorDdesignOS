@@ -1,0 +1,1208 @@
+{
+  "metadata": {},
+  "version": {},
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "rooms": [
+    {
+      "room_id": "R01",
+      "name": "客厅",
+      "type": "LIVING",
+      "boundary": {
+        "type": "rectangle",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 3166.67,
+            "y": 0.0
+          },
+          {
+            "x": 3166.67,
+            "y": 3166.67
+          },
+          {
+            "x": 0.0,
+            "y": 3166.67
+          }
+        ]
+      },
+      "area": 10.03,
+      "perimeter": 12.67,
+      "centroid": {
+        "x": 1583.34,
+        "y": 1583.34
+      },
+      "floor_finish": null
+    },
+    {
+      "room_id": "R02",
+      "name": "主卧",
+      "type": "BEDROOM",
+      "boundary": {
+        "type": "rectangle",
+        "points": [
+          {
+            "x": 3333.33,
+            "y": 0.0
+          },
+          {
+            "x": 6500.0,
+            "y": 0.0
+          },
+          {
+            "x": 6500.0,
+            "y": 3166.67
+          },
+          {
+            "x": 3333.33,
+            "y": 3166.67
+          }
+        ]
+      },
+      "area": 10.03,
+      "perimeter": 12.67,
+      "centroid": {
+        "x": 4916.66,
+        "y": 1583.34
+      },
+      "floor_finish": null
+    },
+    {
+      "room_id": "R03",
+      "name": "次卧",
+      "type": "BEDROOM",
+      "boundary": {
+        "type": "rectangle",
+        "points": [
+          {
+            "x": 6666.67,
+            "y": 0.0
+          },
+          {
+            "x": 9833.33,
+            "y": 0.0
+          },
+          {
+            "x": 9833.33,
+            "y": 3166.67
+          },
+          {
+            "x": 6666.67,
+            "y": 3166.67
+          }
+        ]
+      },
+      "area": 10.03,
+      "perimeter": 12.67,
+      "centroid": {
+        "x": 8250.0,
+        "y": 1583.34
+      },
+      "floor_finish": null
+    },
+    {
+      "room_id": "R04",
+      "name": "厨房",
+      "type": "KITCHEN",
+      "boundary": {
+        "type": "rectangle",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 3333.33
+          },
+          {
+            "x": 3166.67,
+            "y": 3333.33
+          },
+          {
+            "x": 3166.67,
+            "y": 6500.0
+          },
+          {
+            "x": 0.0,
+            "y": 6500.0
+          }
+        ]
+      },
+      "area": 10.03,
+      "perimeter": 12.67,
+      "centroid": {
+        "x": 1583.34,
+        "y": 4916.67
+      },
+      "floor_finish": null
+    },
+    {
+      "room_id": "R05",
+      "name": "卫生间",
+      "type": "BATHROOM",
+      "boundary": {
+        "type": "rectangle",
+        "points": [
+          {
+            "x": 3333.33,
+            "y": 3333.33
+          },
+          {
+            "x": 6500.0,
+            "y": 3333.33
+          },
+          {
+            "x": 6500.0,
+            "y": 6500.0
+          },
+          {
+            "x": 3333.33,
+            "y": 6500.0
+          }
+        ]
+      },
+      "area": 10.03,
+      "perimeter": 12.67,
+      "centroid": {
+        "x": 4916.67,
+        "y": 4916.66
+      },
+      "floor_finish": null
+    },
+    {
+      "room_id": "R06",
+      "name": "阳台",
+      "type": "BALCONY",
+      "boundary": {
+        "type": "rectangle",
+        "points": [
+          {
+            "x": 6666.67,
+            "y": 3333.33
+          },
+          {
+            "x": 9833.33,
+            "y": 3333.33
+          },
+          {
+            "x": 9833.33,
+            "y": 6500.0
+          },
+          {
+            "x": 6666.67,
+            "y": 6500.0
+          }
+        ]
+      },
+      "area": 10.03,
+      "perimeter": 12.67,
+      "centroid": {
+        "x": 8250.0,
+        "y": 4916.67
+      },
+      "floor_finish": null
+    },
+    {
+      "room_id": "R07",
+      "name": "餐厅",
+      "type": "DINING",
+      "boundary": {
+        "type": "rectangle",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 6666.67
+          },
+          {
+            "x": 3166.67,
+            "y": 6666.67
+          },
+          {
+            "x": 3166.67,
+            "y": 9833.33
+          },
+          {
+            "x": 0.0,
+            "y": 9833.33
+          }
+        ]
+      },
+      "area": 10.03,
+      "perimeter": 12.67,
+      "centroid": {
+        "x": 1583.34,
+        "y": 8250.0
+      },
+      "floor_finish": null
+    },
+    {
+      "room_id": "R08",
+      "name": "书房",
+      "type": "STUDY",
+      "boundary": {
+        "type": "rectangle",
+        "points": [
+          {
+            "x": 3333.33,
+            "y": 6666.67
+          },
+          {
+            "x": 6500.0,
+            "y": 6666.67
+          },
+          {
+            "x": 6500.0,
+            "y": 9833.33
+          },
+          {
+            "x": 3333.33,
+            "y": 9833.33
+          }
+        ]
+      },
+      "area": 10.03,
+      "perimeter": 12.67,
+      "centroid": {
+        "x": 4916.67,
+        "y": 8250.0
+      },
+      "floor_finish": null
+    },
+    {
+      "room_id": "R09",
+      "name": "玄关",
+      "type": "ENTRY",
+      "boundary": {
+        "type": "rectangle",
+        "points": [
+          {
+            "x": 6666.67,
+            "y": 6666.67
+          },
+          {
+            "x": 9833.33,
+            "y": 6666.67
+          },
+          {
+            "x": 9833.33,
+            "y": 9833.33
+          },
+          {
+            "x": 6666.67,
+            "y": 9833.33
+          }
+        ]
+      },
+      "area": 10.03,
+      "perimeter": 12.67,
+      "centroid": {
+        "x": 8250.0,
+        "y": 8250.0
+      },
+      "floor_finish": null
+    }
+  ],
+  "walls": [
+    {
+      "id": "W001",
+      "start": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 0.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W002",
+      "start": {
+        "x": 3166.67,
+        "y": 0.0
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 3166.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W003",
+      "start": {
+        "x": 3166.67,
+        "y": 3166.67
+      },
+      "end": {
+        "x": 0.0,
+        "y": 3166.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W004",
+      "start": {
+        "x": 0.0,
+        "y": 3166.67
+      },
+      "end": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W005",
+      "start": {
+        "x": 3333.33,
+        "y": 0.0
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 0.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W006",
+      "start": {
+        "x": 6500.0,
+        "y": 0.0
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 3166.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W007",
+      "start": {
+        "x": 6500.0,
+        "y": 3166.67
+      },
+      "end": {
+        "x": 3333.33,
+        "y": 3166.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W008",
+      "start": {
+        "x": 3333.33,
+        "y": 3166.67
+      },
+      "end": {
+        "x": 3333.33,
+        "y": 0.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W009",
+      "start": {
+        "x": 6666.67,
+        "y": 0.0
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 0.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W010",
+      "start": {
+        "x": 9833.33,
+        "y": 0.0
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 3166.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W011",
+      "start": {
+        "x": 9833.33,
+        "y": 3166.67
+      },
+      "end": {
+        "x": 6666.67,
+        "y": 3166.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W012",
+      "start": {
+        "x": 6666.67,
+        "y": 3166.67
+      },
+      "end": {
+        "x": 6666.67,
+        "y": 0.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W013",
+      "start": {
+        "x": 0.0,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 3333.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W014",
+      "start": {
+        "x": 3166.67,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 6500.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W015",
+      "start": {
+        "x": 3166.67,
+        "y": 6500.0
+      },
+      "end": {
+        "x": 0.0,
+        "y": 6500.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W016",
+      "start": {
+        "x": 0.0,
+        "y": 6500.0
+      },
+      "end": {
+        "x": 0.0,
+        "y": 3333.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W017",
+      "start": {
+        "x": 3333.33,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 3333.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W018",
+      "start": {
+        "x": 6500.0,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 6500.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W019",
+      "start": {
+        "x": 6500.0,
+        "y": 6500.0
+      },
+      "end": {
+        "x": 3333.33,
+        "y": 6500.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W020",
+      "start": {
+        "x": 3333.33,
+        "y": 6500.0
+      },
+      "end": {
+        "x": 3333.33,
+        "y": 3333.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W021",
+      "start": {
+        "x": 6666.67,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 3333.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W022",
+      "start": {
+        "x": 9833.33,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 6500.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W023",
+      "start": {
+        "x": 9833.33,
+        "y": 6500.0
+      },
+      "end": {
+        "x": 6666.67,
+        "y": 6500.0
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W024",
+      "start": {
+        "x": 6666.67,
+        "y": 6500.0
+      },
+      "end": {
+        "x": 6666.67,
+        "y": 3333.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W025",
+      "start": {
+        "x": 0.0,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 6666.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W026",
+      "start": {
+        "x": 3166.67,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 9833.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W027",
+      "start": {
+        "x": 3166.67,
+        "y": 9833.33
+      },
+      "end": {
+        "x": 0.0,
+        "y": 9833.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W028",
+      "start": {
+        "x": 0.0,
+        "y": 9833.33
+      },
+      "end": {
+        "x": 0.0,
+        "y": 6666.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W029",
+      "start": {
+        "x": 3333.33,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 6666.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W030",
+      "start": {
+        "x": 6500.0,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 9833.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W031",
+      "start": {
+        "x": 6500.0,
+        "y": 9833.33
+      },
+      "end": {
+        "x": 3333.33,
+        "y": 9833.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W032",
+      "start": {
+        "x": 3333.33,
+        "y": 9833.33
+      },
+      "end": {
+        "x": 3333.33,
+        "y": 6666.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W033",
+      "start": {
+        "x": 6666.67,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 6666.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W034",
+      "start": {
+        "x": 9833.33,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 9833.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W035",
+      "start": {
+        "x": 9833.33,
+        "y": 9833.33
+      },
+      "end": {
+        "x": 6666.67,
+        "y": 9833.33
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    },
+    {
+      "id": "W036",
+      "start": {
+        "x": 6666.67,
+        "y": 9833.33
+      },
+      "end": {
+        "x": 6666.67,
+        "y": 6666.67
+      },
+      "thickness": 200,
+      "type": "interior",
+      "layer": "WALL"
+    }
+  ],
+  "furniture": [],
+  "doors": [
+    {
+      "id": "D001",
+      "start": {
+        "x": 1133.33,
+        "y": 0.0
+      },
+      "end": {
+        "x": 2033.33,
+        "y": 0.0
+      },
+      "width": 900,
+      "swing": 90,
+      "layer": "DOOR",
+      "type": "single"
+    },
+    {
+      "id": "D002",
+      "start": {
+        "x": 4466.67,
+        "y": 0.0
+      },
+      "end": {
+        "x": 5366.67,
+        "y": 0.0
+      },
+      "width": 900,
+      "swing": 90,
+      "layer": "DOOR",
+      "type": "single"
+    },
+    {
+      "id": "D003",
+      "start": {
+        "x": 7800.0,
+        "y": 0.0
+      },
+      "end": {
+        "x": 8700.0,
+        "y": 0.0
+      },
+      "width": 900,
+      "swing": 90,
+      "layer": "DOOR",
+      "type": "single"
+    },
+    {
+      "id": "D004",
+      "start": {
+        "x": 1133.33,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 2033.33,
+        "y": 3333.33
+      },
+      "width": 900,
+      "swing": 90,
+      "layer": "DOOR",
+      "type": "single"
+    },
+    {
+      "id": "D005",
+      "start": {
+        "x": 4466.67,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 5366.67,
+        "y": 3333.33
+      },
+      "width": 900,
+      "swing": 90,
+      "layer": "DOOR",
+      "type": "single"
+    },
+    {
+      "id": "D006",
+      "start": {
+        "x": 7800.0,
+        "y": 3333.33
+      },
+      "end": {
+        "x": 8700.0,
+        "y": 3333.33
+      },
+      "width": 900,
+      "swing": 90,
+      "layer": "DOOR",
+      "type": "single"
+    },
+    {
+      "id": "D007",
+      "start": {
+        "x": 1133.33,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 2033.33,
+        "y": 6666.67
+      },
+      "width": 900,
+      "swing": 90,
+      "layer": "DOOR",
+      "type": "single"
+    },
+    {
+      "id": "D008",
+      "start": {
+        "x": 4466.67,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 5366.67,
+        "y": 6666.67
+      },
+      "width": 900,
+      "swing": 90,
+      "layer": "DOOR",
+      "type": "single"
+    },
+    {
+      "id": "D009",
+      "start": {
+        "x": 7800.0,
+        "y": 6666.67
+      },
+      "end": {
+        "x": 8700.0,
+        "y": 6666.67
+      },
+      "width": 900,
+      "swing": 90,
+      "layer": "DOOR",
+      "type": "single"
+    }
+  ],
+  "windows": [
+    {
+      "id": "WIN001",
+      "start": {
+        "x": 3166.67,
+        "y": 833.33
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 2333.33
+      },
+      "width": 1500,
+      "offset": 60,
+      "layer": "WIN"
+    },
+    {
+      "id": "WIN002",
+      "start": {
+        "x": 6500.0,
+        "y": 833.33
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 2333.33
+      },
+      "width": 1500,
+      "offset": 60,
+      "layer": "WIN"
+    },
+    {
+      "id": "WIN003",
+      "start": {
+        "x": 9833.33,
+        "y": 833.33
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 2333.33
+      },
+      "width": 1500,
+      "offset": 60,
+      "layer": "WIN"
+    },
+    {
+      "id": "WIN004",
+      "start": {
+        "x": 3166.67,
+        "y": 4166.67
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 5666.67
+      },
+      "width": 1500,
+      "offset": 60,
+      "layer": "WIN"
+    },
+    {
+      "id": "WIN005",
+      "start": {
+        "x": 6500.0,
+        "y": 4166.67
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 5666.67
+      },
+      "width": 1500,
+      "offset": 60,
+      "layer": "WIN"
+    },
+    {
+      "id": "WIN006",
+      "start": {
+        "x": 9833.33,
+        "y": 4166.67
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 5666.67
+      },
+      "width": 1500,
+      "offset": 60,
+      "layer": "WIN"
+    },
+    {
+      "id": "WIN007",
+      "start": {
+        "x": 3166.67,
+        "y": 7500.0
+      },
+      "end": {
+        "x": 3166.67,
+        "y": 9000.0
+      },
+      "width": 1500,
+      "offset": 60,
+      "layer": "WIN"
+    },
+    {
+      "id": "WIN008",
+      "start": {
+        "x": 6500.0,
+        "y": 7500.0
+      },
+      "end": {
+        "x": 6500.0,
+        "y": 9000.0
+      },
+      "width": 1500,
+      "offset": 60,
+      "layer": "WIN"
+    },
+    {
+      "id": "WIN009",
+      "start": {
+        "x": 9833.33,
+        "y": 7500.0
+      },
+      "end": {
+        "x": 9833.33,
+        "y": 9000.0
+      },
+      "width": 1500,
+      "offset": 60,
+      "layer": "WIN"
+    }
+  ],
+  "coordinate_system": "mm",
+  "units": "mm",
+  "dimensions": [
+    {
+      "dimension_id": "DIM-R01",
+      "start": [
+        0.0,
+        0.0
+      ],
+      "end": [
+        3166.67,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R02",
+      "start": [
+        3333.33,
+        0.0
+      ],
+      "end": [
+        6500.0,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R03",
+      "start": [
+        6666.67,
+        0.0
+      ],
+      "end": [
+        9833.33,
+        0.0
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R04",
+      "start": [
+        0.0,
+        3333.33
+      ],
+      "end": [
+        3166.67,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R05",
+      "start": [
+        3333.33,
+        3333.33
+      ],
+      "end": [
+        6500.0,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R06",
+      "start": [
+        6666.67,
+        3333.33
+      ],
+      "end": [
+        9833.33,
+        3333.33
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R07",
+      "start": [
+        0.0,
+        6666.67
+      ],
+      "end": [
+        3166.67,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R08",
+      "start": [
+        3333.33,
+        6666.67
+      ],
+      "end": [
+        6500.0,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    },
+    {
+      "dimension_id": "DIM-R09",
+      "start": [
+        6666.67,
+        6666.67
+      ],
+      "end": [
+        9833.33,
+        6666.67
+      ],
+      "value": 3166.7,
+      "unit": "mm",
+      "layer": "DIM"
+    }
+  ]
+}

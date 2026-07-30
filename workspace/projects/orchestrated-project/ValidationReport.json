@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "project_id": "orchestrated-project",
+    "agent": "validator",
+    "task_id": "validator_task",
+    "timestamp": "2026-07-27T10:07:52.359901+08:00",
+    "schema_version": "1.0",
+    "status": "COMPLETED",
+    "quality": {
+      "confidence": 1.0,
+      "quality_score": 100,
+      "validation_passed": true
+    }
+  },
+  "version": {
+    "model_version": "v1",
+    "parent_version": "v1",
+    "producer_agent": "validator",
+    "timestamp": "2026-07-27T10:07:52.359901+08:00"
+  },
+  "layout_model_version": null,
+  "geometry_model_version": null,
+  "drawing_model_version": null,
+  "status": "WARN",
+  "checked_count": 52,
+  "issues": [
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "electrical/living",
+      "message": "房间 客厅 缺少插座"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "lighting/living",
+      "message": "房间 客厅 缺少灯具"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "electrical/master",
+      "message": "房间 主卧 缺少插座"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "lighting/master",
+      "message": "房间 主卧 缺少灯具"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "electrical/second",
+      "message": "房间 次卧 缺少插座"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "lighting/second",
+      "message": "房间 次卧 缺少灯具"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "plumbing/kitchen",
+      "message": "湿区 厨房 缺少给排水器具"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "electrical/kitchen",
+      "message": "房间 厨房 缺少插座"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "lighting/kitchen",
+      "message": "房间 厨房 缺少灯具"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "plumbing/bath",
+      "message": "湿区 卫生间 缺少给排水器具"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "electrical/bath",
+      "message": "房间 卫生间 缺少插座"
+    },
+    {
+      "severity": "WARN",
+      "category": "PROFESSIONAL_RULE",
+      "subject": "lighting/bath",
+      "message": "房间 卫生间 缺少灯具"
+    }
+  ],
+  "rule_results": [
+    {
+      "rule": "circuit_load_limit",
+      "violations": 0
+    }
+  ],
+  "summary": {
+    "error_count": 0,
+    "warn_count": 12,
+    "room_count": 5,
+    "professional_model_count": 4
+  }
+}

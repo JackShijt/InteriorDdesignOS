@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "project_id": "pipe_design",
+  "state": "RUNNING",
+  "current_stage": "DESIGN_SPEC",
+  "task_status": {
+    "original_model-pipe_design": "PENDING",
+    "design-pipe_design": "COMPLETED"
+  },
+  "updated_at": "2026-07-23T14:21:50.398564"
+}
